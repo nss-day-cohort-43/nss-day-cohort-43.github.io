@@ -1,0 +1,133 @@
+{
+    "technology": [
+      {
+        "id": 2,
+        "title": "HTML5",
+        "icon": "Pit Bull"
+      },
+      {
+        "id": 3,
+        "title": "CSS",
+        "icon": "Mutt"
+      },
+      {
+        "id": 4,
+        "title": "JavaScript",
+        "icon": "Spur"
+      },
+      {
+        "id": 5,
+        "title": "GitHub",
+        "icon": "Jazz Musician"
+      },
+      {
+        "id": 6,
+        "title": "React JS",
+        "icon": "Hawk"
+      },
+      {
+        "id": 7,
+        "title": "NPM",
+        "icon": "Squirrel-Turtle"
+      },
+      {
+        "id": 8,
+        "title": "VS Code",
+        "icon": "Pres"
+      },
+      {
+        "id": 9,
+        "title": "Postman",
+        "icon": "Pres"
+      },
+      {
+        "id": 10,
+        "title": "Figma",
+        "icon": "Pres"
+      },
+      {
+        "id": 11,
+        "title": "Figma",
+        "icon": "Pres"
+      },
+      {
+        "id": 12,
+        "title": "Sass",
+        "icon": "Pres"
+      },
+      {
+        "id": 13,
+        "title": "FireBase",
+        "icon": "Pres"
+      },
+      {
+        "id": 14,
+        "title": "Dribbble",
+        "icon": "Pres"
+      },
+      {
+        "id": 15,
+        "title": "C#",
+        "icon": "Pres"
+      },
+      {
+        "id": 16,
+        "title": ".NET Core",
+        "icon": "Pres"
+      },
+      {
+        "id": 17,
+        "title": "ASP.NET Core",
+        "icon": "Pres"
+      },
+      {
+        "id": 18,
+        "title": "SQL",
+        "icon": "Pres"
+      },
+      {
+        "id": 19,
+        "title": "SQL Server",
+        "icon": "Pres"
+      },
+      {
+        "id": 8,
+        "title": "Visual Studio",
+        "icon": "Pres"
+      }
+    ],
+    "softSkills": [
+        {
+            "id": 1,
+            "title": "User Research"
+        },
+        {
+            "id": 2,
+            "title": "Personas"
+        },
+        {
+            "id": 3,
+            "title": "Prototyping/Mockups"
+        },
+        {
+            "id": 4,
+            "title": "User Testing"
+        },
+        {
+            "id": 5,
+            "title": "Usability Testing"
+        },
+        {
+            "id": 6,
+            "title": "Journey Mapping"
+        },
+        {
+            "id": 7,
+            "title": "Design Systems"
+        },
+        {
+            "id": 8,
+            "title": "Info Architecture"
+        }
+    ]
+  }
