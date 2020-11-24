@@ -5,6 +5,11 @@ $c43gold: #FFC116;
 .card{
     margin-left: auto;
     margin-right: auto;
+    height: 572px;
+}
+
+.card-img-top{
+
 }
 
 .card-focus-banner{
@@ -29,51 +34,76 @@ p {
 .card-focus-banner > p {
     align-items: center;
 }
-  
-.icons {
-    display: flex;
-    width: 100%;
-    justify-content: center;
-    text-align: center;
-}
-  
+
 .card-focus-banner p{
     margin: 8px 0;
     font-size: 1em;
     font-weight: bold;
 }
 
-
-  /* upload */
-
-.btn-primary{
-    background-color: transparent;
-    color: black;
+.card-name{
+    font-size: 2em;
 }
 
+.icons {
+    position: relative;
+    top: 0px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center; 
+}
+
+
+// -------- .btn-box holds the link icon and the text below the icon --------
+
+.btn-box{
+    display: block;
+    height: 50px;
+}
+
+// ---- Text below icon ----
+.btn-box p {
+    // z-index: 1;
+    transition: all ease-in-out 0.2s;
+
+    bottom: 0;
+    text-transform: none;
+    opacity: 0%;
+    color: black;
+    font-size: 0.85em;
+}
+
+// move the link icon down so it can move up when hovered-over
+.btn-box .btn-link{
+    position: relative;
+    top: 20px;
+    transition: ease-in-out 0.2s;
+}
+
+// ------ Link Icon -------
 .btn-link{
     display: block;
-    background-color: yellow;
     margin-left: 10px;
     margin-right: 10px;
     width: 50px;
     height: 50px;
     padding: 0;
+    // z-index: 2; // buttons rest on top of text
+    
 }
 
-// .btn-link:after {
-//     box-sizing: border-box;
-//     display: block;
-//     content: "";
-//     width: 40px;
-//     height: 40px;
-//     /* border: 2px solid #383838; */
-//     /* border-radius: 0px;*/
-//     position: absolute; 
-//     bottom: 0;
-// }
-.btn-link:hover {
-    transform: translateY(-10px);
+// ---- Hovering over .btn-box moves the link icon btn
+.btn-box:hover > .btn-link{
+    transform: translateY(-24px);
+}
+
+.btn-box:hover > p{
+    opacity: 100%;
+    bottom: 10px;
+    color: black;
+    text-transform: none;
+    font-size: 0.85em;
 }
 
 

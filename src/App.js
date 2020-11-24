@@ -27,7 +27,7 @@ function App() {
       <header className="masthead bg-primary text-white text-center">
         <div className="container d-flex align-items-center flex-column">
           {/* Masthead Avatar Image */}
-          <img className="masthead-avatar mb-5" src={logo} alt="" />
+          <img className="masthead-avatar mb-5" src="./src/components/cards/images/AverageGuy.jpg" alt="" />
           {/* Masthead Heading */}
           <h1 className="masthead-heading text-uppercase mb-0">Start Bootstrap</h1>
           {/* Icon Divider */}
@@ -59,7 +59,7 @@ function App() {
 
             {/* Portfolio Item 1 */}
             <div className="col-md-6 col-lg-4 mb-5">
-              <CardHTML />
+              <CardHTML key="AverageGuy.jpg" />
             </div>
 
             {/* Portfolio Item 2 */}
