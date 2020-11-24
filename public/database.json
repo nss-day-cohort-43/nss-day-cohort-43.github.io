@@ -3,126 +3,126 @@
         {
             "id": 1,
             "title": "HTML5",
-            "icon": "public/icons/html5.png",
+            "icon": "icons/html5.png",
             "site": "https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5",
             "learnedBy": "everyone"
         },
         {
             "id": 2,
             "title": "CSS",
-            "icon": "public/icons/css3.png",
+            "icon": "icons/css3.png",
             "site": "https://developer.mozilla.org/en-US/docs/Archive/CSS3",
             "learnedBy": "everyone"
         },
         {
             "id": 3,
             "title": "JavaScript",
-            "icon": "public/icons/javascript.jpg",
+            "icon": "icons/javascript.jpg",
             "site": "https://www.javascript.com/",
             "learnedBy": "everyone"
         },
         {
             "id": 4,
             "title": "GitHub",
-            "icon": "public/icons/github.png",
+            "icon": "icons/github.png",
             "site": "https://github.com/",
             "learnedBy": "everyone"
         },
         {
             "id": 5,
             "title": "React JS",
-            "icon": "public/icons/reactJs.jpg",
+            "icon": "icons/reactJs.jpg",
             "site": "https://reactjs.org/",
             "learnedBy": "everyone"
         },
         {
             "id": 6,
             "title": "JSON",
-            "icon": "public/icons/JSON.png",
+            "icon": "icons/JSON.png",
             "site": "https://www.json.org/json-en.html",
             "learnedBy": "everyone"
         },
         {
             "id": 7,
             "title": "NPM",
-            "icon": "public/icons/NPM.png",
+            "icon": "icons/NPM.png",
             "site": "https://www.npmjs.com/",
             "learnedBy": "everyone"
         },
         {
             "id": 8,
             "title": "VS Code",
-            "icon": "public/icons/vsCode.jpg",
+            "icon": "icons/vsCode.jpg",
             "site": "https://code.visualstudio.com/",
             "learnedBy": "everyone"
         },
         {
             "id": 9,
             "title": "Postman",
-            "icon": "public/icons/Postman.png",
+            "icon": "icons/Postman.png",
             "site": "https://www.postman.com/",
             "learnedBy": "everyone"
         },
         {
             "id": 10,
             "title": "Figma",
-            "icon": "public/icons/figma.png",
+            "icon": "icons/figma.png",
             "site": "https://www.figma.com/",
             "learnedBy": "ui-ux"
         },
         {
             "id": 11,
             "title": "Sass",
-            "icon": "public/icons/sass.jpg",
+            "icon": "icons/sass.jpg",
             "site": "https://sass-lang.com/",
             "learnedBy": "ui-ux"
         },
         {
             "id": 12,
             "title": "FireBase",
-            "icon": "public/icons/firebase.jpg",
+            "icon": "icons/firebase.jpg",
             "site": "https://firebase.google.com/",
             "learnedBy": "ui-ux"
         },
         {
             "id": 13,
             "title": "C#",
-            "icon": "public/icons/CSharp.png",
+            "icon": "icons/CSharp.png",
             "site": "https://docs.microsoft.com/en-us/dotnet/csharp/",
             "learnedBy": "full-stack"
         },
         {
             "id": 14,
             "title": ".NET Core",
-            "icon": "public/icons/NetCore.png",
+            "icon": "icons/NetCore.png",
             "site": "https://dotnet.microsoft.com/",
             "learnedBy": "full-stack"
         },
         {
             "id": 15,
             "title": "ASP.NET Core",
-            "icon": "public/icons/aspNetCore.png",
+            "icon": "icons/aspNetCore.png",
             "site": "https://dotnet.microsoft.com/apps/aspnet/mvc",
             "learnedBy": "full-stack"
         },
         {
             "id": 16,
             "title": "SQL",
-            "icon": "public/icons/SQL.jpg",
+            "icon": "icons/SQL.jpg",
             "site": "https://www.microsoft.com/en-us/sql-server/sql-server-2017",
             "learnedBy": "full-stack"
         },
         {
             "id": 17,
             "title": "SQL Server",
-            "icon": "public/icons/SQLserver.jpg",
+            "icon": "icons/SQLserver.jpg",
             "site": "https://www.microsoft.com/en-us/sql-server/sql-server-2017",
             "learnedBy": "full-stack"
         },
         {
             "id": 18,
             "title": "Visual Studio",
-            "icon": "public/icons/VStudio.jpg",
+            "icon": "icons/VStudio.jpg",
             "site": "https://visualstudio.microsoft.com/vs/",
             "learnedBy": "full-stack"
         }
