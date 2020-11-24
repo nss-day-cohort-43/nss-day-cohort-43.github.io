@@ -2,49 +2,48 @@ $c43teal: #148D9D;
 $c43gold: #FFC116;
 
 
-.card-focus-banner--uiux{
-    background-color: $c43gold;
+.card{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.card-focus-banner{
     display: flex;
     justify-content: center;
     height: fit-content;
+}
+
+.card-focus-banner--uiux{
+    background-color: $c43gold;
 }
 
 p {
     color: #383838;
     font-size: 1em;
     /* letter-spacing: 4px; */
-    margin-bottom: 15px;
-    margin-top: 55px;
+    margin-bottom: 0;
+    margin-top: 0;
     text-transform: uppercase;
+}
+
+.card-focus-banner > p {
+    align-items: center;
 }
   
 .icons {
     display: flex;
     width: 100%;
     justify-content: center;
-    // margin-left: auto;
-    // margin-right: auto;
     text-align: center;
 }
   
 .card-focus-banner p{
-    margin-top: 10px;
+    margin: 8px 0;
     font-size: 1em;
+    font-weight: bold;
 }
-  
-  /* ico {
-    display: block;
-    width: 40px;
-    height: 60px;
-    margin-left: 18px;
-    position: relative;
-    background: none;
-    overflow: hidden;
-    cursor: pointer;
-    float:left;
-  } */
-  
-  
+
+
   /* upload */
 
 .btn-primary{

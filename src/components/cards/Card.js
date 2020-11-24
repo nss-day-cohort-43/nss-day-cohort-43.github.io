@@ -9,7 +9,7 @@ export const CardHTML = () => {
     return (
         <>
             <Card style={{ width: '18rem' }}>
-                <div className="card-focus-banner--uiux">
+                <div className="card-focus-banner card-focus-banner--uiux">
                     <p>UI/UX Front-End Developer</p>
                 </div>
                 <Card.Img variant="top" src="holder.js/100px180" />
