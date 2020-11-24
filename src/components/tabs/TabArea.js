@@ -2,7 +2,7 @@ import Tabs from 'react-bootstrap/Tabs'
 import Tab from 'react-bootstrap/Tab'
 
 export const TabArea = () => {
-    return (
+    return ( 
 <Tabs defaultActiveKey="everyone" id="uncontrolled-tab-example">
   <Tab eventKey="everyone" title="Everyone">
     
