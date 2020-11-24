@@ -1,6 +1,7 @@
 import logo from '../node_modules/startbootstrap-freelancer/src/assets/img/avataaars.svg'
 import './App.scss'
 import { NavBar } from './components/nav/NavBar'
+import { Thanks } from './components/thanks/Thanks'
 
 function App() {
   return (
@@ -137,6 +138,8 @@ function App() {
           </div>
         </div>
       </section>
+
+      <Thanks />
 
       {/* Footer */}
       <footer className="footer text-center">

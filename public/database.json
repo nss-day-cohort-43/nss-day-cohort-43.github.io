@@ -1,4 +1,166 @@
 {
+    "technology": [
+        {
+            "id": 1,
+            "title": "HTML5",
+            "icon": "icons/html5.png",
+            "site": "https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5",
+            "learnedBy": "everyone"
+        },
+        {
+            "id": 2,
+            "title": "CSS",
+            "icon": "icons/css3.png",
+            "site": "https://developer.mozilla.org/en-US/docs/Archive/CSS3",
+            "learnedBy": "everyone"
+        },
+        {
+            "id": 3,
+            "title": "JavaScript",
+            "icon": "icons/javascript.jpg",
+            "site": "https://www.javascript.com/",
+            "learnedBy": "everyone"
+        },
+        {
+            "id": 4,
+            "title": "GitHub",
+            "icon": "icons/github.png",
+            "site": "https://github.com/",
+            "learnedBy": "everyone"
+        },
+        {
+            "id": 5,
+            "title": "React JS",
+            "icon": "icons/reactJs.jpg",
+            "site": "https://reactjs.org/",
+            "learnedBy": "everyone"
+        },
+        {
+            "id": 6,
+            "title": "JSON",
+            "icon": "icons/JSON.png",
+            "site": "https://www.json.org/json-en.html",
+            "learnedBy": "everyone"
+        },
+        {
+            "id": 7,
+            "title": "NPM",
+            "icon": "icons/NPM.png",
+            "site": "https://www.npmjs.com/",
+            "learnedBy": "everyone"
+        },
+        {
+            "id": 8,
+            "title": "VS Code",
+            "icon": "icons/vsCode.jpg",
+            "site": "https://code.visualstudio.com/",
+            "learnedBy": "everyone"
+        },
+        {
+            "id": 9,
+            "title": "Postman",
+            "icon": "icons/Postman.png",
+            "site": "https://www.postman.com/",
+            "learnedBy": "everyone"
+        },
+        {
+            "id": 10,
+            "title": "Figma",
+            "icon": "icons/figma.png",
+            "site": "https://www.figma.com/",
+            "learnedBy": "ui-ux"
+        },
+        {
+            "id": 11,
+            "title": "Sass",
+            "icon": "icons/sass.jpg",
+            "site": "https://sass-lang.com/",
+            "learnedBy": "ui-ux"
+        },
+        {
+            "id": 12,
+            "title": "FireBase",
+            "icon": "icons/firebase.jpg",
+            "site": "https://firebase.google.com/",
+            "learnedBy": "ui-ux"
+        },
+        {
+            "id": 13,
+            "title": "C#",
+            "icon": "icons/CSharp.png",
+            "site": "https://docs.microsoft.com/en-us/dotnet/csharp/",
+            "learnedBy": "full-stack"
+        },
+        {
+            "id": 14,
+            "title": ".NET Core",
+            "icon": "icons/NetCore.png",
+            "site": "https://dotnet.microsoft.com/",
+            "learnedBy": "full-stack"
+        },
+        {
+            "id": 15,
+            "title": "ASP.NET Core",
+            "icon": "icons/aspNetCore.png",
+            "site": "https://dotnet.microsoft.com/apps/aspnet/mvc",
+            "learnedBy": "full-stack"
+        },
+        {
+            "id": 16,
+            "title": "SQL",
+            "icon": "icons/SQL.jpg",
+            "site": "https://www.microsoft.com/en-us/sql-server/sql-server-2017",
+            "learnedBy": "full-stack"
+        },
+        {
+            "id": 17,
+            "title": "SQL Server",
+            "icon": "icons/SQLserver.jpg",
+            "site": "https://www.microsoft.com/en-us/sql-server/sql-server-2017",
+            "learnedBy": "full-stack"
+        },
+        {
+            "id": 18,
+            "title": "Visual Studio",
+            "icon": "icons/VStudio.jpg",
+            "site": "https://visualstudio.microsoft.com/vs/",
+            "learnedBy": "full-stack"
+        }
+    ],
+    "softSkills": [
+        {
+            "id": 1,
+            "title": "User Research"
+        },
+        {
+            "id": 2,
+            "title": "Personas"
+        },
+        {
+            "id": 3,
+            "title": "Prototyping/Mockups"
+        },
+        {
+            "id": 4,
+            "title": "User Testing"
+        },
+        {
+            "id": 5,
+            "title": "Usability Testing"
+        },
+        {
+            "id": 6,
+            "title": "Journey Mapping"
+        },
+        {
+            "id": 7,
+            "title": "Design Systems"
+        },
+        {
+            "id": 8,
+            "title": "Info Architecture"
+        }
+    ],
     "cohortMates": [
         {
             "firstName": "Colin",
@@ -8,7 +170,7 @@
             "linkedIn": "https://www.linkedin.com/in/romans116/",
             "github": "https://github.com/cArel116",
             "personalSite": "",
-            "dribble": "",
+            "dribbble": "",
             "id": 1
         },
         {
@@ -19,7 +181,7 @@
             "linkedIn": "https://www.linkedin.com/in/blaker814/",
             "github": "https://github.com/blaker814",
             "personalSite": "",
-            "dribble": "",
+            "dribbble": "",
             "id": 2
         },
         {
@@ -30,7 +192,7 @@
             "linkedIn": "https://www.linkedin.com/in/devonhcox/",
             "github": "https://github.com/Devco2011",
             "personalSite": "",
-            "dribble": "https://dribbble.com/DevCo",
+            "dribbble": "https://dribbble.com/DevCo",
             "id": 3
         },
         {
@@ -41,7 +203,7 @@
             "linkedIn": "https://www.linkedin.com/in/ben-davis-5301a216a/",
             "github": "https://github.com/bcdavis",
             "personalSite": "",
-            "dribble": "",
+            "dribbble": "",
             "id": 4
         },
         {
@@ -52,7 +214,7 @@
             "linkedIn": "https://www.linkedin.com/in/st-edwards/",
             "github": "https://github.com/ste163",
             "personalSite": "",
-            "dribble": "",
+            "dribbble": "",
             "id": 5
         },
         {
@@ -63,7 +225,7 @@
             "linkedIn": "https://www.linkedin.com/in/asgertler/",
             "github": "https://github.com/asgertler",
             "personalSite": "",
-            "dribble": "",
+            "dribbble": "",
             "id": 6
         },
         {
@@ -74,7 +236,7 @@
             "linkedIn": "https://www.linkedin.com/in/matthewgoodman3099/",
             "github": "https://github.com/Goody3099",
             "personalSite": "",
-            "dribble": "",
+            "dribbble": "",
             "id": 7
         },
         {
@@ -85,7 +247,7 @@
             "linkedIn": "https://www.linkedin.com/in/hanako-hashiguchi/",
             "github": "https://github.com/HanakoH",
             "personalSite": "",
-            "dribble": "",
+            "dribbble": "",
             "id": 8
         },
         {
@@ -96,7 +258,7 @@
             "linkedIn": "https://www.linkedin.com/in/richie-holsenback/",
             "github": "https://github.com/richieholsenback",
             "personalSite": "",
-            "dribble": "",
+            "dribbble": "",
             "id": 9
         },
         {
@@ -107,7 +269,7 @@
             "linkedIn": "https://www.linkedin.com/in/corneliajohnson/",
             "github": "https://github.com/corneliajohnson",
             "personalSite": "",
-            "dribble": "",
+            "dribbble": "",
             "id": 10
         },
         {
@@ -118,7 +280,7 @@
             "linkedIn": "https://www.linkedin.com/in/abdurehman-kassa/",
             "github": "https://github.com/Abdurehman05",
             "personalSite": "",
-            "dribble": "",
+            "dribbble": "",
             "id": 11
         },
         {
@@ -129,7 +291,7 @@
             "linkedIn": "https://www.linkedin.com/in/corneliajohnson/",
             "github": "https://github.com/corneliajohnson",
             "personalSite": "",
-            "dribble": "",
+            "dribbble": "",
             "id": 12
         },
         {
@@ -140,7 +302,7 @@
             "linkedIn": "https://www.linkedin.com/in/brady-logan-295559150/",
             "github": "https://github.com/bloges56",
             "personalSite": "",
-            "dribble": "",
+            "dribbble": "",
             "id": 13
         },
         {
@@ -151,7 +313,7 @@
             "linkedIn": "https://www.linkedin.com/in/faith-magras/",
             "github": "https://github.com/bdanielle092",
             "personalSite": "",
-            "dribble": "",
+            "dribbble": "",
             "id": 14
         },
         {
@@ -162,7 +324,7 @@
             "linkedIn": "https://www.linkedin.com/in/morrigan-mccoy/",
             "github": "https://github.com/mnmccoy95",
             "personalSite": "",
-            "dribble": "",
+            "dribbble": "",
             "id": 15
         },
         {
@@ -173,7 +335,7 @@
             "linkedIn": "https://www.linkedin.com/in/josephoverton/",
             "github": "https://github.com/j0verton",
             "personalSite": "",
-            "dribble": "",
+            "dribbble": "",
             "id": 16
         },
         {
@@ -184,7 +346,7 @@
             "linkedIn": "https://www.linkedin.com/in/emberparr/",
             "github": "https://github.com/ember-parr",
             "personalSite": "",
-            "dribble": "",
+            "dribbble": "",
             "id": 17
         },
         {
@@ -195,7 +357,7 @@
             "linkedIn": "https://www.linkedin.com/in/travispinson/",
             "github": "https://github.com/TAPinson",
             "personalSite": "",
-            "dribble": "",
+            "dribbble": "",
             "id": 18
         },
         {
@@ -206,7 +368,7 @@
             "linkedIn": "https://www.linkedin.com/in/austinring/",
             "github": "",
             "personalSite": "",
-            "dribble": "",
+            "dribbble": "",
             "id": 19
         },
         {
@@ -217,7 +379,7 @@
             "linkedIn": "https://www.linkedin.com/in/haileyrissolo/",
             "github": "https://github.com/hrissolo",
             "personalSite": "",
-            "dribble": "",
+            "dribbble": "",
             "id": 20
         },
         {
@@ -228,7 +390,7 @@
             "linkedIn": "https://www.linkedin.com/in/jrrobertson1/",
             "github": "https://github.com/BlackTousen",
             "personalSite": "",
-            "dribble": "",
+            "dribbble": "",
             "id": 21
         },
         {
@@ -239,7 +401,7 @@
             "linkedIn": "https://www.linkedin.com/in/terraroush/",
             "github": "https://github.com/terraroush",
             "personalSite": "",
-            "dribble": "",
+            "dribbble": "",
             "id": 22
         },
         {
@@ -250,7 +412,7 @@
             "linkedIn": "https://www.linkedin.com/in/braxtonshoop/",
             "github": "https://github.com/BShoop33",
             "personalSite": "",
-            "dribble": "",
+            "dribbble": "",
             "id": 23
         },
         {
@@ -261,7 +423,7 @@
             "linkedIn": "https://www.linkedin.com/in/starkeyjennifer/",
             "github": "https://github.com/jenniferstarkey",
             "personalSite": "",
-            "dribble": "",
+            "dribbble": "",
             "id": 24
         },
         {
@@ -272,7 +434,7 @@
             "linkedIn": "https://www.linkedin.com/in/audrey-thomasson/",
             "github": "https://github.com/AudreyThomasson",
             "personalSite": "",
-            "dribble": "",
+            "dribbble": "",
             "id": 25
         },
         {
@@ -283,7 +445,7 @@
             "linkedIn": "https://www.linkedin.com/in/joetidwell/",
             "github": "https://github.com/joetid09",
             "personalSite": "",
-            "dribble": "",
+            "dribbble": "",
             "id": 26
         },
         {
@@ -294,7 +456,7 @@
             "linkedIn": "https://www.linkedin.com/in/laceywalker/",
             "github": "https://github.com/laceywalkerr",
             "personalSite": "",
-            "dribble": "",
+            "dribbble": "",
             "id": 27
         },
         {
@@ -305,7 +467,7 @@
             "linkedIn": "https://www.linkedin.com/in/tristan-w-wyatt/",
             "github": "https://github.com/tristan0508",
             "personalSite": "",
-            "dribble": "",
+            "dribbble": "",
             "id": 28
         }
     ]
