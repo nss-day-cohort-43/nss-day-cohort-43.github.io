@@ -1,5 +1,4 @@
 import logo from '../node_modules/startbootstrap-freelancer/src/assets/img/avataaars.svg'
-import { RSVPButton } from "./components/nav/RSVP"
 import './App.scss'
 
 
@@ -20,7 +19,6 @@ function App() {
               <li className="nav-item mx-0 mx-lg-1"><a className="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#about">About</a></li>
               <li className="nav-item mx-0 mx-lg-1"><a className="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#contact">Contact</a></li>
             </ul>
-            <RSVPButton />
           </div>
         </div>
       </nav>
@@ -112,13 +110,12 @@ function App() {
           </div>
 
           {/* About Section Button */}
-          <RSVPButton />
-          {/* <div className="text-center mt-4">
+          <div className="text-center mt-4">
             <a className="btn btn-xl btn-warning" href="https://startbootstrap.com/theme/freelancer/">
               <i className="fas fa-download mr-2"></i>
                         Free Download!
                     </a>
-          </div> */}
+          </div>
         </div>
       </section>
 
