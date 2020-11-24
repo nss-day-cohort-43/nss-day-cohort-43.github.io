@@ -1,6 +1,7 @@
 import logo from '../node_modules/startbootstrap-freelancer/src/assets/img/avataaars.svg'
-import './App.scss'
+import "./scss/styles.scss";
 import { NavBar } from './components/nav/NavBar'
+import { TabArea } from './components/tabs/TabArea'
 
 function App() {
   return (
@@ -58,6 +59,8 @@ function App() {
           <p className="masthead-subheading font-weight-light mb-0">Graphic Artist - Web Designer - Illustrator</p>
         </div>
       </header>
+      
+      <TabArea /> 
       {/* Portfolio Section */}
       <section className="page-section portfolio" id="portfolio">
         <div className="container">
