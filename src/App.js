@@ -79,7 +79,7 @@ function App() {
 
             {/* Portfolio Item 1 */}
             <div className="col-md-6 col-lg-4 mb-5">
-              <CardHTML key="AverageGuy.jpg" />
+              <CardHTML key="blah" />
             </div>
 
             {/* Portfolio Item 2 */}

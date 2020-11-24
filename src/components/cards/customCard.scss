@@ -1,6 +1,10 @@
 $c43teal: #148D9D;
 $c43gold: #FFC116;
 
+.studentCard{
+    width: 18rem;
+    background-color: lightgrey;
+}
 
 .card{
     margin-left: auto;
@@ -8,18 +12,24 @@ $c43gold: #FFC116;
     height: 572px;
 }
 
-.card-img-top{
-
+.card-header{
+    background-color: $c43gold;
 }
+
 
 .card-focus-banner{
     display: flex;
     justify-content: center;
     height: fit-content;
+    background-color: blue;
 }
 
 .card-focus-banner--uiux{
     background-color: $c43gold;
+}
+
+.card-focus-banner--fullstack{
+    background-color: $c43teal;
 }
 
 p {
@@ -43,11 +53,16 @@ p {
 
 .card-name{
     font-size: 2em;
+    margin-top: -10px;
+}
+
+.card-content{
+    padding: 0;
 }
 
 .icons {
     position: relative;
-    top: 0px;
+    top: 10px;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -57,53 +72,64 @@ p {
 
 // -------- .btn-box holds the link icon and the text below the icon --------
 
+
 .btn-box{
+    position: relative;
     display: block;
-    height: 50px;
+    height: 55px;
+    width: 55px;
+    margin-left: 8px;
+    margin-right: 8px;
+    padding: 0;
+    transition-property: box-shadow, top;
+    transition-duration: 0.2s, 0.2s;
+    transition-delay: 0s, 0s;
+    box-shadow: none;
 }
 
 // ---- Text below icon ----
-.btn-box p {
-    // z-index: 1;
-    transition: all ease-in-out 0.2s;
+.btn-box:hover {
+    box-shadow: 0 3px 7px rgba(33,33,33,.2); 
+    top: -2px;
+    // border: 1px solid grey;
+  }
 
-    bottom: 0;
-    text-transform: none;
-    opacity: 0%;
-    color: black;
-    font-size: 0.85em;
-}
 
 // move the link icon down so it can move up when hovered-over
-.btn-box .btn-link{
-    position: relative;
-    top: 20px;
-    transition: ease-in-out 0.2s;
-}
+// .btn-box .btn-link{
+//     position: relative;
+//     top: 20px;
+//     transition: ease-in-out 0.2s;
+// }
 
 // ------ Link Icon -------
 .btn-link{
+    background-color: darkgrey;
     display: block;
-    margin-left: 10px;
-    margin-right: 10px;
-    width: 50px;
-    height: 50px;
+    width: 55px;
+    height: 55px;
     padding: 0;
     // z-index: 2; // buttons rest on top of text
     
 }
 
 // ---- Hovering over .btn-box moves the link icon btn
-.btn-box:hover > .btn-link{
-    transform: translateY(-24px);
-}
+// .btn-box:hover > .btn-link{
+//     transform: translateY(-24px);
+// }
 
-.btn-box:hover > p{
-    opacity: 100%;
-    bottom: 10px;
-    color: black;
-    text-transform: none;
-    font-size: 0.85em;
+// .btn-box:hover > p{
+//     opacity: 100%;
+//     bottom: 10px;
+//     color: black;
+//     text-transform: none;
+//     font-size: 0.85em;
+// }
+
+.btn-link > img {
+    width: 50px;
+    height: 50px;
+    margin: -0.375rem -0.75rem;
 }
 
 
