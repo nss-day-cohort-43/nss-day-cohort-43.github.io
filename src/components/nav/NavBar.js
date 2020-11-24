@@ -1,12 +1,15 @@
 import React from 'react'
 import { RSVPButton } from './RSVP'
 import { Navbar, Nav } from 'react-bootstrap'
+import './NavBar.css'
+import Image from 'react-bootstrap/Image'
+
 
 export const NavBar = (props) => {
     return (
         <>
-            <Navbar bg="light" expand="lg" sticky="top">
-                <Navbar.Brand href="#page-top">NSS C43</Navbar.Brand>
+            <Navbar className="nav-container" bg="secondary" expand="lg" sticky="top">
+                <Navbar.Brand href="#page-top"><Image className="nssLogo" src="images/placeholder-images/c43-pick_logo.png" fluid /></Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="ml-auto">

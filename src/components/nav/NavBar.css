@@ -21,3 +21,11 @@
         transform: scale(1.1);
       }
   }
+
+.nav-container {
+      max-height: 100px;
+  }
+
+  .nssLogo {
+      max-height: 50px;
+  }
