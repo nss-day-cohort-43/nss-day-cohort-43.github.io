@@ -4,13 +4,14 @@ import { NavBar } from './components/nav/NavBar'
 import { RSVPButton } from './components/nav/RSVP'
 
 
+
 function App() {
   return (
     <div className="App">
 
       {/* Navigation - COLIN & DEVON WORKING */}
 
-      <nav className="navbar navbar-expand-lg bg-secondary text-uppercase fixed-top" id="mainNav">
+      {/* <nav className="navbar navbar-expand-lg bg-secondary text-uppercase fixed-top" id="mainNav">
         <div className="container">
           <a className="navbar-brand js-scroll-trigger" href="#page-top">NSS C43</a>
           <button className="navbar-toggler navbar-toggler-right text-uppercase font-weight-bold bg-primary text-white rounded" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
@@ -26,7 +27,9 @@ function App() {
           </div>
           <RSVPButton />
         </div>
-      </nav>
+      </nav> */}
+
+      <NavBar />
 
       <header className="masthead bg-primary text-white text-center" id="page-top">
         <div className="container d-flex align-items-center flex-column">

@@ -1,24 +1,23 @@
-// import React from 'react'
+import React from 'react'
+import { RSVPButton } from './RSVP'
+import { Navbar, Nav } from 'react-bootstrap'
 
-// export const NavBar = (props) => {
-//     return (
-//         <>
-//             <nav className="navbar navbar-expand-lg bg-secondary text-uppercase fixed-top" id="mainNav">
-//                 <div className="container">
-//                     <a className="navbar-brand js-scroll-trigger" href="#page-top">C43</a>
-//                     <button className="navbar-toggler navbar-toggler-right text-uppercase font-weight-bold bg-primary text-white rounded" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-//                         Menu
-//                     <i className="fas fa-bars"></i>
-//                     </button>
-//                     <div className="collapse navbar-collapse" id="navbarResponsive">
-//                         <ul className="navbar-nav ml-auto">
-//                             <li className="nav-item mx-0 mx-lg-1"><a className="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#about">About</a></li>
-//                             <li className="nav-item mx-0 mx-lg-1"><a className="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#developers">Developers</a></li>
-//                             <li className="nav-item mx-0 mx-lg-1"><a className="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#thanks">Thanks</a></li>
-//                         </ul>
-//                     </div>
-//                 </div>
-//             </nav>
-//         </>
-//     )
-// };
+export const NavBar = (props) => {
+    return (
+        <>
+            <Navbar bg="light" expand="lg" sticky="top">
+                <Navbar.Brand href="#page-top">NSS C43</Navbar.Brand>
+                <Navbar.Toggle aria-controls="basic-navbar-nav" />
+                <Navbar.Collapse id="basic-navbar-nav">
+                    <Nav className="ml-auto">
+                        <Nav.Link href="#about">About</Nav.Link>
+                        <Nav.Link href="#devs">Devs</Nav.Link>
+                        <Nav.Link href="#tech">Tech</Nav.Link>
+                        <Nav.Link href="#thanks">Thanks</Nav.Link>
+                    </Nav>
+                    <RSVPButton />
+                </Navbar.Collapse>
+            </Navbar>
+        </>
+    )
+};
