@@ -1,100 +1,113 @@
 {
     "technology": [
-      {
-        "id": 2,
-        "title": "HTML5",
-        "icon": "Pit Bull"
-      },
-      {
-        "id": 3,
-        "title": "CSS",
-        "icon": "Mutt"
-      },
-      {
-        "id": 4,
-        "title": "JavaScript",
-        "icon": "Spur"
-      },
-      {
-        "id": 5,
-        "title": "GitHub",
-        "icon": "Jazz Musician"
-      },
-      {
-        "id": 6,
-        "title": "React JS",
-        "icon": "Hawk"
-      },
-      {
-        "id": 7,
-        "title": "NPM",
-        "icon": "Squirrel-Turtle"
-      },
-      {
-        "id": 8,
-        "title": "VS Code",
-        "icon": "Pres"
-      },
-      {
-        "id": 9,
-        "title": "Postman",
-        "icon": "Pres"
-      },
-      {
-        "id": 10,
-        "title": "Figma",
-        "icon": "Pres"
-      },
-      {
-        "id": 11,
-        "title": "Figma",
-        "icon": "Pres"
-      },
-      {
-        "id": 12,
-        "title": "Sass",
-        "icon": "Pres"
-      },
-      {
-        "id": 13,
-        "title": "FireBase",
-        "icon": "Pres"
-      },
-      {
-        "id": 14,
-        "title": "Dribbble",
-        "icon": "Pres"
-      },
-      {
-        "id": 15,
-        "title": "C#",
-        "icon": "Pres"
-      },
-      {
-        "id": 16,
-        "title": ".NET Core",
-        "icon": "Pres"
-      },
-      {
-        "id": 17,
-        "title": "ASP.NET Core",
-        "icon": "Pres"
-      },
-      {
-        "id": 18,
-        "title": "SQL",
-        "icon": "Pres"
-      },
-      {
-        "id": 19,
-        "title": "SQL Server",
-        "icon": "Pres"
-      },
-      {
-        "id": 8,
-        "title": "Visual Studio",
-        "icon": "Pres"
-      }
+        {
+            "id": 1,
+            "title": "HTML5",
+            "icon": "Pit Bull",
+            "site": "https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5"
+        },
+        {
+            "id": 2,
+            "title": "CSS",
+            "icon": "Mutt",
+            "site": "https://developer.mozilla.org/en-US/docs/Archive/CSS3"
+        },
+        {
+            "id": 3,
+            "title": "JavaScript",
+            "icon": "Spur",
+            "site": "https://www.javascript.com/"
+        },
+        {
+            "id": 4,
+            "title": "GitHub",
+            "icon": "Jazz Musician",
+            "site": "https://github.com/"
+        },
+        {
+            "id": 5,
+            "title": "React JS",
+            "icon": "Hawk",
+            "site": "https://reactjs.org/"
+        },
+        {
+            "id": 6,
+            "title": "JSON",
+            "icon": "Hawk",
+            "site": "https://www.json.org/json-en.html"
+        },
+        {
+            "id": 7,
+            "title": "NPM",
+            "icon": "Squirrel-Turtle",
+            "site": "https://www.npmjs.com/"
+        },
+        {
+            "id": 8,
+            "title": "VS Code",
+            "icon": "Pres",
+            "site": "https://code.visualstudio.com/"
+        },
+        {
+            "id": 9,
+            "title": "Postman",
+            "icon": "Pres",
+            "site": "https://www.postman.com/"
+        },
+        {
+            "id": 10,
+            "title": "Figma",
+            "icon": "Pres",
+            "site": "https://www.figma.com/"
+        },
+        {
+            "id": 11,
+            "title": "Sass",
+            "icon": "Pres",
+            "site": "https://sass-lang.com/"
+        },
+        {
+            "id": 12,
+            "title": "FireBase",
+            "icon": "Pres",
+            "site": "https://firebase.google.com/"
+        },
+        {
+            "id": 13,
+            "title": "C#",
+            "icon": "Pres",
+            "site": "https://docs.microsoft.com/en-us/dotnet/csharp/"
+        },
+        {
+            "id": 14,
+            "title": ".NET Core",
+            "icon": "Pres",
+            "site": "https://dotnet.microsoft.com/"
+        },
+        {
+            "id": 15,
+            "title": "ASP.NET Core",
+            "icon": "Pres",
+            "site": "https://dotnet.microsoft.com/apps/aspnet/mvc"
+        },
+        {
+            "id": 16,
+            "title": "SQL",
+            "icon": "Pres",
+            "site": "https://www.microsoft.com/en-us/sql-server/sql-server-2017"
+        },
+        {
+            "id": 17,
+            "title": "SQL Server",
+            "icon": "Pres",
+            "site": "https://www.microsoft.com/en-us/sql-server/sql-server-2017"
+        },
+        {
+            "id": 18,
+            "title": "Visual Studio",
+            "icon": "Pres",
+            "site": "https://visualstudio.microsoft.com/vs/"
+        }
     ],
     "softSkills": [
         {
@@ -130,4 +143,4 @@
             "title": "Info Architecture"
         }
     ]
-  }
+}
