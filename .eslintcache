@@ -1,4 +1,1 @@
-<<<<<<< HEAD
-[{"/Users/charlesholsenback/react/nss-day-cohort-43.github.io/src/App.js":"1"},{"size":8504,"mtime":1606162853575,"results":"2","hashOfConfig":"3"},{"filePath":"4","messages":"5","errorCount":0,"warningCount":0,"fixableErrorCount":0,"fixableWarningCount":0},"be0kf7","/Users/charlesholsenback/react/nss-day-cohort-43.github.io/src/App.js",[]]
-=======
->>>>>>> 33077bb05b9bc68ba27c5f915447e7d486f8c2dd
+[{"/Users/charlesholsenback/react/nss-day-cohort-43.github.io/src/App.js":"1"},{"size":9834,"mtime":1606238997975,"results":"2","hashOfConfig":"3"},{"filePath":"4","messages":"5","errorCount":0,"warningCount":1,"fixableErrorCount":0,"fixableWarningCount":0,"source":null},"be0kf7","/Users/charlesholsenback/react/nss-day-cohort-43.github.io/src/App.js",["6"],{"ruleId":"7","severity":1,"message":"8","line":3,"column":10,"nodeType":"9","messageId":"10","endLine":3,"endColumn":16},"no-unused-vars","'NavBar' is defined but never used.","Identifier","unusedVar"]
