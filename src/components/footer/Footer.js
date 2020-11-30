@@ -4,31 +4,31 @@ import './Footer.scss'
 export const Footer = () => {
     return (
         <section className='footerContainer'>
-            <footer className="footer text-center">
+            <footer className="footer text-left">
                 <div className="container">
                     <div className="row">
 
-                        {/* Footer Location */}
-                        <div className="col-lg-4 mb-5 mb-lg-0">
-                            <h4 className="text-uppercase mb-4">Location</h4>
+                        {/* Footer Cohort Locations */}
+                        <div className="col-lg-6">
+                            <h4 className="text-uppercase mb-4">Cohort Member Locations</h4>
+
                             <p className="lead mb-0">
-                                2215 John Daniel Drive
+                                C43 was a remote cohort from start to finish. Here's where all of us lived and worked during our time together.
+                            </p>
                             <br />
-                            Clark, MO 65243
-                        </p>
+
+                            <ul className="cohortLocationsList">
+                                <li>Knoxville, TN</li>
+                                <li>Murfreesboro, TN</li>
+                                <li>Nashville, TN</li>
+                                <li>Spring Hill, TN</li>
+                                <li>Springfield, TN</li>
+                                <li>Richmond, KY</li>
+                            </ul>
                         </div>
 
-                        {/* Footer Social Icons */}
-                        <div className="col-lg-4 mb-5 mb-lg-0">
-                            <h4 className="text-uppercase mb-4">Around the Web</h4>
-                            <a className="btn btn-outline-light btn-social mx-1" href="#!"><i className="fab fa-fw fa-facebook-f"></i></a>
-                            <a className="btn btn-outline-light btn-social mx-1" href="#!"><i className="fab fa-fw fa-twitter"></i></a>
-                            <a className="btn btn-outline-light btn-social mx-1" href="#!"><i className="fab fa-fw fa-linkedin-in"></i></a>
-                            <a className="btn btn-outline-light btn-social mx-1" href="#!"><i className="fab fa-fw fa-dribbble"></i></a>
-                        </div>
-
-                        {/* Footer About Text */}
-                        <div className="col-lg-4">
+                        {/* Footer NSS Info */}
+                        <div className="col-lg-6">
                             <h4 className="text-uppercase mb-4">About Freelancer</h4>
                             <p className="lead mb-0">
                                 Freelance is a free to use, MIT licensed Bootstrap theme created by
