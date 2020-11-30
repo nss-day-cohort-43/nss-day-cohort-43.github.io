@@ -11,6 +11,7 @@ import { RSVPButton } from './components/nav/RSVP'
 import { TabArea } from './components/tabs/TabArea'
 import { Thanks } from './components/thanks/Thanks'
 import { Footer } from './components/footer/Footer'
+import { SkillProvider } from './components/skills/SkillProvider';
 
 function App() {
   return (
@@ -55,7 +56,9 @@ function App() {
         </div>
       </header>
       <TechProvider>
+        <SkillProvider>
           <TabArea />
+        </SkillProvider>
       </TechProvider>
 
 

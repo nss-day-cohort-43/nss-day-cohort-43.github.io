@@ -6,6 +6,6 @@ import "./Tech.scss"
 export const TechCard = ({ tech }) => ( 
         <Col xs={2}>
             <Row><a href={tech.site} target="_blank"><img src={tech.icon} className="img-icon" /></a></Row>
-            <Row>{tech.title}</Row>
+            <Row id="tech-text">{tech.title}</Row>
         </Col>
 )
