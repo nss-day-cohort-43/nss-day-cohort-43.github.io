@@ -7,7 +7,7 @@ import { CardHTML } from "./Card"
 export const CardList = () => {
     const [allMates, setAllMates] = useState([])
 
-    // Since you are no longer ALWAYS displaying all of the classmates
+    // allMates sorted by name
     const [ filteredMates, setFiltered ] = useState([])
 
 	const getAllMates = () => {
@@ -23,6 +23,21 @@ export const CardList = () => {
 			})
 	}, [])
 
+    // sort by name
+    useEffect(() => {
+        const setFiltered = allMates.sort(function(a, b) {
+            const nameA = a.firstName.toUpperCase(); // ignore upper and lowercase
+            const nameB = b.firstName.toUpperCase(); // ignore upper and lowercase
+                if (nameA < nameB) {
+                return -1;
+                }
+                if (nameA > nameB) {
+                return 1;
+                }
+                // names must be equal
+                return 0;
+        })
+    })
 
     // // Filters for searchTerms and finds the classmate by first OR last name
     // // searchTerms will cause a change
@@ -47,7 +62,7 @@ export const CardList = () => {
                     <Col xs={12} s={12} md={6} l={4} xl={4}>
                         <>
                             {
-                                allMates.map(mate => {
+                                filteredMates.map(mate => {
                                     return <CardHTML key={mate.id} mate={mate} />
                                 })
                             }
