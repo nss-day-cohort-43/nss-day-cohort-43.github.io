@@ -46,7 +46,7 @@ export const CardHTML = ({mate}) => {
                 contactIconName = "LinkedIn"
             }
             else if(contactLink.indexOf("github", 0) > 0){
-                contactIconPath = "icons/github.png"
+                contactIconPath = "icons/github.svg.png"
                 contactIconName = "GitHub"
             }
             else if(contactLink.indexOf("dribbble", 0) > 0){
