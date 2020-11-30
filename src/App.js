@@ -1,3 +1,5 @@
+
+import { CardList } from "./components/cards/CardList.js"
 import React from "react";
 import { NavBar } from './components/nav/NavBar'
 import { TechProvider } from './components/technology/TechProvider'
@@ -7,7 +9,6 @@ import { RSVPButton } from './components/nav/RSVP'
 
 
 import { TabArea } from './components/tabs/TabArea'
-import { CardList } from "./components/cards/CardList.js"
 import { Thanks } from './components/thanks/Thanks'
 import "./scss/styles.scss";
 import { Footer } from './components/footer/Footer'
