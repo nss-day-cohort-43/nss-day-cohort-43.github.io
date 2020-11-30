@@ -1,0 +1,33 @@
+$teal: #148D9D;
+$darkTeal: #117785;
+$gold: #FFC116;
+
+footer {
+    background-color: $teal !important;
+}
+
+footer h4 {
+    color: $gold;
+}
+
+footer p {
+    color: white;
+    text-transform: none;
+}
+
+.cohortLocationsList {
+    list-style: none;
+    display: flex;
+    flex-flow: column wrap;
+    padding-left: 0;
+}
+
+.cohortLocationsList li {
+    flex: 0 0 auto;
+    flex-shrink: 0;
+}
+
+.copyright {
+    background-color: $darkTeal;
+    padding: 10px 0 !important;
+}
