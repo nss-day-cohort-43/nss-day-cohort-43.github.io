@@ -1,23 +1,11 @@
 import React from 'react';
 import { Card, Button, ButtonGroup, Image, OverlayTrigger, Tooltip } from 'react-bootstrap';
-import './customCard.scss';
 //import AverageGuy from "../cards/AverageGuy.jpg";
 
 
 export const CardHTML = (inputStudent) => {
-    console.log(inputStudent);
 
-    const exampleStudent = {
-            firstName: "Devon",
-            lastName: "Cox",
-            photo: "images/placeholder-images/CoxDevon.jpeg",
-            focus: "UI/UX Front-End Developer",
-            linkedIn: "https://www.linkedin.com/in/devonhcox/",
-            github: "https://github.com/Devco2011",
-            personalSite: "eeeeeee",
-            dribbble: "https://dribbble.com/DevCo",
-            id: 3
-    }
+   
 
     // inputImagePath should be the path string 
     // of the photo property of a cohort student's 
@@ -26,7 +14,7 @@ export const CardHTML = (inputStudent) => {
     // console.log(inputStudent) ==> "cohortMates[#]"
 
     // Array to use to render the contact links for each card
-    const contactList = [exampleStudent.linkedIn, exampleStudent.github, exampleStudent.personalSite, exampleStudent.dribbble]
+    const contactList = [inputStudent.linkedIn, inputStudent.github, inputStudent.personalSite, inputStudent.dribbble]
 
     const makeBanner = (studentFocus) => {
         if(studentFocus === "UI/UX Front-End Developer"){
@@ -46,9 +34,7 @@ export const CardHTML = (inputStudent) => {
     }
 
     const makeContactList = () => {
-        console.log("hello?");
         const contactListHTML = contactList.map(contactLink => {
-            console.log("ContactLink: ", contactLink);
             let contactIconPath = ""
             let contactIconName = ""
             let output = null
@@ -70,7 +56,7 @@ export const CardHTML = (inputStudent) => {
                 contactIconName = "Website"
             }
             
-            console.log(contactIconName, contactIconPath);
+            //console.log(contactIconName, contactIconPath);
             if(contactLink !== ""){
                 output = 
                     <>
@@ -88,7 +74,7 @@ export const CardHTML = (inputStudent) => {
                     </>
             }
 
-            return output
+            return output // this return is for the .map()
 
             
         })
@@ -96,6 +82,7 @@ export const CardHTML = (inputStudent) => {
     }
 
 
+    // this is the textbox that appears over a link on hover
     const renderTooltip = (props) => {
         return (
             <Tooltip id="button-tooltip" {...props}>
@@ -109,14 +96,14 @@ export const CardHTML = (inputStudent) => {
         <>
             <Card className="studentCard">
 
-                {makeBanner(exampleStudent.focus)}
+                {makeBanner(inputStudent.focus)}
                 {/* <div className="card-focus-banner card-focus-banner--uiux">
                     <p>UI/UX Front-End Developer</p>
                 </div> */}
 
-                <Card.Img variant="top" src={exampleStudent.photo} />
+                <Card.Img variant="top" src={inputStudent.photo} />
                 <Card.Body className="card-content">
-                    <Card.Title as="h4" className="card-name">{`${exampleStudent.firstName} ${exampleStudent.lastName}`}</Card.Title>
+                    <Card.Title as="h4" className="card-name">{`${inputStudent.firstName} ${inputStudent.lastName}`}</Card.Title>
                     <Card.Text>
                     Some quick example text to build on the card title and make up the bulk of
                     the card's content.

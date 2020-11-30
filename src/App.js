@@ -1,6 +1,6 @@
 import logo from '../node_modules/startbootstrap-freelancer/src/assets/img/avataaars.svg'
 import './App.scss'
-import { CardHTML } from "./components/cards/Card.js"
+import { TempCardList } from "./components/cards/CardList.js"
 import React from "react";
 import { NavBar } from './components/nav/NavBar'
 
@@ -76,13 +76,16 @@ function App() {
 
           {/* Portfolio Grid Items */}
           <div className="row justify-content-center">
+            <TempCardList key="blah" />
+          </div>
+          {/* <div className="row justify-content-center">
 
-            {/* Portfolio Item 1 */}
+            
             <div className="col-md-6 col-lg-4 mb-5">
-              <CardHTML key="blah" />
+              <tempCardList key="blah" />
             </div>
 
-            {/* Portfolio Item 2 */}
+            
             <div className="col-md-6 col-lg-4 mb-5">
               <div className="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal2">
                 <div className="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
@@ -92,7 +95,7 @@ function App() {
               </div>
             </div>
 
-            {/* Portfolio Item 3 */}
+            
             <div className="col-md-6 col-lg-4 mb-5">
               <div className="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal3">
                 <div className="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
@@ -101,7 +104,7 @@ function App() {
                 <img className="img-fluid" src={logo} alt="" />
               </div>
             </div>
-          </div>
+          </div> */}
         </div>
       </section>
 
