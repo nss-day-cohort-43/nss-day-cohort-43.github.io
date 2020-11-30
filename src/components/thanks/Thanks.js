@@ -1,5 +1,6 @@
 import React from 'react'
 import './Thanks.scss'
+import { RSVPButton } from '../nav/RSVP'
 
 export const Thanks = () => {
     return (
@@ -36,10 +37,7 @@ export const Thanks = () => {
                 </div>
 
                 <div className="text-center mt-4">
-                    <a className="btn btn-xl btn-outline-light" href="https://startbootstrap.com/theme/freelancer/">
-                        <i className="fas fa-download mr-2"></i>
-                        RSVP for Demo Day!
-                    </a>
+                    <RSVPButton />
                 </div>
             </div>
         </section>
