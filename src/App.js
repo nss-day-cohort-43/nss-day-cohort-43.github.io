@@ -1,6 +1,8 @@
 import logo from '../node_modules/startbootstrap-freelancer/src/assets/img/avataaars.svg'
 import './App.scss'
 import { NavBar } from './components/nav/NavBar'
+import { TechList } from './components/technology/TechList'
+import { TechContext } from './components/technology/TechProvider'
 
 function App() {
   return (
