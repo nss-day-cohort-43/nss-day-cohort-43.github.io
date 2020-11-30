@@ -79,7 +79,7 @@ export const TabArea = () => {
             </Row>
           </Container>
           <Container id="skill-section">
-            <h3 id="skills-learned-header" underline>SKILLS WE LEARNED</h3>
+            <h3 id="skills-learned-header">SKILLS WE LEARNED</h3>
             <Row id="skills-container">
               {
                 skills.map(skill => {

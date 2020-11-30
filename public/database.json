@@ -217,7 +217,7 @@
         {
             "firstName": "Matthew",
             "lastName": "Goodman",
-            "photo": "images/placeholder-images/AverageGuy.jpeg",
+            "photo": "images/placeholder-images/photo-not-available.png",
             "focus": "Full-Stack Developer",
             "linkedIn": "https://www.linkedin.com/in/matthewgoodman3099/",
             "github": "https://github.com/Goody3099",
@@ -248,7 +248,7 @@
             "id": 9
         },
         {
-            "firstName": "Cornelia 'CJ'",
+            "firstName": "Cornelia",
             "lastName": "Johnson",
             "photo": "images/placeholder-images/JohnsonCornelia.jpeg",
             "focus": "Full-Stack Developer",
@@ -349,7 +349,7 @@
         {
             "firstName": "Austin",
             "lastName": "Ring",
-            "photo": "images/placeholder-images/AverageGuy.jpeg",
+            "photo": "images/placeholder-images/photo-not-available.png",
             "focus": "Full-Stack Developer",
             "linkedIn": "https://www.linkedin.com/in/austinring/",
             "github": "",
