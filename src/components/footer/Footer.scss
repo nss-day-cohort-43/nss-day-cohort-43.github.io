@@ -2,8 +2,38 @@ $teal: #148D9D;
 $darkTeal: #117785;
 $gold: #FFC116;
 
+.footerContainer  {
+    position: relative;
+    z-index: 1;
+    
+    &:before,
+    &:after {
+      background: $teal;
+      content: '';
+      display: block;
+      height: 75%;
+      left: 0;
+      position: absolute;
+      right: 0;
+      z-index: -1;
+    }
+  
+    &:before {
+      top: 0;
+      transform: skewY(-4deg);
+      transform-origin: 0% 0;
+    }
+    
+    &:after {
+      bottom: 0;
+      transform: skewY(0deg);
+      transform-origin: 100%;
+    }
+  }
+
 footer {
     background-color: $teal !important;
+    padding: 50px 0 !important;
 }
 
 footer h4 {
