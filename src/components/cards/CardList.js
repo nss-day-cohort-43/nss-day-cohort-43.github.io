@@ -1,7 +1,6 @@
 // By Audrey Thomasson
 
 import React, { useEffect, useState } from "react"
-import { Container, Row, Col } from 'react-bootstrap';
 import { CardHTML } from "./Card"
 import './customCard.scss';
 
@@ -72,24 +71,6 @@ export const CardList = () => {
                         </>
                     })
             }
-            
-            
-            {/* <Container fluid>           
-                <Row>
-                    <Col xs={12} s={12} md={6} l={4} xl={4}>
-                        <>
-                            {
-                                allMates.map(mate => {
-                                    console.log(mate)
-                                    return <CardHTML key={mate.id} mate={mate} />
-                                })
-                            }
-                        </>
-                    </Col>
-                </Row>
-
-            </Container>  */}
-
 
         </>
     )
