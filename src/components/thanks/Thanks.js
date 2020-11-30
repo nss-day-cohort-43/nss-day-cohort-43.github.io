@@ -10,7 +10,7 @@ export const Thanks = () => {
 
                 <div className="divider-custom divider-light">
                     <div className="divider-custom-line"></div>
-                    <div className="divider-custom-icon"><i className="fas fa-star thanksIcon"></i></div>
+                    <div className="divider-custom-icon"><i className="fas fa-thumbs-up thanksIcon"></i></div>
                     <div className="divider-custom-line"></div>
                 </div>
 
