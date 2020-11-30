@@ -3,7 +3,7 @@ import { Card, Button, ButtonGroup, Image, OverlayTrigger, Tooltip } from 'react
 //import AverageGuy from "../cards/AverageGuy.jpg";
 
 
-export const CardHTML = (inputStudent) => {
+export const CardHTML = (mate) => {
 
    
 
@@ -11,10 +11,10 @@ export const CardHTML = (inputStudent) => {
     // of the photo property of a cohort student's 
     // object in the database
     // e.g.
-    // console.log(inputStudent) ==> "cohortMates[#]"
+    // console.log(mate) ==> "cohortMates[#]"
 
     // Array to use to render the contact links for each card
-    const contactList = [inputStudent.linkedIn, inputStudent.github, inputStudent.personalSite, inputStudent.dribbble]
+    const contactList = [mate.linkedIn, mate.github, mate.personalSite, mate.dribbble]
 
     const makeBanner = (studentFocus) => {
         if(studentFocus === "UI/UX Front-End Developer"){
@@ -96,14 +96,14 @@ export const CardHTML = (inputStudent) => {
         <>
             <Card className="studentCard">
 
-                {makeBanner(inputStudent.focus)}
+                {makeBanner(mate.focus)}
                 {/* <div className="card-focus-banner card-focus-banner--uiux">
                     <p>UI/UX Front-End Developer</p>
                 </div> */}
 
-                <Card.Img variant="top" src={inputStudent.photo} />
+                <Card.Img variant="top" src={mate.photo} />
                 <Card.Body className="card-content">
-                    <Card.Title as="h4" className="card-name">{`${inputStudent.firstName} ${inputStudent.lastName}`}</Card.Title>
+                    <Card.Title as="h4" className="card-name">{`${mate.firstName} ${mate.lastName}`}</Card.Title>
                     <Card.Text>
                     Some quick example text to build on the card title and make up the bulk of
                     the card's content.
