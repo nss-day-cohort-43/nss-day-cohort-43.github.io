@@ -33,6 +33,7 @@ export const TabArea = () => {
   }
 
   return (
+    <div id="devs">
     <Tabs defaultActiveKey="everyone" id="uncontrolled-tab-example">
       <Tab eventKey="everyone" title="Everyone">
         <Container>
@@ -68,5 +69,5 @@ export const TabArea = () => {
         </Container>
       </Tab>
     </Tabs>
-  )
-}
+    </div>
+  )}
