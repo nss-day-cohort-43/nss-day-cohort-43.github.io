@@ -5,22 +5,13 @@
 .cohortLocationsList {
     list-style: none;
     display: flex;
-    flex-flow: row wrap;
+    flex-flow: column wrap;
     padding-left: 0;
 }
 
 .cohortLocationsList li {
     flex: 0 0 auto;
     flex-shrink: 0;
-    border-right: 1px solid white;
-    padding-right: 10px;
-    margin-right: 10px;
-}
-
-.cohortLocationsList li:last-child {
-    border-right: none;
-    padding-right: none;
-    margin-right: none;
 }
 
 .copyright {
