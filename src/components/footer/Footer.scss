@@ -1,5 +1,9 @@
+$teal: #148D9D;
+$darkTeal: #117785;
+$gold: #FFC116;
+
 .footer {
-    background-color: #148D9D;
+    background-color: $teal;
 }
 
 .cohortLocationsList {
@@ -15,6 +19,6 @@
 }
 
 .copyright {
-    background-color: #117785;
+    background-color: $darkTeal;
     padding: 10px 0 !important;
 }

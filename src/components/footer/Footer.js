@@ -13,12 +13,14 @@ export const Footer = () => {
                             <h4 className="text-uppercase mb-4">Cohort Member Locations</h4>
 
                             <p className="lead mb-0">
-                                C43 was a remote cohort from start to finish. Here's where all of us lived and worked during our time together.
+                                C43 was a remote cohort from start to finish. Here's where all of us lived and worked during our time together:
                             </p>
                             <br />
 
                             <ul className="cohortLocationsList">
+                                <li>Joelton, TN</li>
                                 <li>Knoxville, TN</li>
+                                <li>Lebanon, TN</li>
                                 <li>Murfreesboro, TN</li>
                                 <li>Nashville, TN</li>
                                 <li>Spring Hill, TN</li>
@@ -31,10 +33,12 @@ export const Footer = () => {
                         <div className="col-lg-6">
                             <h4 className="text-uppercase mb-4">About NSS</h4>
                             <p className="lead mb-0">
-                                Freelance is a free to use, MIT licensed Bootstrap theme created by
-                            <a href="http://startbootstrap.com">Start Bootstrap</a>
-                            .
-                        </p>
+                                Nashville Software School is a Tennessee non-profit corporation.
+                                Our mission is to expand the technology workforce in middle Tennessee by providing motivated individuals
+                                with access to a career in software development through training, mentorship, and learning-by-doing.
+                                We’re a collection of committed Nashville technology professionals who love what we do and want to
+                                give back to our community and our profession by helping others to get a start in the technology industry.
+                            </p>
                         </div>
                     </div>
                 </div>
