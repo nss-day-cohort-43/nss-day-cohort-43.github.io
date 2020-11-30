@@ -1,14 +1,32 @@
-.cutout {
-    transform: skewY(10deg);
-    overflow: hidden;
-    width: 100%;
-    height: 400px;
-    border: 1px solid red;
+*, *:before, *:after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
   }
   
-  .content {
-    background: #eee;
-    transform: skewY(-10deg);
-    width: 200%;
-    height: 200%;
+  #slanted-about{ width: 100%; 
+  text-align: center; 
+  font-size: 36px; 
+  padding: 10% 25px; 
+  background: #148D9D; 
+  color: #fff; 
+  position: relative; }
+  
+  #slanted-about:after{ content: "";
+  border-left: 99.58vw solid#148D9D;
+  border-bottom: 20px solid transparent;
+  border-top: 63px solid transparent;
+  top: -63px;
+  position: absolute;
+  left: -10px; }
+
+  #about-container {
+      display: flex;
+      justify-content: center;
+  }
+
+  .about-text {
+      width: 40%;
+      font-size: large;
+      text-align: left;
   }

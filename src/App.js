@@ -1,19 +1,22 @@
-import logo from '../node_modules/startbootstrap-freelancer/src/assets/img/avataaars.svg'
-import './App.scss'
+
 import { TempCardList } from "./components/cards/CardList.js"
 import React from "react";
-import "./scss/styles.scss";
 import { NavBar } from './components/nav/NavBar'
+import logo from '../node_modules/startbootstrap-freelancer/src/assets/img/avataaars.svg'
+import './App.scss'
 import { About } from './components/about/About'
 
 
 import { TabArea } from './components/tabs/TabArea'
 import { Thanks } from './components/thanks/Thanks'
+import "./scss/styles.scss";
 import { Footer } from './components/footer/Footer'
 
 function App() {
   return (
     <div className="App">
+
+
 
       <NavBar />
 
@@ -52,7 +55,7 @@ function App() {
 
           {/* Portfolio Grid Items */}
           <div className="row justify-content-center">
-            <TempCardList key="blah" />
+            <TempCardList />
           </div>
           {/* <div className="row justify-content-center">
 
@@ -84,35 +87,6 @@ function App() {
         </div>
       </section>
 
-      {/* About Section */}
-      <section className="page-section bg-primary text-white mb-0" id="about">
-        <div className="container">
-
-          {/*} About Section Heading */}
-          <h2 className="page-section-heading text-center text-uppercase text-white">About</h2>
-
-          {/* Icon Divider */}
-          <div className="divider-custom divider-light">
-            <div className="divider-custom-line"></div>
-            <div className="divider-custom-icon"><i className="fas fa-star"></i></div>
-            <div className="divider-custom-line"></div>
-          </div>
-
-          {/* About Section Content */}
-          <div className="row">
-            <div className="col-lg-4 ml-auto"><p className="lead">Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional SASS stylesheets for easy customization.</p></div>
-            <div className="col-lg-4 mr-auto"><p className="lead">You can create your own custom avatar for the masthead, change the icon in the dividers, and add your email address to the contact form to make it fully functional!</p></div>
-          </div>
-
-          {/* About Section Button */}
-          <div className="text-center mt-4">
-            <a className="btn btn-xl btn-warning" href="https://startbootstrap.com/theme/freelancer/">
-              <i className="fas fa-download mr-2"></i>
-                        Free Download!
-                    </a>
-          </div>
-        </div>
-      </section>
 
       <Thanks />
 
