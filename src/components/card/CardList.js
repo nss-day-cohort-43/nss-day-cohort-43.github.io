@@ -3,6 +3,7 @@
 import React, { useEffect, useState } from "react"
 import { Container, Row, Col } from 'react-bootstrap';
 import { CardHTML } from "./Card"
+import './customCard.scss';
 
 export const CardList = () => {
     const [allMates, setAllMates] = useState([])
