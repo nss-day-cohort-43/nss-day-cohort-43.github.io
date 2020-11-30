@@ -1,14 +1,14 @@
+import React from "react";
+import { NavBar } from './components/nav/NavBar'
 import logo from '../node_modules/startbootstrap-freelancer/src/assets/img/avataaars.svg'
 import './App.scss'
-import { TempCardList } from "./components/cards/CardList.js"
-import React from "react";
-import "./scss/styles.scss";
-import { NavBar } from './components/nav/NavBar'
 import { RSVPButton } from './components/nav/RSVP'
 
 
 import { TabArea } from './components/tabs/TabArea'
+import { CardList } from "./components/cards/CardList.js"
 import { Thanks } from './components/thanks/Thanks'
+import "./scss/styles.scss";
 import { Footer } from './components/footer/Footer'
 
 function App() {
@@ -71,7 +71,7 @@ function App() {
 
           {/* Portfolio Grid Items */}
           <div className="row justify-content-center">
-            <TempCardList key="blah" />
+            <CardList />
           </div>
           {/* <div className="row justify-content-center">
 
