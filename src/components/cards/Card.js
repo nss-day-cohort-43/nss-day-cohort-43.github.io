@@ -3,7 +3,7 @@ import { Card, Button, ButtonGroup, Image, OverlayTrigger, Tooltip } from 'react
 //import AverageGuy from "../cards/AverageGuy.jpg";
 
 
-export const CardHTML = (mate) => {
+export const CardHTML = ({mate}) => {
 
    
 

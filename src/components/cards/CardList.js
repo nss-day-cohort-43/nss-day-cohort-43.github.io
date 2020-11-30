@@ -63,13 +63,16 @@ export const CardList = () => {
 
     return (
         <>  
-            <div className="col-md-6 col-lg-4 mb-5">                    
-                {
-                    allMates.map(mate => {
-                        return <CardHTML key={mate.id} mate={mate} />
+            {allMates.map(mate => {
+                return <>
+
+                            <div className="col-md-6 col-lg-4 mb-5">                    
+                                 <CardHTML key={mate.id} mate={mate} />
+                            </div>
+                        </>
                     })
-                }
-            </div>
+            }
+            
             
             {/* <Container fluid>           
                 <Row>
