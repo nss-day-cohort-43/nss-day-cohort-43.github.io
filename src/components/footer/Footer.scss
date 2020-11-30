@@ -2,8 +2,17 @@ $teal: #148D9D;
 $darkTeal: #117785;
 $gold: #FFC116;
 
-.footer {
-    background-color: $teal;
+footer {
+    background-color: $teal !important;
+}
+
+footer h4 {
+    color: $gold;
+}
+
+footer p {
+    color: white;
+    text-transform: none;
 }
 
 .cohortLocationsList {
