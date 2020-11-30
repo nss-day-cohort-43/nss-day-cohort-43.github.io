@@ -45,7 +45,7 @@ export const Footer = () => {
             </footer>
 
             <div className="copyright py-4 text-center text-white">
-                <div className="container"><small>Copyright © 2021 Nashville Software School Day Cohort 43. All Rights Reserved.</small></div>
+                <div className="container"><small>Copyright © {new Date().getFullYear()} Nashville Software School Day Cohort 43. All Rights Reserved.</small></div>
             </div>
         </section>
     )
