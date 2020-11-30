@@ -1,14 +1,15 @@
-import logo from '../node_modules/startbootstrap-freelancer/src/assets/img/avataaars.svg'
-import './App.scss'
+
 import { CardList } from "./components/cards/CardList.js"
 import React from "react";
-import "./scss/styles.scss";
 import { NavBar } from './components/nav/NavBar'
+import logo from '../node_modules/startbootstrap-freelancer/src/assets/img/avataaars.svg'
+import './App.scss'
 import { RSVPButton } from './components/nav/RSVP'
 
 
 import { TabArea } from './components/tabs/TabArea'
 import { Thanks } from './components/thanks/Thanks'
+import "./scss/styles.scss";
 import { Footer } from './components/footer/Footer'
 
 function App() {

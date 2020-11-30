@@ -8,7 +8,6 @@
 @import "./global.scss";
 @import "./divider.scss";
 @import "./buttons.scss";
-@import "./navbar.scss";
 @import "./masthead.scss";
 @import "./portfolio.scss";
 @import "./contact.scss";
@@ -51,11 +50,6 @@ a.navbar-brand {
     margin-right: auto;
     height: 572px;
 }
-
-// .card-header{
-//     background-color: $yellow;
-// }
-
 
 .card-focus-banner{
     display: flex;
@@ -125,9 +119,7 @@ p {
     background-color: transparent;
 }
 
-
 // -------- .btn-box holds the link icon and the text of the icon --------
-
 
 .btn-box{
     position: relative;
@@ -144,10 +136,10 @@ p {
 }
 
 // ---- Text below icon ----
-.btn-box:hover {
-    //box-shadow: 0 3px 7px rgba(33, 33, 33, 0.358); 
-    top: -2px;
-}
+// .btn-box:hover {
+//     //box-shadow: 0 3px 7px rgba(33, 33, 33, 0.358); 
+//     //top: -2px;
+// }
 
 .btn-social-link:focus{
     background-color: transparent;
@@ -163,6 +155,7 @@ p {
 
 // ------ Link Icon -------
 .btn-social-link{
+    position: relative;
     border-radius: 100%;
     display: inline-flex;
     width: 3.25rem;
@@ -177,14 +170,10 @@ p {
     transition-property: box-shadow, top;
     transition-duration: 0s, 0s;
     transition-delay: 0s, 0s;
-    
 }
 
 .btn-link > img {
-    //width: 100%;
-    //height: 100%;
     box-shadow: 0 3px 7px rgba(33, 33, 33, 0.358);
-    // margin: -0.375rem -0.75rem;
 }
 
 #button-tooltip{

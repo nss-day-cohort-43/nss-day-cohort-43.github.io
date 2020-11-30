@@ -4,9 +4,6 @@ import { Card, Button, ButtonGroup, Image, OverlayTrigger, Tooltip } from 'react
 
 
 export const CardHTML = ({mate}) => {
-    //console.log("mate: ", mate);
-
-   
 
     // inputImagePath should be the path string 
     // of the photo property of a cohort student's 
@@ -16,8 +13,6 @@ export const CardHTML = ({mate}) => {
 
     // Array to use to render the contact links for each card
     const contactList = [mate.linkedIn, mate.github, mate.personalSite, mate.dribbble]
-    //console.log("contactList: ", contactList);
-
     const makeBanner = (studentFocus) => {
         if(studentFocus === "UI/UX Front-End Developer"){
             return (
