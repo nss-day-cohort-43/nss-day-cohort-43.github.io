@@ -7,7 +7,7 @@
 
 import React from 'react';
 import { CardHTML } from "./Card.js";
-import './customCard.scss';
+import '../../scss/styles.scss';
 
 
 export const TempCardList = () => {

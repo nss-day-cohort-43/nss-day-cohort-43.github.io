@@ -3,8 +3,8 @@
 $nav-link: #ffffff;
 
 // Set custom colors
-$teal: #1abc9c;
-$dark-blue: #2c3e50;
+//$teal: #1abc9c;
+//$dark-blue: #2c3e50;
 $theme-colors: (
   "warning": #ffc116
 );
@@ -44,3 +44,15 @@ $spacer: 1rem;
 
 // Override the spacing between columns to add symmetry to the layout
 $grid-gutter-width: $spacer * 3;
+
+
+// Custom card variables
+$card-border-width: 0px;
+$card-border-radius: 0px;
+$card-border-color: black;
+
+$card-spacer-y: 0px;
+$card-spacer-x: 0px;
+$card-bg: rgb(240, 240, 240);
+
+

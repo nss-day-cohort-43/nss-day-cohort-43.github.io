@@ -70,7 +70,7 @@ function App() {
 
           {/* Portfolio Grid Items */}
           <div className="row justify-content-center">
-            <TempCardList key="blah" />
+            <TempCardList />
           </div>
           {/* <div className="row justify-content-center">
 

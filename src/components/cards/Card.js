@@ -66,8 +66,8 @@ export const CardHTML = (inputStudent) => {
                             delay={{ show: 150, hide: 300 }}
                             overlay={renderTooltip(contactIconName)}
                             >
-                            <Button className={`btn-link ${contactIconName}-link`} variant="light">
-                                <Image src={contactIconPath} />
+                            <Button className={`btn-social-link ${contactIconName}-link`} >
+                                <Image src={contactIconPath} roundedCircle fluid/>
                             </Button>
                         </OverlayTrigger>
                         </div>
@@ -95,13 +95,14 @@ export const CardHTML = (inputStudent) => {
     return (
         <>
             <Card className="studentCard">
-
-                {makeBanner(inputStudent.focus)}
+                <Card.Header>
+                    {makeBanner(inputStudent.focus)}
+                </Card.Header>
                 {/* <div className="card-focus-banner card-focus-banner--uiux">
                     <p>UI/UX Front-End Developer</p>
                 </div> */}
 
-                <Card.Img variant="top" src={inputStudent.photo} />
+                <Card.Img src={inputStudent.photo} />
                 <Card.Body className="card-content">
                     <Card.Title as="h4" className="card-name">{`${inputStudent.firstName} ${inputStudent.lastName}`}</Card.Title>
                     <Card.Text>
