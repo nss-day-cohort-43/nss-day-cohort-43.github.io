@@ -1,5 +1,4 @@
-
-import { TempCardList } from "./components/cards/CardList.js"
+import { CardList } from "./components/cards/CardList.js"
 import React from "react";
 import { NavBar } from './components/nav/NavBar'
 import logo from '../node_modules/startbootstrap-freelancer/src/assets/img/avataaars.svg'
@@ -55,7 +54,7 @@ function App() {
 
           {/* Portfolio Grid Items */}
           <div className="row justify-content-center">
-            <TempCardList />
+            <CardList />
           </div>
           {/* <div className="row justify-content-center">
 
