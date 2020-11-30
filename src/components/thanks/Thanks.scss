@@ -1,9 +1,27 @@
+$teal: #148D9D;
+$darkTeal: #117785;
+$gold: #FFC116;
+
 #thanks {
+    padding-top: 75px;
     scroll-margin-top: 100px;
+    background-color: white !important;
+}
+
+#thanks h2 {
+    color: $teal !important;
+}
+
+#thanks .divider-custom-line {
+    background-color: $teal;
+}
+
+#thanks .thanksIcon {
+    color: $teal !important;
 }
 
 #thanks p {
-    color: white;
+    color: #222;
     text-transform: none;
 }
 
