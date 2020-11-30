@@ -1,16 +1,13 @@
 import logo from '../node_modules/startbootstrap-freelancer/src/assets/img/avataaars.svg'
 import "./scss/styles.scss";
 import { NavBar } from './components/nav/NavBar'
-<<<<<<< HEAD
 import { TechList } from './components/technology/TechList'
-import { TechContext } from './components/technology/TechProvider'
-=======
+import { TechContext, TechProvider } from './components/technology/TechProvider'
 import { RSVPButton } from './components/nav/RSVP'
 
 
 import { TabArea } from './components/tabs/TabArea'
 import { Thanks } from './components/thanks/Thanks'
->>>>>>> main
 
 function App() {
   return (
@@ -54,8 +51,12 @@ function App() {
           <p className="masthead-subheading font-weight-light mb-0">Graphic Artist - Web Designer - Illustrator</p>
         </div>
       </header>
+      <TechProvider>
+          <TabArea />
+      </TechProvider>
 
-      <TabArea />
+
+
       {/* Portfolio Section */}
       <section className="page-section portfolio" id="portfolio">
         <div className="container">

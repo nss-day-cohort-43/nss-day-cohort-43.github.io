@@ -3,6 +3,7 @@ import { useHistory } from "react-router-dom"
 import { TechContext } from "./TechProvider";
 import { Col, Container, Row } from "react-bootstrap";
 import { TechCard } from "./TechCard";
+import "./Tech.scss"
 
 export const TechList = () => {
     const { techs, getTech } = useContext(TechContext)
@@ -14,16 +15,16 @@ export const TechList = () => {
     const history = useHistory()
 
     return (
-        <Container>
-            <Row>
-                <Col>
+        <div id="tech-section">
+            <Container>
+                <Row>
                     {
                         techs.map(tech => {
                             return <TechCard key={tech.id} tech={tech} />
                         })
                     }
-                </Col>
-            </Row>
-        </Container>
+                </Row>
+            </Container>
+        </div>
     )
 }
