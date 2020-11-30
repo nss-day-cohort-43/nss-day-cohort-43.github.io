@@ -1,6 +1,13 @@
 import logo from '../node_modules/startbootstrap-freelancer/src/assets/img/avataaars.svg'
 import './App.scss'
+import { TempCardList } from "./components/cards/CardList.js"
+import React from "react";
+import "./scss/styles.scss";
 import { NavBar } from './components/nav/NavBar'
+import { RSVPButton } from './components/nav/RSVP'
+
+
+import { TabArea } from './components/tabs/TabArea'
 import { Thanks } from './components/thanks/Thanks'
 
 function App() {
@@ -10,23 +17,6 @@ function App() {
       {/* Navigation - COLIN & DEVON WORKING */}
 
       {/* <nav className="navbar navbar-expand-lg bg-secondary text-uppercase fixed-top" id="mainNav">
-        <div className="container">
-          <a className="navbar-brand js-scroll-trigger" href="#page-top">Start Bootstrap</a>
-          <button className="navbar-toggler navbar-toggler-right text-uppercase font-weight-bold bg-primary text-white rounded" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-            Menu
-                    <i className="fas fa-bars"></i>
-          </button>
-          <div className="collapse navbar-collapse" id="navbarResponsive">
-            <ul className="navbar-nav ml-auto">
-              <li className="nav-item mx-0 mx-lg-1"><a className="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#portfolio">Portfolio</a></li>
-              <li className="nav-item mx-0 mx-lg-1"><a className="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#about">About</a></li>
-              <li className="nav-item mx-0 mx-lg-1"><a className="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#contact">Contact</a></li>
-            </ul>
-          </div>
-        </div>
-      </nav> */}
-
-      <nav className="navbar navbar-expand-lg bg-secondary text-uppercase fixed-top" id="mainNav">
         <div className="container">
           <a className="navbar-brand js-scroll-trigger" href="#page-top">NSS C43</a>
           <button className="navbar-toggler navbar-toggler-right text-uppercase font-weight-bold bg-primary text-white rounded" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
@@ -40,8 +30,11 @@ function App() {
               <li className="nav-item mx-0 mx-lg-1"><a className="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#thanks">Thanks</a></li>
             </ul>
           </div>
+          <RSVPButton />
         </div>
-      </nav>
+      </nav> */}
+
+      <NavBar />
 
       <header className="masthead bg-primary text-white text-center" id="page-top">
         <div className="container d-flex align-items-center flex-column">
@@ -59,6 +52,8 @@ function App() {
           <p className="masthead-subheading font-weight-light mb-0">Graphic Artist - Web Designer - Illustrator</p>
         </div>
       </header>
+
+      <TabArea />
       {/* Portfolio Section */}
       <section className="page-section portfolio" id="portfolio">
         <div className="container">
@@ -75,18 +70,16 @@ function App() {
 
           {/* Portfolio Grid Items */}
           <div className="row justify-content-center">
+            <TempCardList key="blah" />
+          </div>
+          {/* <div className="row justify-content-center">
 
-            {/* Portfolio Item 1 */}
+            
             <div className="col-md-6 col-lg-4 mb-5">
-              <div className="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal1">
-                <div className="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                  <div className="portfolio-item-caption-content text-center text-white"><i className="fas fa-plus fa-3x"></i></div>
-                </div>
-                <img className="img-fluid" src={logo} alt="" />
-              </div>
+              <tempCardList key="blah" />
             </div>
 
-            {/* Portfolio Item 2 */}
+            
             <div className="col-md-6 col-lg-4 mb-5">
               <div className="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal2">
                 <div className="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
@@ -96,7 +89,7 @@ function App() {
               </div>
             </div>
 
-            {/* Portfolio Item 3 */}
+            
             <div className="col-md-6 col-lg-4 mb-5">
               <div className="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal3">
                 <div className="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
@@ -105,7 +98,7 @@ function App() {
                 <img className="img-fluid" src={logo} alt="" />
               </div>
             </div>
-          </div>
+          </div> */}
         </div>
       </section>
 
@@ -131,7 +124,7 @@ function App() {
 
           {/* About Section Button */}
           <div className="text-center mt-4">
-            <a className="btn btn-xl btn-outline-light" href="https://startbootstrap.com/theme/freelancer/">
+            <a className="btn btn-xl btn-warning" href="https://startbootstrap.com/theme/freelancer/">
               <i className="fas fa-download mr-2"></i>
                         Free Download!
                     </a>
@@ -188,6 +181,7 @@ function App() {
         <a className="js-scroll-trigger d-block text-center text-white rounded" href="#page-top"><i className="fa fa-chevron-up"></i></a>
       </div>
     </div>
+
   )
 }
 

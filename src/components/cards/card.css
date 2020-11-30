@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css?family=Merriweather:400,400i,700,700i,900,900i');
+
+/* Set up */
+
+html { 
+  box-sizing: border-box; 
+}
+
+*, *:before, *:after { 
+  /*box-sizing: inherit; */
+}
+
+html {
+    height: 100%;
+}
+
+p {
+  color: #383838;
+  font-size: 1em;
+  /* letter-spacing: 4px; */
+  margin-bottom: 15px;
+  margin-top: 55px;
+  text-transform: uppercase;
+}
+
+.icons {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.card-focus-banner p{
+    margin-top: 10px;
+    font-size: 1em;
+}
+
+/* ico {
+  display: block;
+  width: 40px;
+  height: 60px;
+  margin-left: 18px;
+  position: relative;
+  background: none;
+  overflow: hidden;
+  cursor: pointer;
+  float:left;
+} */
+
+
+/* upload */
+
+.btn-link:after {
+  box-sizing: border-box;
+  display: block;
+  content: "";
+  width: 40px;
+  height: 40px;
+  /* border: 2px solid #383838; */
+  /* border-radius: 0px;*/
+  position: absolute; 
+  bottom: 0;
+}
+.btn-link:hover n {
+  transform: translateY(2px);
+}
+
+
+.btn-link n{
+  display: block;
+  width: 2px;
+  height: 38px;
+  background: #383838;
+  position: absolute;
+  left: 50%;
+  margin-left: -1px;
+  transform: translateY(60px);
+  transition: 0.4s;
+}
+.btn-link n:after,
+.btn-link n:before {
+  content: "";
+  width: 2px;
+  height: 17.5px;
+  background: #383838;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform-origin: 0 0;
+  transform: rotate(-45deg);
+}
+.btn-link n:before {
+  transform-origin: 2px 0px;
+  transform: rotate(45deg);
+} 
