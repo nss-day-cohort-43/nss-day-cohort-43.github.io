@@ -5,6 +5,7 @@ export const CardHTML = ({mate}) => {
 
     // Array to use to render the contact links for each card
     const contactList = [mate.linkedIn, mate.github, mate.personalSite, mate.dribbble]
+
     const makeBanner = (studentFocus) => {
         if(studentFocus === "UI/UX Front-End Developer"){
             return (
@@ -54,7 +55,7 @@ export const CardHTML = ({mate}) => {
                             delay={{ show: 100, hide: 100 }}
                             overlay={renderTooltip(contactIconName)}
                             >
-                            <Button className={`btn-social-link ${contactIconName}-link`} >
+                            <Button className={`btn-social-link ${contactIconName}-link`} href={contactLink} >
                                 <Image src={contactIconPath} roundedCircle fluid/>
                             </Button>
                         </OverlayTrigger>
