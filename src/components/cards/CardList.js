@@ -1,7 +1,4 @@
-// By Audrey Thomasson
-
 import React, { useEffect, useState } from "react"
-// import { Container, Row, Col } from 'react-bootstrap';
 import { CardHTML } from "./Card"
 
 export const CardList = () => {
