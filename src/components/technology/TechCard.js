@@ -4,7 +4,7 @@ import { Link } from "react-router-dom"
 import "./Tech.scss"
 
 export const TechCard = ({ tech }) => ( 
-        <Col>
+        <Col xs={2}>
             <Row><a href={tech.site} target="_blank"><img src={tech.icon} className="img-icon" /></a></Row>
             <Row>{tech.title}</Row>
         </Col>

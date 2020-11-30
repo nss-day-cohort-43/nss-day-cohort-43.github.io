@@ -4,8 +4,7 @@ import { TempCardList } from "./components/cards/CardList.js"
 import React from "react";
 import "./scss/styles.scss";
 import { NavBar } from './components/nav/NavBar'
-import { TechList } from './components/technology/TechList'
-import { TechContext, TechProvider } from './components/technology/TechProvider'
+import { TechProvider } from './components/technology/TechProvider'
 import { RSVPButton } from './components/nav/RSVP'
 
 

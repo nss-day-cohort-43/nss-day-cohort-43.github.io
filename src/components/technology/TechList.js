@@ -15,8 +15,8 @@ export const TechList = () => {
     const history = useHistory()
 
     return (
-        <div id="tech-section">
-            <Container>
+        
+            <Container id="tech-section">
                 <Row>
                     {
                         techs.map(tech => {
@@ -25,6 +25,6 @@ export const TechList = () => {
                     }
                 </Row>
             </Container>
-        </div>
+        
     )
 }

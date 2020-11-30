@@ -4,6 +4,7 @@ import { TechCard } from '../technology/TechCard'
 import { useContext, useEffect } from 'react'
 import { TechContext } from '../technology/TechProvider'
 import { Container, Row } from 'react-bootstrap'
+import "../technology/Tech.scss"
 
 
 
@@ -44,7 +45,7 @@ export const TabArea = () => {
           </Row>
         </Container>
       </Tab>
-      <Tab eventKey="ui-ux" title="UI/UX">
+      <Tab eventKey="uiUx" title="UI/UX">
         <Container>
           <Row>
             {
@@ -55,7 +56,7 @@ export const TabArea = () => {
           </Row>
         </Container>
       </Tab>
-      <Tab eventKey="full-stack" title="Full Stack">
+      <Tab eventKey="fullstack" title="Full Stack">
         <Container>
           <Row>
             {
@@ -69,13 +70,3 @@ export const TabArea = () => {
     </Tabs>
   )
 }
-
-{/* <Container>
-                <Row>
-                    {
-                        techs.map(tech => {
-                            return <TechCard key={tech.id} tech={tech} />
-                        })
-                    }
-                </Row>
-            </Container> */}
