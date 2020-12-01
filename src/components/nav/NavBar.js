@@ -18,8 +18,8 @@ export const NavBar = (props) => {
                         <Nav.Link href="#tech">Tech</Nav.Link>
                         <Nav.Link href="#thanks">Thanks</Nav.Link>
                     </Nav>
-                    <RSVPButton />
                 </Navbar.Collapse>
+                <RSVPButton />
             </Navbar>
         </>
     )
