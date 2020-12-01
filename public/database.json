@@ -1,0 +1,474 @@
+{
+    "technology": [
+        {
+            "id": 1,
+            "title": "HTML5",
+            "icon": "icons/html5.png",
+            "site": "https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5",
+            "learnedBy": "everyone"
+        },
+        {
+            "id": 2,
+            "title": "CSS",
+            "icon": "icons/css3.png",
+            "site": "https://developer.mozilla.org/en-US/docs/Archive/CSS3",
+            "learnedBy": "everyone"
+        },
+        {
+            "id": 3,
+            "title": "JavaScript",
+            "icon": "icons/javascript.jpg",
+            "site": "https://www.javascript.com/",
+            "learnedBy": "everyone"
+        },
+        {
+            "id": 4,
+            "title": "GitHub",
+            "icon": "icons/github.png",
+            "site": "https://github.com/",
+            "learnedBy": "everyone"
+        },
+        {
+            "id": 5,
+            "title": "React JS",
+            "icon": "icons/reactJs.jpg",
+            "site": "https://reactjs.org/",
+            "learnedBy": "everyone"
+        },
+        {
+            "id": 6,
+            "title": "JSON",
+            "icon": "icons/JSON.png",
+            "site": "https://www.json.org/json-en.html",
+            "learnedBy": "everyone"
+        },
+        {
+            "id": 7,
+            "title": "NPM",
+            "icon": "icons/NPM.png",
+            "site": "https://www.npmjs.com/",
+            "learnedBy": "everyone"
+        },
+        {
+            "id": 8,
+            "title": "VS Code",
+            "icon": "icons/vsCode.jpg",
+            "site": "https://code.visualstudio.com/",
+            "learnedBy": "everyone"
+        },
+        {
+            "id": 9,
+            "title": "Postman",
+            "icon": "icons/Postman.png",
+            "site": "https://www.postman.com/",
+            "learnedBy": "everyone"
+        },
+        {
+            "id": 10,
+            "title": "Figma",
+            "icon": "icons/figma.png",
+            "site": "https://www.figma.com/",
+            "learnedBy": "ui-ux"
+        },
+        {
+            "id": 11,
+            "title": "Sass",
+            "icon": "icons/sass.jpg",
+            "site": "https://sass-lang.com/",
+            "learnedBy": "ui-ux"
+        },
+        {
+            "id": 12,
+            "title": "FireBase",
+            "icon": "icons/firebase.jpg",
+            "site": "https://firebase.google.com/",
+            "learnedBy": "ui-ux"
+        },
+        {
+            "id": 13,
+            "title": "C#",
+            "icon": "icons/CSharp.png",
+            "site": "https://docs.microsoft.com/en-us/dotnet/csharp/",
+            "learnedBy": "full-stack"
+        },
+        {
+            "id": 14,
+            "title": ".NET Core",
+            "icon": "icons/NetCore.png",
+            "site": "https://dotnet.microsoft.com/",
+            "learnedBy": "full-stack"
+        },
+        {
+            "id": 15,
+            "title": "ASP.NET Core",
+            "icon": "icons/aspNetCore.png",
+            "site": "https://dotnet.microsoft.com/apps/aspnet/mvc",
+            "learnedBy": "full-stack"
+        },
+        {
+            "id": 16,
+            "title": "SQL",
+            "icon": "icons/SQL.jpg",
+            "site": "https://www.microsoft.com/en-us/sql-server/sql-server-2017",
+            "learnedBy": "full-stack"
+        },
+        {
+            "id": 17,
+            "title": "SQL Server",
+            "icon": "icons/SQLserver.jpg",
+            "site": "https://www.microsoft.com/en-us/sql-server/sql-server-2017",
+            "learnedBy": "full-stack"
+        },
+        {
+            "id": 18,
+            "title": "Visual Studio",
+            "icon": "icons/VStudio.jpg",
+            "site": "https://visualstudio.microsoft.com/vs/",
+            "learnedBy": "full-stack"
+        }
+    ],
+    "softSkills": [
+        {
+            "id": 1,
+            "title": "User Research"
+        },
+        {
+            "id": 2,
+            "title": "Personas"
+        },
+        {
+            "id": 3,
+            "title": "Prototyping/Mockups"
+        },
+        {
+            "id": 4,
+            "title": "User Testing"
+        },
+        {
+            "id": 5,
+            "title": "Usability Testing"
+        },
+        {
+            "id": 6,
+            "title": "Journey Mapping"
+        },
+        {
+            "id": 7,
+            "title": "Design Systems"
+        },
+        {
+            "id": 8,
+            "title": "Info Architecture"
+        }
+    ],
+    "cohortMates": [
+        {
+            "firstName": "Colin",
+            "lastName": "Arel",
+            "photo": "images/placeholder-images/ArelColin.jpeg",
+            "focus": "UI/UX Front-End Developer",
+            "linkedIn": "https://www.linkedin.com/in/romans116/",
+            "github": "https://github.com/cArel116",
+            "personalSite": "",
+            "dribbble": "",
+            "id": 1
+        },
+        {
+            "firstName": "Rick",
+            "lastName": "Blake",
+            "photo": "images/placeholder-images/BlakeRick.jpeg",
+            "focus": "Full-Stack Developer",
+            "linkedIn": "https://www.linkedin.com/in/blaker814/",
+            "github": "https://github.com/blaker814",
+            "personalSite": "",
+            "dribbble": "",
+            "id": 2
+        },
+        {
+            "firstName": "Devon",
+            "lastName": "Cox",
+            "photo": "images/placeholder-images/CoxDevon.jpeg",
+            "focus": "UI/UX Front-End Developer",
+            "linkedIn": "https://www.linkedin.com/in/devonhcox/",
+            "github": "https://github.com/Devco2011",
+            "personalSite": "",
+            "dribbble": "https://dribbble.com/DevCo",
+            "id": 3
+        },
+        {
+            "firstName": "Ben",
+            "lastName": "Davis",
+            "photo": "images/placeholder-images/DavisBen.jpeg",
+            "focus": "UI/UX Front-End Developer",
+            "linkedIn": "https://www.linkedin.com/in/ben-davis-5301a216a/",
+            "github": "https://github.com/bcdavis",
+            "personalSite": "",
+            "dribbble": "",
+            "id": 4
+        },
+        {
+            "firstName": "Sam",
+            "lastName": "Edwards",
+            "photo": "images/placeholder-images/EdwardsSam.jpeg",
+            "focus": "Full-Stack Developer",
+            "linkedIn": "https://www.linkedin.com/in/st-edwards/",
+            "github": "https://github.com/ste163",
+            "personalSite": "",
+            "dribbble": "",
+            "id": 5
+        },
+        {
+            "firstName": "Aaron",
+            "lastName": "Gertler",
+            "photo": "images/placeholder-images/GertlerAaron.jpeg",
+            "focus": "UI/UX Front-End Developer",
+            "linkedIn": "https://www.linkedin.com/in/asgertler/",
+            "github": "https://github.com/asgertler",
+            "personalSite": "",
+            "dribbble": "",
+            "id": 6
+        },
+        {
+            "firstName": "Matthew",
+            "lastName": "Goodman",
+            "photo": "images/placeholder-images/photo-not-available.png",
+            "focus": "Full-Stack Developer",
+            "linkedIn": "https://www.linkedin.com/in/matthewgoodman3099/",
+            "github": "https://github.com/Goody3099",
+            "personalSite": "",
+            "dribbble": "",
+            "id": 7
+        },
+        {
+            "firstName": "Hanako",
+            "lastName": "Hashiguchi",
+            "photo": "images/placeholder-images/HashiguchiHanako.jpeg",
+            "focus": "UI/UX Front-End Developer",
+            "linkedIn": "https://www.linkedin.com/in/hanako-hashiguchi/",
+            "github": "https://github.com/HanakoH",
+            "personalSite": "",
+            "dribbble": "",
+            "id": 8
+        },
+        {
+            "firstName": "Richie",
+            "lastName": "Holsenback",
+            "photo": "images/placeholder-images/HolsenbackRichie.jpeg",
+            "focus": "UI/UX Front-End Developer",
+            "linkedIn": "https://www.linkedin.com/in/richie-holsenback/",
+            "github": "https://github.com/richieholsenback",
+            "personalSite": "",
+            "dribbble": "",
+            "id": 9
+        },
+        {
+            "firstName": "Cornelia",
+            "lastName": "Johnson",
+            "photo": "images/placeholder-images/JohnsonCornelia.jpeg",
+            "focus": "Full-Stack Developer",
+            "linkedIn": "https://www.linkedin.com/in/corneliajohnson/",
+            "github": "https://github.com/corneliajohnson",
+            "personalSite": "",
+            "dribbble": "",
+            "id": 10
+        },
+        {
+            "firstName": "Abdurehman",
+            "lastName": "Kassa",
+            "photo": "images/placeholder-images/KassaAbdurehman.jpeg",
+            "focus": "Full-Stack Developer",
+            "linkedIn": "https://www.linkedin.com/in/abdurehman-kassa/",
+            "github": "https://github.com/Abdurehman05",
+            "personalSite": "",
+            "dribbble": "",
+            "id": 11
+        },
+        {
+            "firstName": "Parker",
+            "lastName": "Kelley",
+            "photo": "images/placeholder-images/KelleyParker.jpeg",
+            "focus": "Full-Stack Developer",
+            "linkedIn": "https://www.linkedin.com/in/corneliajohnson/",
+            "github": "https://github.com/corneliajohnson",
+            "personalSite": "",
+            "dribbble": "",
+            "id": 12
+        },
+        {
+            "firstName": "Brady",
+            "lastName": "Logan",
+            "photo": "images/placeholder-images/LoganBrady.jpeg",
+            "focus": "Full-Stack Developer",
+            "linkedIn": "https://www.linkedin.com/in/brady-logan-295559150/",
+            "github": "https://github.com/bloges56",
+            "personalSite": "",
+            "dribbble": "",
+            "id": 13
+        },
+        {
+            "firstName": "Faith",
+            "lastName": "Magras",
+            "photo": "images/placeholder-images/MagrasFaith.jpeg",
+            "focus": "Full-Stack Developer",
+            "linkedIn": "https://www.linkedin.com/in/faith-magras/",
+            "github": "https://github.com/bdanielle092",
+            "personalSite": "",
+            "dribbble": "",
+            "id": 14
+        },
+        {
+            "firstName": "Mori",
+            "lastName": "McCoy",
+            "photo": "images/placeholder-images/McCoyMorrigan.jpeg",
+            "focus": "Full-Stack Developer",
+            "linkedIn": "https://www.linkedin.com/in/morrigan-mccoy/",
+            "github": "https://github.com/mnmccoy95",
+            "personalSite": "",
+            "dribbble": "",
+            "id": 15
+        },
+        {
+            "firstName": "Joe",
+            "lastName": "Overton",
+            "photo": "images/placeholder-images/OvertonJoseph.jpeg",
+            "focus": "Full-Stack Developer",
+            "linkedIn": "https://www.linkedin.com/in/josephoverton/",
+            "github": "https://github.com/j0verton",
+            "personalSite": "",
+            "dribbble": "",
+            "id": 16
+        },
+        {
+            "firstName": "Ember",
+            "lastName": "Parr",
+            "photo": "images/placeholder-images/ParrEmber.jpeg",
+            "focus": "Full-Stack Developer",
+            "linkedIn": "https://www.linkedin.com/in/emberparr/",
+            "github": "https://github.com/ember-parr",
+            "personalSite": "",
+            "dribbble": "",
+            "id": 17
+        },
+        {
+            "firstName": "Travis",
+            "lastName": "Pinson",
+            "photo": "images/placeholder-images/PinsonTravis.jpeg",
+            "focus": "Full-Stack Developer",
+            "linkedIn": "https://www.linkedin.com/in/travispinson/",
+            "github": "https://github.com/TAPinson",
+            "personalSite": "",
+            "dribbble": "",
+            "id": 18
+        },
+        {
+            "firstName": "Austin",
+            "lastName": "Ring",
+            "photo": "images/placeholder-images/photo-not-available.png",
+            "focus": "Full-Stack Developer",
+            "linkedIn": "https://www.linkedin.com/in/austinring/",
+            "github": "",
+            "personalSite": "",
+            "dribbble": "",
+            "id": 19
+        },
+        {
+            "firstName": "Hailey",
+            "lastName": "Rissolo",
+            "photo": "images/placeholder-images/RissoloHailey.jpeg",
+            "focus": "UI/UX Front-End Developer",
+            "linkedIn": "https://www.linkedin.com/in/haileyrissolo/",
+            "github": "https://github.com/hrissolo",
+            "personalSite": "",
+            "dribbble": "",
+            "id": 20
+        },
+        {
+            "firstName": "Jerry",
+            "lastName": "Robertson",
+            "photo": "images/placeholder-images/RobertsonJerry.jpeg",
+            "focus": "Full-Stack Developer",
+            "linkedIn": "https://www.linkedin.com/in/jrrobertson1/",
+            "github": "https://github.com/BlackTousen",
+            "personalSite": "",
+            "dribbble": "",
+            "id": 21
+        },
+        {
+            "firstName": "Terra",
+            "lastName": "Roush",
+            "photo": "images/placeholder-images/RoushTerra.jpeg",
+            "focus": "Full-Stack Developer",
+            "linkedIn": "https://www.linkedin.com/in/terraroush/",
+            "github": "https://github.com/terraroush",
+            "personalSite": "",
+            "dribbble": "",
+            "id": 22
+        },
+        {
+            "firstName": "Braxton",
+            "lastName": "Shoop",
+            "photo": "images/placeholder-images/ShoopBraxton.jpeg",
+            "focus": "Full-Stack Developer",
+            "linkedIn": "https://www.linkedin.com/in/braxtonshoop/",
+            "github": "https://github.com/BShoop33",
+            "personalSite": "",
+            "dribbble": "",
+            "id": 23
+        },
+        {
+            "firstName": "Jennifer",
+            "lastName": "Starkey",
+            "photo": "images/placeholder-images/StarkeyJennifer.jpeg",
+            "focus": "Full-Stack Developer",
+            "linkedIn": "https://www.linkedin.com/in/starkeyjennifer/",
+            "github": "https://github.com/jenniferstarkey",
+            "personalSite": "",
+            "dribbble": "",
+            "id": 24
+        },
+        {
+            "firstName": "Audrey",
+            "lastName": "Thomasson",
+            "photo": "images/placeholder-images/ThomassonAudrey.jpeg",
+            "focus": "UI/UX Front-End Developer",
+            "linkedIn": "https://www.linkedin.com/in/audrey-thomasson/",
+            "github": "https://github.com/AudreyThomasson",
+            "personalSite": "",
+            "dribbble": "",
+            "id": 25
+        },
+        {
+            "firstName": "Joseph",
+            "lastName": "Tidwell",
+            "photo": "images/placeholder-images/TidwellJoseph.jpeg",
+            "focus": "Full-Stack Developer",
+            "linkedIn": "https://www.linkedin.com/in/joetidwell/",
+            "github": "https://github.com/joetid09",
+            "personalSite": "",
+            "dribbble": "",
+            "id": 26
+        },
+        {
+            "firstName": "Lacey",
+            "lastName": "Walker",
+            "photo": "images/placeholder-images/WalkerLacey.jpeg",
+            "focus": "Full-Stack Developer",
+            "linkedIn": "https://www.linkedin.com/in/laceywalker/",
+            "github": "https://github.com/laceywalkerr",
+            "personalSite": "",
+            "dribbble": "",
+            "id": 27
+        },
+        {
+            "firstName": "Tristan",
+            "lastName": "Wyatt",
+            "photo": "images/placeholder-images/WyattTristan.jpeg",
+            "focus": "Full-Stack Developer",
+            "linkedIn": "https://www.linkedin.com/in/tristan-w-wyatt/",
+            "github": "https://github.com/tristan0508",
+            "personalSite": "",
+            "dribbble": "",
+            "id": 28
+        }
+    ]
+}
