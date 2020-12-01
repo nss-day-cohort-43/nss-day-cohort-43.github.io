@@ -8,6 +8,5 @@ export const HeroArea = () => {
           <h1 className="masthead-heading text-uppercase mb-0">Cohort 43</h1>
           
     </div>
-    // <img style={{ backgroundImage: `url(${Polygons})` }}></img>
   )
 }

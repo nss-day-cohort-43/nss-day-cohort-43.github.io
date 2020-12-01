@@ -4,14 +4,9 @@ import { NavBar } from './components/nav/NavBar'
 import { TechProvider } from './components/technology/TechProvider'
 import logo from '../node_modules/startbootstrap-freelancer/src/assets/img/avataaars.svg'
 import './App.scss'
-<<<<<<< HEAD
 import { RSVPButton } from './components/nav/RSVP'
 import {HeroArea} from './components/hero/HeroArea'
-=======
 import { About } from './components/about/About'
->>>>>>> main
-
-
 import { TabArea } from './components/tabs/TabArea'
 import { Thanks } from './components/thanks/Thanks'
 import "./scss/styles.scss";
