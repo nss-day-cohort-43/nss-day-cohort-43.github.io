@@ -3,7 +3,7 @@ import './About.scss'
 
 export const About = () => {
     return (
-        <section className="page-section" id="slanted-about">
+        <section className="page-section" id="about">
             <div id="about-container">
                 <div class="about-text"><h2 className="page-section-heading text-center text-uppercase text-white">About Us</h2>
 

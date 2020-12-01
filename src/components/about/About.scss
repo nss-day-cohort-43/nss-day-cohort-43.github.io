@@ -4,7 +4,8 @@
     padding: 0;
   }
   
-  #slanted-about{ width: 100%; 
+  #about{ 
+  scroll-margin-top: 200px;width: 100%; 
   text-align: center; 
   font-size: 36px; 
   padding: 10% 25px; 
@@ -12,11 +13,11 @@
   color: #fff; 
   position: relative; }
   
-  #slanted-about:after{ content: "";
+  #about:after{ content: "";
   border-left: 99.58vw solid#148D9D;
   border-bottom: 20px solid transparent;
-  border-top: 73px solid transparent;
-  top: -73px;
+  border-top: 65px solid transparent;
+  top: -65px;
   position: absolute;
   left: -20px; }
 
@@ -26,7 +27,7 @@
   }
 
   .about-text {
-      width: 40%;
+      width: 80%;
       font-size: large;
       text-align: left;
   }
