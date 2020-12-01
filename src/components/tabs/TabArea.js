@@ -59,8 +59,8 @@ export const TabArea = () => {
     <div id="devs">
       <Tabs defaultActiveKey="everyone" id="uncontrolled-tab-example">
         <Tab eventKey="everyone" title="Everyone">
-          <Container id="tech-section">
-            <Row id="icon-container">
+          <Container id="tech-section" >
+            <Row id="icon-container" >
               {
                 techs.map(tech => {
                   return TabFilterEveryone(tech)
