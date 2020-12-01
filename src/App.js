@@ -37,7 +37,9 @@ function App() {
           <p className="masthead-subheading font-weight-light mb-0">Graphic Artist - Web Designer - Illustrator</p>
         </div>
       </header>
+
       < About />
+      
       <TechProvider>
         <SkillProvider>
           <TabArea />

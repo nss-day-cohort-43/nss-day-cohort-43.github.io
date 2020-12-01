@@ -6,11 +6,12 @@ export const TechProvider = props => {
     const [techs, setTech] = useState([])
 
     const getTech = () => {
-        return fetch (`http://localhost:8088/technology`)
+        return fetch ("database.json")
         .then(response => response.json())
-        .then(setTech)
+        .then(data => {
+            setTech(data.technology)
+    })
     }
-
     return (
         <TechContext.Provider value={{
             techs, getTech

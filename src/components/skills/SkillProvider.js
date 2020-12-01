@@ -6,9 +6,11 @@ export const SkillProvider = props => {
     const [skills, setSkill] = useState([])
 
     const getSkill = () => {
-        return fetch (`http://localhost:8088/softSkills`)
+        return fetch ("database.json")
         .then(response => response.json())
-        .then(setSkill)
+        .then(data => {
+            setSkill(data.softSkills)
+    })
     }
 
     return (
