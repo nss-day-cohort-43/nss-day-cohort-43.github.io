@@ -37,7 +37,6 @@ function App() {
           <p className="masthead-subheading font-weight-light mb-0">Graphic Artist - Web Designer - Illustrator</p>
         </div>
       </header>
-<<<<<<< HEAD
       <TechProvider>
         <SkillProvider>
           <TabArea />
@@ -45,9 +44,7 @@ function App() {
       </TechProvider>
 
 
-=======
       < About />
->>>>>>> main
 
       {/* Portfolio Section */}
       <section className="page-section portfolio" id="portfolio">
