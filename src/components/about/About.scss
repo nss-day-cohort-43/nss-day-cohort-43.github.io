@@ -1,0 +1,32 @@
+*, *:before, *:after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  #slanted-about{ width: 100%; 
+  text-align: center; 
+  font-size: 36px; 
+  padding: 10% 25px; 
+  background: #148D9D; 
+  color: #fff; 
+  position: relative; }
+  
+  #slanted-about:after{ content: "";
+  border-left: 99.58vw solid#148D9D;
+  border-bottom: 20px solid transparent;
+  border-top: 73px solid transparent;
+  top: -73px;
+  position: absolute;
+  left: -20px; }
+
+  #about-container {
+      display: flex;
+      justify-content: center;
+  }
+
+  .about-text {
+      width: 40%;
+      font-size: large;
+      text-align: left;
+  }
