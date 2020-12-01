@@ -1,4 +1,3 @@
-import { CardList } from "./components/cards/CardList.js"
 import React from "react";
 import { NavBar } from './components/nav/NavBar'
 import { TechProvider } from './components/technology/TechProvider'
@@ -63,7 +62,7 @@ function App() {
 
           {/* Portfolio Grid Items */}
           <div className="row justify-content-center">
-            {/* <CardList /> */}
+          
           </div>
           {/* <div className="row justify-content-center">
 
