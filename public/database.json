@@ -17,7 +17,7 @@
         {
             "id": 3,
             "title": "JavaScript",
-            "icon": "icons/javascript.jpg",
+            "icon": "icons/javascript.png",
             "site": "https://www.javascript.com/",
             "learnedBy": "everyone"
         },
@@ -31,7 +31,7 @@
         {
             "id": 5,
             "title": "React JS",
-            "icon": "icons/reactJs.jpg",
+            "icon": "icons/react.png",
             "site": "https://reactjs.org/",
             "learnedBy": "everyone"
         },
@@ -52,7 +52,7 @@
         {
             "id": 8,
             "title": "VS Code",
-            "icon": "icons/vsCode.jpg",
+            "icon": "icons/VSCode.png",
             "site": "https://code.visualstudio.com/",
             "learnedBy": "everyone"
         },
@@ -73,14 +73,14 @@
         {
             "id": 11,
             "title": "Sass",
-            "icon": "icons/sass.jpg",
+            "icon": "icons/Sass.png",
             "site": "https://sass-lang.com/",
             "learnedBy": "ui-ux"
         },
         {
             "id": 12,
             "title": "FireBase",
-            "icon": "icons/firebase.jpg",
+            "icon": "icons/firebase.png",
             "site": "https://firebase.google.com/",
             "learnedBy": "ui-ux"
         },
@@ -100,29 +100,15 @@
         },
         {
             "id": 15,
-            "title": "ASP.NET Core",
-            "icon": "icons/aspNetCore.png",
-            "site": "https://dotnet.microsoft.com/apps/aspnet/mvc",
+            "title": "SQL Server",
+            "icon": "icons/SQL.png",
+            "site": "https://www.microsoft.com/en-us/sql-server/sql-server-2017",
             "learnedBy": "full-stack"
         },
         {
             "id": 16,
-            "title": "SQL",
-            "icon": "icons/SQL.jpg",
-            "site": "https://www.microsoft.com/en-us/sql-server/sql-server-2017",
-            "learnedBy": "full-stack"
-        },
-        {
-            "id": 17,
-            "title": "SQL Server",
-            "icon": "icons/SQLserver.jpg",
-            "site": "https://www.microsoft.com/en-us/sql-server/sql-server-2017",
-            "learnedBy": "full-stack"
-        },
-        {
-            "id": 18,
             "title": "Visual Studio",
-            "icon": "icons/VStudio.jpg",
+            "icon": "icons/VStudio.png",
             "site": "https://visualstudio.microsoft.com/vs/",
             "learnedBy": "full-stack"
         }
