@@ -10,7 +10,7 @@ export const NavBar = (props) => {
         <>
             <Navbar className="nav-container" expand="lg" fixed="top">
                 <Navbar.Brand href="#page-top"><Image className="nssLogo" src="images/placeholder-images/c43-pick_logo.png" fluid /></Navbar.Brand>
-                <Navbar.Toggle aria-controls="basic-navbar-nav" />
+                <Navbar.Toggle aria-controls="basic-navbar-nav" className="mainNavBurger" />
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="ml-auto">
                         <Nav.Link href="#about">About</Nav.Link>

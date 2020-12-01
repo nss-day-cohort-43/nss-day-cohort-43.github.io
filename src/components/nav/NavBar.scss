@@ -15,6 +15,9 @@ $darkTeal: #117785;
     animation-play-state: running;
   }
   
+  $teal: #148D9D;
+  $darkTeal: #117785;
+  $yellow: #FFC116;
   
   @keyframes stretch {
   
@@ -29,6 +32,7 @@ $darkTeal: #117785;
   .nav-container {
         max-height: 100px;
         background-color: $darkTeal;
+        padding: 0 !important;
     }
   
     .nssLogo {
@@ -37,6 +41,7 @@ $darkTeal: #117785;
 
     a.navbar-brand {
       color: white;
+      padding: 10px 25px;
     }
     .nav-link {
         color: white;
@@ -60,4 +65,14 @@ $darkTeal: #117785;
         color: white;
     }
 
-    
+.mainNavBurger {
+  padding: 10px 25px !important;
+}
+
+.mainNavBurger .navbar-toggler-icon  {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e") !important;
+}
+
+#basic-navbar-nav {
+  background-color: $teal;
+}
