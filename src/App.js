@@ -42,9 +42,6 @@ function App() {
       <header className="masthead bg-primary text-white text-center" id="page-top">
         <div className="container d-flex align-items-center flex-column">
           
-          {/* Masthead Heading */}
-          <h2>Nashville Software School</h2>
-          <h1 className="masthead-heading text-uppercase mb-0">Cohort 43</h1>
           
         </div>
         <HeroArea/>
