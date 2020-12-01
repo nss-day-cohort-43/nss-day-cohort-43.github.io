@@ -25,6 +25,8 @@
   
   .nav-container {
         max-height: 100px;
+        display: flex;
+        justify-content: space-between;
     }
   
     .nssLogo {
