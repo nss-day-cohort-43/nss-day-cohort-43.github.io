@@ -54,6 +54,7 @@ export const TabArea = () => {
     }
   }
 
+  
   return (
     <div id="devs">
       <Tabs defaultActiveKey="everyone" id="uncontrolled-tab-example">
