@@ -43,7 +43,6 @@ function App() {
         </SkillProvider>
       </TechProvider>
 
-
       < About />
 
       {/* Portfolio Section */}
