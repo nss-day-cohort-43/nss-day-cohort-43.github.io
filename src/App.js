@@ -39,7 +39,7 @@ function App() {
       </header>
 
       < About />
-      
+
       <TechProvider>
         <SkillProvider>
           <TabArea />
@@ -52,7 +52,7 @@ function App() {
         <div className="container">
 
           {/* Portfolio Section Heading */}
-          <h2 className="page-section-heading text-center text-uppercase text-secondary mb-0">Portfolio</h2>
+          <h2 className="page-section-heading text-center text-uppercase text-secondary mb-0" id="developers">Developers</h2>
 
           {/* Icon Divider */}
           <div className="divider-custom">
@@ -62,7 +62,7 @@ function App() {
           </div>
 
           {/* Portfolio Grid Items */}
-          <div className="row justify-content-center">
+          <div className="row justify-content-center" >
             <CardList />
           </div>
           {/* <div className="row justify-content-center">

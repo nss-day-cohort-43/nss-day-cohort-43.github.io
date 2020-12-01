@@ -54,7 +54,7 @@ export const TabArea = () => {
     }
   }
 
-  
+
   return (
     <div id="devs">
       <Tabs defaultActiveKey="everyone" id="uncontrolled-tab-example">
@@ -69,6 +69,7 @@ export const TabArea = () => {
             </Row>
           </Container>
         </Tab>
+
         <Tab eventKey="uiUx" title="UI/UX">
           <Container id="tech-section">
             <Row id="icon-container">

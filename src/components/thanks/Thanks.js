@@ -8,11 +8,7 @@ export const Thanks = () => {
             <div className="container">
                 <h2 className="page-section-heading text-center text-uppercase text-white">A special thank you to...</h2>
 
-                <div className="divider-custom divider-light">
-                    <div className="divider-custom-line"></div>
-                </div>
-
-                <div className="row">
+                <div className="row" id="btn-space">
                     <div className="col-lg-6 ml-auto">
                         <p className="lead thanksLead">
                             <strong>Brenda Long, Adam Sheaffer, & Sage Klein</strong>
