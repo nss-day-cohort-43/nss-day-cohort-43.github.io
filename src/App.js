@@ -1,6 +1,7 @@
 import { CardList } from "./components/cards/CardList.js"
 import React from "react";
 import { NavBar } from './components/nav/NavBar'
+import { TechProvider } from './components/technology/TechProvider'
 import logo from '../node_modules/startbootstrap-freelancer/src/assets/img/avataaars.svg'
 import './App.scss'
 import { About } from './components/about/About'
@@ -10,6 +11,7 @@ import { TabArea } from './components/tabs/TabArea'
 import { Thanks } from './components/thanks/Thanks'
 import "./scss/styles.scss";
 import { Footer } from './components/footer/Footer'
+import { SkillProvider } from './components/skills/SkillProvider';
 
 function App() {
   return (
@@ -35,9 +37,16 @@ function App() {
           <p className="masthead-subheading font-weight-light mb-0">Graphic Artist - Web Designer - Illustrator</p>
         </div>
       </header>
-      < About />
 
-      <TabArea />
+      < About />
+      
+      <TechProvider>
+        <SkillProvider>
+          <TabArea />
+        </SkillProvider>
+      </TechProvider>
+
+
       {/* Portfolio Section */}
       <section className="page-section portfolio" id="portfolio">
         <div className="container">
