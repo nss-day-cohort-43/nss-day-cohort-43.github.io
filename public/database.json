@@ -124,8 +124,13 @@
         },
         {
             "id": 3,
-            "title": "Prototyping/Mockups"
+            "title": "Prototyping"
         },
+        {
+            "id": 9,
+            "title": "Mockups"
+        },
+
         {
             "id": 4,
             "title": "User Testing"
