@@ -1,15 +1,10 @@
-// .hero {
-//     display: flex;
-//     background-color: white;
-// }
+#hero {
+height: 690px;
+width: 769px;
+}
 
-// @import "./Polygons.svg";
 
-// #hero {
-//     background-color: white;
-// }
-
-// #hero {
-//     display: block;
-//     background: url(Polygons.svg);
-//   }
+.hero {
+    display: flex;
+    align-content: center;
+}
