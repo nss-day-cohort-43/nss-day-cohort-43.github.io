@@ -55,7 +55,7 @@ export const CardHTML = ({mate}) => {
                             delay={{ show: 100, hide: 100 }}
                             overlay={renderTooltip(contactIconName)}
                             >
-                            <Button className={`btn-social-link ${contactIconName}-link`} href={contactLink} >
+                            <Button className={`btn-social-link ${contactIconName}-link`} href={contactLink} target="_blank" >
                                 <Image src={contactIconPath} roundedCircle fluid/>
                             </Button>
                         </OverlayTrigger>
