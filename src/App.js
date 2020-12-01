@@ -6,7 +6,6 @@ import { RSVPButton } from './components/nav/RSVP'
 
 
 import { TabArea } from './components/tabs/TabArea'
-import { CardList } from "./components/cards/CardList.js"
 import { Thanks } from './components/thanks/Thanks'
 import "./scss/styles.scss";
 import { Footer } from './components/footer/Footer'
@@ -71,7 +70,7 @@ function App() {
 
           {/* Portfolio Grid Items */}
           <div className="row justify-content-center">
-            <CardList />
+            {/* <CardList /> */}
           </div>
           {/* <div className="row justify-content-center">
 

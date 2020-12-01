@@ -7,7 +7,7 @@ import './customCard.scss';
 export const CardList = () => {
     const [allMates, setAllMates] = useState([])
 
-    // allMates sorted by name
+    // allMates sorted by tab selection
     const [ filteredMates, setFiltered ] = useState([])
 
     // function to make call to database to get all the classmates
@@ -25,8 +25,7 @@ export const CardList = () => {
 			})
 	}, [])
 
-    // sort by name to create filtered list of all classmates
-
+    // alphabetize by first name to create filtered list of all classmates
     const filterNames = (allMates) => {
         const alphaMates = allMates.sort(function(a, b) {
         const nameA = a.firstName.toUpperCase(); // ignore upper and lowercase
@@ -57,12 +56,30 @@ export const CardList = () => {
     //     }
     // }, [searchTerms, mates])
 
+    // Filters for selected Tab
+    // Selected Tab will cause a change
+    useEffect(() => {
+        if (selectedTab === "uiUx") {
+            // If the search field is not blank, display matching shots
+            const uiUxSubset = allMates.filter(mate => mate.focus.includes('UI/UX'))
+            setFiltered(uiUxSubset)
+
+        } else if (selectedTab === "fullstack") {
+            const fullStackSubset = allMates.filter(mate => mate.focus.includes('Full-Stack'))
+            setFiltered(fullStackSubset)
+
+         } else {
+            // If the tab is the Everyone Tab, display all students
+            setFiltered(allMates)
+        }
+    }, [selectedTab, allMates])
+
  
 
 
     return (
         <>  
-            {allMates.map(mate => {
+            {filteredMates.map(mate => {
                 return <>
 
                             <div className="col-md-6 col-lg-4 mb-5">                    
