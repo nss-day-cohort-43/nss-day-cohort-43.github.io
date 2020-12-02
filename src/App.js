@@ -1,4 +1,3 @@
-import { CardList } from "./components/cards/CardList.js"
 import React from "react";
 import { NavBar } from './components/nav/NavBar'
 import { TechProvider } from './components/technology/TechProvider'
@@ -62,8 +61,13 @@ function App() {
           </div>
 
           {/* Portfolio Grid Items */}
+<<<<<<< HEAD
           <div className="row justify-content-center" >
             <CardList />
+=======
+          <div className="row justify-content-center">
+          
+>>>>>>> main
           </div>
           {/* <div className="row justify-content-center">
 
