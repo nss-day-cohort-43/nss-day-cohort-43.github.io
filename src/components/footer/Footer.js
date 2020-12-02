@@ -38,8 +38,14 @@ export const Footer = () => {
                                 Nashville Software School is a Tennessee non-profit corporation.
                                 Our mission is to expand the technology workforce in middle Tennessee by providing motivated individuals
                                 with access to a career in software development through training, mentorship, and learning-by-doing.
-                                We’re a collection of committed Nashville technology professionals who love what we do and want to
-                                give back to our community and our profession by helping others to get a start in the technology industry.
+                            </p>
+
+                            <br />
+
+                            <p className="lead mb-0">
+                                <a href="http://nashvillesoftwareschool.com/" target="_blank" className="learnMoreBtn">
+                                    Learn More
+                                </a>
                             </p>
                         </div>
                     </div>
