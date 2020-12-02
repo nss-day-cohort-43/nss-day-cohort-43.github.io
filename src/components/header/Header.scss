@@ -1,5 +1,22 @@
-.masthead-heading {
-    color: black;
-    
+.masthead {
+    min-height: 500px;
 }
 
+.masthead-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex start;
+
+    text-align: left;
+    padding-left: 1em;
+}
+
+.masthead-heading {
+    font-size: ;
+    color: black;
+    max-width: 50%;
+}
+
+.masthead-subheading {
+    text-align: left;
+}
