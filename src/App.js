@@ -1,7 +1,7 @@
-import { CardList } from "./components/cards/CardList.js"
 import React from "react";
 import { NavBar } from './components/nav/NavBar'
 import { Header } from './components/header/Header'
+import { TechProvider } from './components/technology/TechProvider'
 import logo from '../node_modules/startbootstrap-freelancer/src/assets/img/avataaars.svg'
 import './App.scss'
 import { About } from './components/about/About'
@@ -11,6 +11,7 @@ import { TabArea } from './components/tabs/TabArea'
 import { Thanks } from './components/thanks/Thanks'
 import "./scss/styles.scss";
 import { Footer } from './components/footer/Footer'
+import { SkillProvider } from './components/skills/SkillProvider';
 
 function App() {
   return (
@@ -23,7 +24,13 @@ function App() {
 
       < About />
 
-      <TabArea />
+      <TechProvider>
+        <SkillProvider>
+          <TabArea />
+        </SkillProvider>
+      </TechProvider>
+
+
       {/* Portfolio Section */}
       <section className="page-section portfolio" id="portfolio">
         <div className="container">
@@ -40,7 +47,7 @@ function App() {
 
           {/* Portfolio Grid Items */}
           <div className="row justify-content-center">
-            <CardList />
+
           </div>
           {/* <div className="row justify-content-center">
 

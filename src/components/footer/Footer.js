@@ -9,7 +9,7 @@ export const Footer = () => {
                     <div className="row">
 
                         {/* Footer Cohort Locations */}
-                        <div className="col-lg-6">
+                        <div className="col-lg-6 mb-5 mb-md-0">
                             <h4 className="text-uppercase mb-4">Cohort Member Locations</h4>
 
                             <p className="lead mb-0">
@@ -19,6 +19,7 @@ export const Footer = () => {
 
                             <ul className="cohortLocationsList">
                                 <li>Joelton, TN</li>
+                                <li>Franklin, TN</li>
                                 <li>Knoxville, TN</li>
                                 <li>Lebanon, TN</li>
                                 <li>Murfreesboro, TN</li>
@@ -26,6 +27,7 @@ export const Footer = () => {
                                 <li>Spring Hill, TN</li>
                                 <li>Springfield, TN</li>
                                 <li>Richmond, KY</li>
+                                <li>Tallahassee, FL</li>
                             </ul>
                         </div>
 
@@ -36,8 +38,14 @@ export const Footer = () => {
                                 Nashville Software School is a Tennessee non-profit corporation.
                                 Our mission is to expand the technology workforce in middle Tennessee by providing motivated individuals
                                 with access to a career in software development through training, mentorship, and learning-by-doing.
-                                We’re a collection of committed Nashville technology professionals who love what we do and want to
-                                give back to our community and our profession by helping others to get a start in the technology industry.
+                            </p>
+
+                            <br />
+
+                            <p className="lead mb-0">
+                                <a href="http://nashvillesoftwareschool.com/" target="_blank" className="learnMoreBtn">
+                                    Learn More
+                                </a>
                             </p>
                         </div>
                     </div>
