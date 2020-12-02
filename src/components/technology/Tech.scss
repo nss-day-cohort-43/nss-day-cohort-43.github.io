@@ -28,6 +28,7 @@
  
  #everyone-tech{
      margin-bottom: 2.5em;
+     width: 100%;
  }
 
  #front-end-tech{
@@ -62,6 +63,34 @@
  #e-row{
      display: flex;
      flex-flow: row;
-     align-self: center;
  }
  
+ #right-slant{
+    width: 0;
+    height: 0;
+    border-bottom: 157px solid rgb(255, 255, 255);
+    border-right: 100px solid transparent;
+    margin-top: 2.52em;
+ }
+ #left-slant{
+    width: 0;
+      height: 0;
+      border-top: 182px solid rgb(255, 255, 255);
+      border-left: 100px solid transparent;
+      margin-top: 2.5em;
+ }
+
+ .full-width{
+     width: 100%;
+ }
+
+ .left-aligned{
+    text-align: left;
+    margin: 2.2em 10em 0 3.5em;
+}
+
+.right-aligned{
+   text-align: right;
+   margin: 2.2em 3.5em 0 10em;
+  
+}
