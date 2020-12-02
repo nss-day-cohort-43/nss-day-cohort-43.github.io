@@ -1,5 +1,6 @@
 .masthead {
     min-height: 500px;
+    display: flex;
 }
 
 .masthead-container {
@@ -9,6 +10,7 @@
 
     text-align: left;
     padding-left: 1em;
+    padding-top: 0;
 }
 
 .masthead-heading {
@@ -18,4 +20,9 @@
 
 .masthead-subheading {
     text-align: left;
+}
+
+.cohort-43-logo {
+    // max-width: 100%;
+    // height: auto;
 }
