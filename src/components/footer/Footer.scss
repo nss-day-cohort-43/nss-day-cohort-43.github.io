@@ -46,9 +46,8 @@ footer p {
 }
 
 .cohortLocationsList {
+    column-count: 2;
     list-style: none;
-    display: flex;
-    flex-flow: column wrap;
     padding-left: 0;
 }
 
@@ -60,4 +59,20 @@ footer p {
 .copyright {
     background-color: $darkTeal;
     padding: 10px 0 !important;
+}
+
+.learnMoreBtn {
+  color: white;
+  background-color: $darkTeal;
+  text-decoration: none;
+  font-size: medium;
+  font-weight: bold;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.learnMoreBtn:hover {
+  color: white;
+  background-color: rgba(0, 0, 0, .25);
+  text-decoration: none;
 }
