@@ -1,26 +1,67 @@
 .img-icon{
-    height: 120px;
+    height: 80px;
     width: auto;
 }
 
-#tech-stack{
+.tech-stack{
     display: flex;
-    flex-flow: column wrap;
+    flex-flow: row nowrap;
     align-items: center;
+    background-color: white;
 }
 
 #tech-section {
-    scroll-margin-top: 100px;
-    padding-top: 3em;
- }
-
- #icon-container{
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    background-color: rgb(19, 141, 157);
  }
 
- #tech-text{
+ #tech-card-text{
      font-size: 1.3em;
      margin-top: 0.5em;
-     margin-bottom: 1em;
+     margin-bottom: 0.5em;
  }
+
+ .tech-text{
+     color: white;
+ }
+ 
+ #everyone-tech{
+     margin-bottom: 2.5em;
+ }
+
+ #front-end-tech{
+     margin-top: 2.5em;
+     margin-bottom: 2.5em;
+     padding-top: 1em;
+     padding-bottom: 1em;
+     padding-left: 3em;
+     flex-grow: 1;
+ }
+ 
+ #full-stack-tech{
+     margin-top: 2.5em;
+     margin-bottom: 2.5em;
+     padding-top: 1em;
+     padding-bottom: 1em;
+     padding-right: 3em;
+ }
+
+ #fs-row{
+     align-self: flex-end;
+     display: flex;
+     flex-flow: row;
+ }
+
+ #fe-row{
+     display: flex;
+     flex-flow: row;
+     align-self: flex-start;
+ }
+ 
+ #e-row{
+     display: flex;
+     flex-flow: row;
+     align-self: center;
+ }
+ 

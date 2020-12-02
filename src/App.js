@@ -12,6 +12,7 @@ import { Thanks } from './components/thanks/Thanks'
 import "./scss/styles.scss";
 import { Footer } from './components/footer/Footer'
 import { SkillProvider } from './components/skills/SkillProvider';
+import { TechList } from "./components/technology/TechList.js";
 
 function App() {
   return (
@@ -41,11 +42,8 @@ function App() {
       < About />
       
       <TechProvider>
-        <SkillProvider>
-          <TabArea />
-        </SkillProvider>
+        <TechList />
       </TechProvider>
-
 
       {/* Portfolio Section */}
       <section className="page-section portfolio" id="portfolio">
@@ -95,7 +93,7 @@ function App() {
         </div>
       </section>
 
-
+      
       <Thanks />
 
       <Footer />
