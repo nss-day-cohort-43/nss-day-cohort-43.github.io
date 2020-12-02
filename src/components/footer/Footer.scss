@@ -46,9 +46,8 @@ footer p {
 }
 
 .cohortLocationsList {
+    column-count: 2;
     list-style: none;
-    display: flex;
-    flex-flow: column wrap;
     padding-left: 0;
 }
 
