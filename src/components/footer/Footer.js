@@ -9,7 +9,7 @@ export const Footer = () => {
                     <div className="row">
 
                         {/* Footer Cohort Locations */}
-                        <div className="col-lg-6">
+                        <div className="col-lg-6 mb-5 mb-md-0">
                             <h4 className="text-uppercase mb-4">Cohort Member Locations</h4>
 
                             <p className="lead mb-0">
