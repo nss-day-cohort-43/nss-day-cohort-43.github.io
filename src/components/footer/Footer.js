@@ -19,6 +19,7 @@ export const Footer = () => {
 
                             <ul className="cohortLocationsList">
                                 <li>Joelton, TN</li>
+                                <li>Franklin, TN</li>
                                 <li>Knoxville, TN</li>
                                 <li>Lebanon, TN</li>
                                 <li>Murfreesboro, TN</li>
@@ -26,6 +27,7 @@ export const Footer = () => {
                                 <li>Spring Hill, TN</li>
                                 <li>Springfield, TN</li>
                                 <li>Richmond, KY</li>
+                                <li>Tallahassee, FL</li>
                             </ul>
                         </div>
 
