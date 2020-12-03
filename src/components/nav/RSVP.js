@@ -1,5 +1,4 @@
 import React from 'react';
-import "./NavBar.scss"
 export const RSVPButton = () => (
     // Changed "warning" to match our yellow in variables.scss
     <div className="text-center mt-4">

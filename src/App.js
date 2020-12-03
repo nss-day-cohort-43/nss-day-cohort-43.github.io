@@ -1,11 +1,9 @@
 import React from "react";
 import { NavBar } from './components/nav/NavBar'
 import { Header } from './components/header/Header'
-import { TechProvider } from './components/technology/TechProvider'
 import { Thanks } from './components/thanks/Thanks'
 import "./scss/styles.scss";
 import { Footer } from './components/footer/Footer'
-import { SkillProvider } from './components/skills/SkillProvider';
 import { CheckboxView } from "./components/checkboxes/Checkbox";
 
 function App() {
