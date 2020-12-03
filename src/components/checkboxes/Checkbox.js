@@ -73,16 +73,18 @@ export const CheckboxView = () => {
 		<>
 			<section id="checkbox">
 				<h3>What are you looking for?</h3>
-				<div className="container">
+				<div className="container front">
 					
-						<InputGroup.Checkbox className="checkmark" name="FEWDD" checked={checkFE} 
+					<label className="FEText container">Front-End UI/UX Developer
+						<input type="checkbox" className="checkbox" name="FEWDD" checked={checkFE} 
 						onChange={(event) => handleCheckChange(event)}/>
-						Front-End UI/UX Developer
+						<span class="checkmark"></span>
+					</label>
 				</div>
-				<div className="container">
+				<div className="container full">
 						<InputGroup.Checkbox className="checkmark1" name="BEWD" checked={checkBE} 
 						onChange={(event) => handleCheckChange(event)}/>
-						Full-Stack Developer
+						<label className="FSText">Full-Stack C# Developer</label>
 				
 				</div>
 			</section>
@@ -95,3 +97,27 @@ export const CheckboxView = () => {
 	  </>
 	)
 }
+
+{/* <h1>What are you looking for?</h1>
+<label class="container">Front-End UI/UX Developer
+  <input type="checkbox" checked="checked">
+  <span class="checkmark"></span>
+</label>
+
+<label class="container">Full-Stack C# Developer
+  <input type="checkbox">
+  <span class="checkmark1"></span>
+</label> */}
+
+{/* <div className="container front">
+					
+					<InputGroup.Checkbox className="checkmark" name="FEWDD" checked={checkFE} 
+					onChange={(event) => handleCheckChange(event)}/>
+					<label className="FEText">Front-End UI/UX Developer</label>
+			</div>
+			<div className="container full">
+					<InputGroup.Checkbox className="checkmark1" name="BEWD" checked={checkBE} 
+					onChange={(event) => handleCheckChange(event)}/>
+					<label className="FSText">Full-Stack C# Developer</label>
+			
+			</div> */}

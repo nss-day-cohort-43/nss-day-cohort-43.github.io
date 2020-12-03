@@ -12,6 +12,20 @@ $gold: #FFC116;
     padding-left: 3rem
 }
 
+.FSText {
+    color:white
+}
+
+.front {
+    background-color: $gold;
+    width: 25rem
+}
+
+.full {
+    background-color: $teal;
+    width: 25rem
+}
+
 /* The container */
 .container {
     display: block;
@@ -34,18 +48,10 @@ $gold: #FFC116;
     width: 0;
   }
 //   Hide the browser's default span in checkbox area
-  .input-group-text {
-    display: flex;
-    align-items: center;
+.input-group-text {
     padding: 0rem;
     margin-bottom: 0;
-    font-size: 0rem;
-    font-weight: 0;
     line-height: 0;
-    color: white;
-    text-align: center;
-    white-space: nowrap;
-    background-color: white;
     border: 0rem;
     border-radius: 0rem;
 }
@@ -61,16 +67,16 @@ $gold: #FFC116;
     background-color: #eee;
   }
   /* On mouse-over, add a grey background color */
-  .container:hover InputGroup.Checkbox ~ .checkmark,
-  .container:hover InputGroup.Checkbox ~ .checkmark1  {
+  .container:hover input ~ .checkmark,
+  .container:hover input ~ .checkmark1  {
     background-color: #ccc;
   }
   /* When the checkbox is checked, add a gold background */
-  .container InputGroup.Checkbox:checked ~ .checkmark {
+  .container input:checked ~ .checkmark {
     background-color: $gold;
   }
   /* When the checkbox is checked, add a blue background */
-  .container InputGroup.Checkbox:checked ~ .checkmark1 {
+  .container input:checked ~ .checkmark1 {
     background-color: $teal;
   }
   /* Create the checkmark/indicator (hidden when not checked) */
@@ -80,8 +86,8 @@ $gold: #FFC116;
     display: none;
   }
   /* Show the checkmark when checked */
-  .container InputGroup.Checkbox:checked ~ .checkmark:after,
-  .container InputGroup.Checkbox:checked ~ .checkmark1:after {
+  .container input:checked ~ .checkmark:after,
+  .container input:checked ~ .checkmark1:after {
     display: block;
   }
   /* Style the checkmark/indicator */
