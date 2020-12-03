@@ -9,13 +9,14 @@ $gold: #FFC116;
 }
 #checkbox h3 {
     color: $teal !important;
+    padding-left: 5rem
 }
 
 /* The container */
 .container {
     display: block;
     position: relative;
-    padding-left: 35px;
+    padding-left: 5rem;
     margin-bottom: 12px;
     cursor: pointer;
     font-size: 22px;
@@ -25,13 +26,30 @@ $gold: #FFC116;
     user-select: none;
   }
   /* Hide the browser's default checkbox */
-  .container InputGroup.CheckboxGroup.Checkbox {
+  .container input {
     position: absolute;
     opacity: 0;
     cursor: pointer;
     height: 0;
     width: 0;
   }
+//   Hide the browser's default span in checkbox area
+  .input-group-text {
+    display: flex;
+    align-items: center;
+    padding: 0rem;
+    margin-bottom: 0;
+    font-size: 0rem;
+    font-weight: 0;
+    line-height: 0;
+    color: white;
+    text-align: center;
+    white-space: nowrap;
+    background-color: white;
+    border: 0rem;
+    border-radius: 0rem;
+}
+
   /* Create a custom checkbox */
   .checkmark,
   .checkmark1 {
@@ -49,11 +67,11 @@ $gold: #FFC116;
   }
   /* When the checkbox is checked, add a gold background */
   .container InputGroup.Checkbox:checked ~ .checkmark {
-    background-color: #ffc014;
+    background-color: $gold;
   }
   /* When the checkbox is checked, add a blue background */
   .container InputGroup.Checkbox:checked ~ .checkmark1 {
-    background-color: #148D9D;
+    background-color: $teal;
   }
   /* Create the checkmark/indicator (hidden when not checked) */
   .checkmark:after, .checkmark1:after  {
