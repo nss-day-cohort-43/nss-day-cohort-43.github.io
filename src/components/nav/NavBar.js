@@ -1,7 +1,6 @@
 import { React, useState } from 'react'
 import { RSVPButton } from './RSVP'
 import { Navbar, Nav } from 'react-bootstrap'
-import './NavBar.scss'
 export const NavBar = (props) => {
     const [expanded, setExpanded] = useState(false);
     return (
