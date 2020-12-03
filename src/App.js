@@ -11,6 +11,7 @@ import { Thanks } from './components/thanks/Thanks'
 import "./scss/styles.scss";
 import { Footer } from './components/footer/Footer'
 import { SkillProvider } from './components/skills/SkillProvider';
+import { CheckboxView } from "./components/cards/Checkbox";
 
 function App() {
   return (
@@ -36,14 +37,15 @@ function App() {
           <p className="masthead-subheading font-weight-light mb-0">Graphic Artist - Web Designer - Illustrator</p>
         </div>
       </header>
+      <CheckboxView />
 
       < About />
       
-      <TechProvider>
+      {/* <TechProvider>
         <SkillProvider>
           <TabArea />
         </SkillProvider>
-      </TechProvider>
+      </TechProvider> */}
 
 
       {/* Portfolio Section */}
