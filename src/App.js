@@ -3,10 +3,6 @@ import { NavBar } from './components/nav/NavBar'
 import { Header } from './components/header/Header'
 import { TechProvider } from './components/technology/TechProvider'
 import logo from '../node_modules/startbootstrap-freelancer/src/assets/img/avataaars.svg'
-import './App.scss'
-import { About } from './components/about/About'
-
-
 import { TabArea } from './components/tabs/TabArea'
 import { Thanks } from './components/thanks/Thanks'
 import "./scss/styles.scss";
@@ -22,7 +18,6 @@ function App() {
       <NavBar />
       <Header />
 
-      < About />
 
       <TechProvider>
         <SkillProvider>
