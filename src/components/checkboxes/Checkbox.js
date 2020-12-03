@@ -1,14 +1,13 @@
 import { useEffect, useState } from "react"
 import { Container, Row, InputGroup, FormControl } from 'react-bootstrap'
 import { CardList } from "../cards/CardList";
-import './Checkbox.scss'
 
 export const CheckboxView = () => {
 	const [allMates, setAllMates] = useState([]);
 	const [showMates, setShowMates] = useState([]);
 	//checkbox view
-	const [checkFE, setCheckFE] = useState(true);
-	const [checkBE, setCheckBE] = useState(true);
+	const [checkFE, setCheckFE] = useState(false);
+	const [checkBE, setCheckBE] = useState(false);
 	
 	// function to make call to database to get all the classmates
 	 const getAllMates = () => {
@@ -17,7 +16,7 @@ export const CheckboxView = () => {
 	}
 	const handleCheckChange = (event) => {
 		//first confirm that at least one is true
-		if(event.target.name === "FEWDD"){
+		if(event.target.name === "FEWD"){
 			const newValue = checkFE ? false : true;
 			if(!checkBE && !newValue){
 				//both are false so set them both to true
@@ -53,6 +52,8 @@ export const CheckboxView = () => {
 		})
 		return alphaMates
 	}
+
+	// Get all the classmates from the database
 	useEffect(() => {
 		getAllMates()
 		  .then(data => {
@@ -61,6 +62,8 @@ export const CheckboxView = () => {
 	  }, [])
 	  useEffect(() => {
 		if(checkFE && checkBE){
+			setShowMates(allMates)
+		}else if (!checkFE && !checkBE){
 			setShowMates(allMates)
 		}else if(checkFE && !checkBE){
 			setShowMates(allMates.filter(mate => mate.focus.includes('UI/UX')))
@@ -71,20 +74,22 @@ export const CheckboxView = () => {
 	
 	return (
 		<>
-			<section id="checkbox">
+			<section id="boxes">
 				<h3>What are you looking for?</h3>
-				<div className="container front">
+				<div className="checkRectangle frontRec">
 					
-					<label className="FEText container">Front-End UI/UX Developer
-						<input type="checkbox" className="checkbox" name="FEWDD" checked={checkFE} 
-						onChange={(event) => handleCheckChange(event)}/>
-						<span class="checkmark"></span>
-					</label>
+					<label className="FEText container">Front-End UI/UX Developer</label>
+					<input type="checkbox" className="checkbox" name="FEWD" checked={checkFE} 
+					onChange={(event) => handleCheckChange(event)}/>
+					<span class="info"></span>
+					
 				</div>
-				<div className="container full">
-						<InputGroup.Checkbox className="checkmark1" name="BEWD" checked={checkBE} 
-						onChange={(event) => handleCheckChange(event)}/>
-						<label className="FSText">Full-Stack C# Developer</label>
+				<div className="checkRectangle fullRec">
+
+					<label className="FSText container">Full-Stack C# Developer</label>
+					<input type="checkbox" className="checkbox" name="BEWD" checked={checkBE} 
+					onChange={(event) => handleCheckChange(event)}/>
+					<span class="warning"></span>
 				
 				</div>
 			</section>
@@ -98,20 +103,9 @@ export const CheckboxView = () => {
 	)
 }
 
-{/* <h1>What are you looking for?</h1>
-<label class="container">Front-End UI/UX Developer
-  <input type="checkbox" checked="checked">
-  <span class="checkmark"></span>
-</label>
-
-<label class="container">Full-Stack C# Developer
-  <input type="checkbox">
-  <span class="checkmark1"></span>
-</label> */}
-
 {/* <div className="container front">
 					
-					<InputGroup.Checkbox className="checkmark" name="FEWDD" checked={checkFE} 
+					<InputGroup.Checkbox className="checkmark" name="FEWD" checked={checkFE} 
 					onChange={(event) => handleCheckChange(event)}/>
 					<label className="FEText">Front-End UI/UX Developer</label>
 			</div>

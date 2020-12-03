@@ -1,83 +1,68 @@
 .rsvp {
-    
-    margin: 0 auto;
-    animation-name: stretch;
-    animation-duration: .8s; 
-    animation-timing-function: ease-out; 
-    animation-delay: 2;
-    animation-direction: alternate;
-    animation-iteration-count: 4;
-    animation-fill-mode: none;
-    animation-play-state: running;
-  }
- 
-  $navbar-light-brand-color: white !important;
-  $navbar-light-active-color: #FFC116 !important;
-
-  $teal: #148D9D;
-  $darkTeal: #117785;
-  $yellow: #FFC116;
-  
-  
-  @keyframes stretch {
-  
-      0% {
-          transform: scale(1);
-          }
-        100% {
-          transform: scale(1.1);
+  margin: 0 auto;
+  animation-name: stretch;
+  animation-duration: .8s; 
+  animation-timing-function: ease-out; 
+  animation-delay: 2;
+  animation-direction: alternate;
+  animation-iteration-count: 4;
+  animation-fill-mode: none;
+  animation-play-state: running;
+}
+$navbar-light-brand-color: white !important;
+$navbar-light-active-color: #FFC116 !important;
+$teal: #148D9D;
+$darkTeal: #117785;
+$yellow: #FFC116;
+@keyframes stretch {
+    0% {
+        transform: scale(1);
         }
-    }
-  
-  .nav-container {
-      background-color: $darkTeal;
-      max-height: 100px;
-      padding: 1 !important;
-
-    }
-  
- a.navbar-brand {
+      100% {
+        transform: scale(1.1);
+      }
+  }
+.nav-container {
+    background-color: $darkTeal;
+    max-height: 100px;
+    padding: 1 !important;
+  }
+a.navbar-brand {
+    color: white;
+    padding: 10px 25px;
+  }
+  .nav-link {
       color: white;
-      padding: 10px 25px;
-    }
-    .nav-link {
-        color: white;
-    }
-    .cAccent {
-      color: $yellow;
-    }
-    .navbar-light .navbar-nav .nav-link {
-        color: white;
-    }
-    
-    .navbar-light .navbar-nav .nav-link:hover, .navbar-light .navbar-nav .nav-link:focus {
-        color: #ffc116;
-    }
-    
-    .navbar-light .navbar-toggler {
-        color: white;
-        border: none;
-    }
-    .navbar-toggler-icon {
-        color: white;
-    }
-
+      text-align: center;
+  }
+  .cAccent {
+    color: $yellow;
+  }
+  .navbar-light .navbar-nav .nav-link {
+      color: white;
+  }
+  .navbar-light .navbar-nav .nav-link:hover, .navbar-light .navbar-nav .nav-link:focus {
+      color: #ffc116;
+  }
+  .navbar-light .navbar-toggler {
+      color: white;
+      border: none;
+  }
+  .navbar-toggler-icon {
+      color: white;
+  }
 .mainNavBurger {
-  padding: 10px 25px !important;
+padding: 10px 25px !important;
 }
-
 .mainNavBurger .navbar-toggler-icon  {
-  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e") !important;
+background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e") !important;
 }
-
 #basic-navbar-nav {
-  background-color: $darkTeal;
+background-color: $darkTeal;
 }
-
 .navbar-brand {
-  color: $navbar-light-brand-color;
+color: $navbar-light-brand-color;
 }
-
 .nav-link.active {
-  color: $navbar-light-active-color;
+color: $navbar-light-active-color;
 }
