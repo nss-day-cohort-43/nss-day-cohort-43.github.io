@@ -13,6 +13,8 @@
 @import "./contact.scss";
 @import "./footer.scss";
 
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
 
 a.navbar-brand {
 	color: white;
@@ -23,7 +25,7 @@ a.navbar-brand {
 .cAccent {
 	color: $yellow;
 }
-.navbar-light .navbar-nav .nav-link {
+.navbar-light .navbar-nav {
     color: white;
 }
 
@@ -40,35 +42,35 @@ a.navbar-brand {
 }
 
 // -------------- Student profile cards ------------------
-.studentCard{
+.studentCard {
     width: 18rem;
 }
 
-.card{
+.card {
     margin-left: auto;
     margin-right: auto;
     height: 572px;
 }
 
-.card-focus-banner{
+.card-focus-banner {
     display: flex;
     justify-content: center;
     height: fit-content;
 }
 
-.card-focus-banner--uiux{
+.card-focus-banner--uiux {
     background-color: $yellow;
 }
 
-.card-focus-banner--uiux p{
+.card-focus-banner--uiux p {
     color: black;
 }
 
-.card-focus-banner--fullstack{
+.card-focus-banner--fullstack {
     background-color: $teal;
 }
 
-.card-focus-banner--fullstack p{
+.card-focus-banner--fullstack p {
     color: white;
 }
 
@@ -84,19 +86,19 @@ p {
     align-items: center;
 }
 
-.card-focus-banner p{
+.card-focus-banner p {
     margin: 8px 0;
     font-size: 1em;
     font-weight: bold;
 }
 
-.card-name{
+.card-name {
     font-size: 1.75em;
     margin-top: 10px;
     margin-bottom: 10px;
 }
 
-.card-content{
+.card-content {
     padding-left: 0.2rem;
     padding-right: 0.2rem;
 }
@@ -109,7 +111,7 @@ p {
     text-align: center; 
 }
 
-.card-footer{
+.card-footer {
     position: relative;
     padding-top: 2px;
     padding-bottom: 2px;
@@ -120,7 +122,7 @@ p {
 
 // -------- .btn-box holds the link icon and the text of the icon --------
 
-.btn-box{
+.btn-box {
     position: relative;
     display: block;
     height: 55px;
@@ -134,7 +136,7 @@ p {
     background: transparent;
 }
 
-.btn-social-link:focus{
+.btn-social-link:focus {
     background-color: transparent;
     border-color: transparent;
 }
@@ -147,7 +149,7 @@ p {
 }
 
 // ------ Link Icon -------
-.btn-social-link{
+.btn-social-link {
     position: relative;
     border-radius: 100%;
     display: inline-flex;
@@ -169,6 +171,6 @@ p {
     box-shadow: 0 3px 7px rgba(33, 33, 33, 0.358);
 }
 
-#button-tooltip{
+#button-tooltip {
     z-index: 999;
 }

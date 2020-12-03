@@ -24,11 +24,12 @@ $yellow: #FFC116;
   }
 .nav-container {
     background-color: $darkTeal;
-    max-height: 100px;
+    max-height: 88px;
     padding: 1 !important;
   }
 a.navbar-brand {
     color: white;
+    font-size: 1.75rem;
     padding: 10px 25px;
   }
   .nav-link {
@@ -52,7 +53,7 @@ a.navbar-brand {
       color: white;
   }
 .mainNavBurger {
-padding: 10px 25px !important;
+// padding: 10px 25px !important;
 }
 .mainNavBurger .navbar-toggler-icon  {
 background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e") !important;
