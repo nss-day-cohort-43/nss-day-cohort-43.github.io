@@ -1,3 +1,9 @@
+$navbar-light-brand-color: white !important;
+$navbar-light-active-color: #FFC116 !important;
+$teal: #148D9D;
+$darkTeal: #117785;
+$yellow: #FFC116;
+
 .rsvp {
   margin: 0 auto;
   animation-name: stretch;
@@ -9,11 +15,7 @@
   animation-fill-mode: none;
   animation-play-state: running;
 }
-$navbar-light-brand-color: white !important;
-$navbar-light-active-color: #FFC116 !important;
-$teal: #148D9D;
-$darkTeal: #117785;
-$yellow: #FFC116;
+
 @keyframes stretch {
     0% {
         transform: scale(1);
@@ -29,9 +31,23 @@ $yellow: #FFC116;
   }
 a.navbar-brand {
     color: white;
-    font-size: 1.75rem;
+    font-size: 1rem;
     padding: 10px 25px;
-  }
+    max-width: 70%;
+
+     @media (min-width: 375px) {
+        font-size: 1em;
+    }
+    
+   @media (min-width: 600px) {
+        font-size: 1.5em;
+    }
+
+   @media (min-width: 800px) {
+        font-size: 1.75em;
+    }
+}
+  
   .nav-link {
       color: white;
       text-align: center;
