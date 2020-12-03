@@ -10,10 +10,14 @@
     animation-fill-mode: none;
     animation-play-state: running;
   }
-  
+ 
+  $navbar-light-brand-color: white !important;
+  $navbar-light-active-color: #FFC116 !important;
+
   $teal: #148D9D;
   $darkTeal: #117785;
   $yellow: #FFC116;
+  
   
   @keyframes stretch {
   
@@ -27,14 +31,10 @@
   
   .nav-container {
         max-height: 100px;
-        padding: 0 !important;
+        padding: 1 !important;
     }
   
-    .nssLogo {
-        max-height: 50px;
-    }
-
-    a.navbar-brand {
+ a.navbar-brand {
       color: white;
       padding: 10px 25px;
     }
@@ -70,4 +70,12 @@
 
 #basic-navbar-nav {
   background-color: $teal;
+}
+
+.navbar-brand {
+  color: $navbar-light-brand-color;
+}
+
+.nav-link.active {
+  color: $navbar-light-active-color;
 }
