@@ -2,10 +2,6 @@ import React from "react";
 import { NavBar } from './components/nav/NavBar'
 import { TechProvider } from './components/technology/TechProvider'
 import logo from '../node_modules/startbootstrap-freelancer/src/assets/img/avataaars.svg'
-import './App.scss'
-import { About } from './components/about/About'
-
-
 import { TabArea } from './components/tabs/TabArea'
 import { Thanks } from './components/thanks/Thanks'
 import "./scss/styles.scss";
@@ -37,8 +33,7 @@ function App() {
         </div>
       </header>
 
-      < About />
-      
+
       <TechProvider>
         <SkillProvider>
           <TabArea />
@@ -62,7 +57,7 @@ function App() {
 
           {/* Portfolio Grid Items */}
           <div className="row justify-content-center">
-          
+
           </div>
           {/* <div className="row justify-content-center">
 
