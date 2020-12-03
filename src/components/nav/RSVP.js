@@ -4,7 +4,7 @@ export const RSVPButton = () => (
     <div className="text-center mt-4">
         <div className="rsvpButton pl-4">
             <a className="rsvp btn  btn-warning mb-4" href="https://www.eventbrite.com/e/nashville-software-school-info-session-tickets-76478111089">
-                <strong>RSVP FOR DEMO DAY FEB 12, 2021</strong>
+                <strong>RSVP FOR DEMO DAY 2.12.21</strong>
             </a>
         </div>
     </div>
