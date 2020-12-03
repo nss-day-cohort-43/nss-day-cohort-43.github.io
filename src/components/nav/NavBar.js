@@ -11,7 +11,7 @@ export const NavBar = (props) => {
 
     return (
         <>
-            <Navbar className="nav-container" bg="primary" expand="lg" fixed="top" expanded={expanded}>
+            <Navbar className="nav-container" expand="lg" fixed="top" expanded={expanded}>
                 <Navbar.Brand href="#page-top"><strong>Nashville Software School</strong></Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" className="mainNavBurger" onClick={() => setExpanded(expanded ? false : "expanded")} />
                 <Navbar.Collapse id="basic-navbar-nav">
