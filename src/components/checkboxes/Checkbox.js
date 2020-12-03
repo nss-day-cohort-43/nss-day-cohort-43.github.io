@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react"
 import { Container, Row, InputGroup, FormControl } from 'react-bootstrap'
-import { CardList } from "./CardList";
+import { CardList } from "../cards/CardList";
+import './Checkbox.scss'
 
 export const CheckboxView = () => {
 	const [allMates, setAllMates] = useState([]);
@@ -70,21 +71,27 @@ export const CheckboxView = () => {
 	
 	return (
 		<>
-		<div>
-			<InputGroup className="mb-3">
-				<InputGroup.Checkbox name="FEWDD" checked={checkFE} 
-				onChange={(event) => handleCheckChange(event)}/>
-				Front-End UI/UX Developer
-				<InputGroup.Checkbox name="BEWD" checked={checkBE} 
-				onChange={(event) => handleCheckChange(event)}/>
-				Full-Stack
-			</InputGroup>
-			</div>
-		<Container id="classmates">
-		<Row id="classmates-container">
-		  <CardList filteredMates={showMates} />
-		</Row>
-	  </Container>
+			<section id="checkbox">
+				<h3>What are you looking for?</h3>
+				<div className="container">
+					
+						<InputGroup.Checkbox className="checkmark" name="FEWDD" checked={checkFE} 
+						onChange={(event) => handleCheckChange(event)}/>
+						Front-End UI/UX Developer
+				</div>
+				<div className="container">
+						<InputGroup.Checkbox className="checkmark1" name="BEWD" checked={checkBE} 
+						onChange={(event) => handleCheckChange(event)}/>
+						Full-Stack Developer
+				
+				</div>
+			</section>
+
+			<Container id="classmates">
+				<Row id="classmates-container">
+					<CardList filteredMates={showMates} />
+				</Row>
+			</Container>
 	  </>
 	)
 }

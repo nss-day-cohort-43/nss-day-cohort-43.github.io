@@ -11,7 +11,7 @@ import { Thanks } from './components/thanks/Thanks'
 import "./scss/styles.scss";
 import { Footer } from './components/footer/Footer'
 import { SkillProvider } from './components/skills/SkillProvider';
-import { CheckboxView } from "./components/cards/Checkbox";
+import { CheckboxView } from "./components/checkboxes/Checkbox";
 
 function App() {
   return (
@@ -37,9 +37,10 @@ function App() {
           <p className="masthead-subheading font-weight-light mb-0">Graphic Artist - Web Designer - Illustrator</p>
         </div>
       </header>
+      
       <CheckboxView />
 
-      < About />
+      {/* < About /> */}
       
       {/* <TechProvider>
         <SkillProvider>
@@ -48,24 +49,24 @@ function App() {
       </TechProvider> */}
 
 
-      {/* Portfolio Section */}
+      {/* Portfolio Section
       <section className="page-section portfolio" id="portfolio">
         <div className="container">
 
           {/* Portfolio Section Heading */}
-          <h2 className="page-section-heading text-center text-uppercase text-secondary mb-0">Portfolio</h2>
+          {/* <h2 className="page-section-heading text-center text-uppercase text-secondary mb-0">Portfolio</h2>
 
           {/* Icon Divider */}
-          <div className="divider-custom">
+          {/* <div className="divider-custom">
             <div className="divider-custom-line"></div>
             <div className="divider-custom-icon"><i className="fas fa-star"></i></div>
             <div className="divider-custom-line"></div>
-          </div>
+          </div> */}
 
           {/* Portfolio Grid Items */}
-          <div className="row justify-content-center">
+          {/* <div className="row justify-content-center">
           
-          </div>
+          </div>  */}
           {/* <div className="row justify-content-center">
 
             
@@ -93,8 +94,8 @@ function App() {
               </div>
             </div>
           </div> */}
-        </div>
-      </section>
+        {/* </div>
+      </section> */}
 
 
       <Thanks />
