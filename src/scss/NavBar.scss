@@ -32,9 +32,23 @@ $yellow: #FFC116;
   }
 a.navbar-brand {
     color: white;
-    font-size: 1.75rem;
+    font-size: 1rem;
     padding: 10px 25px;
-  }
+    max-width: 70%;
+
+     @media (min-width: 375px) {
+        font-size: 1em;
+    }
+    
+   @media (min-width: 600px) {
+        font-size: 1.5em;
+    }
+
+   @media (min-width: 800px) {
+        font-size: 1.75em;
+    }
+}
+  
   .nav-link {
       color: white;
       text-align: center;
