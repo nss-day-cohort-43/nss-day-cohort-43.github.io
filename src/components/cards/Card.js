@@ -7,7 +7,7 @@ export const CardHTML = ({mate}) => {
     const contactList = [mate.linkedIn, mate.github, mate.personalSite, mate.dribbble]
 
     const makeBanner = (studentFocus) => {
-        if(studentFocus === "UI/UX Front-End Developer"){
+        if(studentFocus === "Front-End UI/UX Developer"){
             return (
                     <div className="card-focus-banner card-focus-banner--uiux">
                         <p>{studentFocus}</p>

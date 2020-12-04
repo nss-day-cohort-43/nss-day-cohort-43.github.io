@@ -76,20 +76,22 @@ export const CheckboxView = () => {
 		<>
 			<section id="boxes">
 				<h3>What are you looking for?</h3>
-				<div className="checkRectangle frontRec">
-					
-					<label className="FEText container">Front-End UI/UX Developer</label>
-					<input type="checkbox" className="checkbox" name="FEWD" checked={checkFE} 
-					onChange={(event) => handleCheckChange(event)}/>
-					<span class="info"></span>
-					
+				<div className="Rectangle FE">
+					<h2 className="FEText">Front-End UI/UX Developer</h2>
+						<label className="checkbox">
+						<input type="checkbox" name="FEWD" checked={checkFE} 
+						onChange={(event) => handleCheckChange(event)}/>
+						<span class="info"></span>
+						</label>
 				</div>
-				<div className="checkRectangle fullRec">
 
-					<label className="FSText container">Full-Stack C# Developer</label>
+				<div className="Rectangle Full">
+					<h2 className="FSText">Full-Stack C# Developer</h2>
+					<label className="checkbox">
 					<input type="checkbox" className="checkbox" name="BEWD" checked={checkBE} 
 					onChange={(event) => handleCheckChange(event)}/>
 					<span class="warning"></span>
+					</label>
 				
 				</div>
 			</section>
