@@ -19,13 +19,21 @@
   color:white;
   margin-left: 1rem;
 }
+.FEText {
+  margin-left: 1rem;
+}
 
 .Rectangle {
   margin-left: 5rem;
+  padding-top: .6rem;
   margin-bottom: 1rem;
   padding-left: 2rem;
   width: 32rem;
   min-height: 3rem;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: flex-end;
+
 }
 .FE {
   background-color: $yellow;
@@ -34,21 +42,6 @@
   background-color: $teal;
 }
 
-
-
-// .feRectangle {
-//   background-color: $yellow;
-//   margin-left: 5rem;
-//   padding-left: 2rem;
-//   width: 25rem
-// }
-
-// .fullRectangle {
-//   background-color: $teal;
-//   margin-left: 5rem;
-//   padding-left: 3rem;
-//   width: 25rem
-// }
 
 @keyframes check {0% {height: 0;width: 0;}
 25% {height: 0;width: 10px;}

@@ -14,7 +14,7 @@ export const CardHTML = ({mate}) => {
                     </div>
             )
         }
-        else if (studentFocus === "Full-Stack Developer"){
+        else if (studentFocus === "Full-Stack C# Developer"){
             return (
                     <div className="card-focus-banner card-focus-banner--fullstack">
                         <p>{studentFocus}</p>
