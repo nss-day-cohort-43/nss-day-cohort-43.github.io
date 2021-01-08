@@ -3,7 +3,7 @@ import React from "react";
 import { NavBar } from './components/nav/NavBar'
 import { TechProvider } from './components/technology/TechProvider'
 import logo from '../node_modules/startbootstrap-freelancer/src/assets/img/avataaars.svg'
-import './App.scss'
+// import './App.scss'
 import { About } from './components/about/About'
 
 

@@ -94,11 +94,18 @@ p {
     font-size: 1.75em;
     margin-top: 10px;
     margin-bottom: 10px;
+    text-align: center;
 }
 
 .card-content{
     padding-left: 0.2rem;
     padding-right: 0.2rem;
+}
+
+.card-text{
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+
 }
 
 .icons {
@@ -112,7 +119,7 @@ p {
 .card-footer{
     position: relative;
     padding-top: 2px;
-    padding-bottom: 2px;
+    padding-bottom: 0.5em;
     margin-bottom: 3px;
     width: 100%;
     background-color: transparent;
