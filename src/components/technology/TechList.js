@@ -34,7 +34,7 @@ export const TechList = () => {
 
 
     return (
-        <div id="tech-section">
+        <div id="tech">
             <h3 id="tech-headline" className="tech-header">Technologies & Skills</h3>
             <div className="row1" id="e-row">
                 <h4 className="tech-text-subheadline">What we all learned</h4>
