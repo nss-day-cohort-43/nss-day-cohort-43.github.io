@@ -7,3 +7,17 @@
      margin-bottom: 1em;
      text-decoration: underline;
  }
+
+#tabArea-tab-everyone,
+#tabArea-tab-uiUx,
+#tabArea-tab-fullstack {
+    padding: 1em;
+}
+
+nav.nav-tabs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: #117785;
+}

@@ -7,6 +7,8 @@ $theme-colors: (
   "warning": #ffc116
 );
 $nav-teal: #117785;
+$darkTeal: #117785;
+
 $teal: #148D9D;
 $yellow: #FFC116;
 $clear: rgba(0, 0, 0, 0);
@@ -16,13 +18,12 @@ $primary: $teal;
 $secondary: $yellow;
 
 // Override Bootstrap font variables
-$font-family-sans-serif: "Lato", -apple-system, BlinkMacSystemFont, "Segoe UI",
-    Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif,
+$font-family-sans-serif:  "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Arial, "Noto Sans", sans-serif,
     "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 $headings-font-family: "Montserrat", -apple-system, BlinkMacSystemFont,
-    "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif,
+    "Segoe UI", "Helvetica Neue", Arial, "Noto Sans", sans-serif,
     "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-$headings-font-weight: 700;
+$headings-font-weight: 500;
 
 // Override Bootstrap border variables
 $border-width: 0.125rem;
