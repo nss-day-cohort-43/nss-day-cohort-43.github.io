@@ -5,6 +5,9 @@ import { Thanks } from './components/thanks/Thanks'
 import "./scss/styles.scss";
 import { Footer } from './components/footer/Footer'
 import { CheckboxView } from "./components/checkboxes/Checkbox";
+import { TechProvider } from "./components/technology/TechProvider.js";
+import { TechList } from "./components/technology/TechList.js";
+
 
 function App() {
   return (
@@ -12,6 +15,9 @@ function App() {
       <NavBar />
       <Header />
       <CheckboxView />
+      <TechProvider>
+        <TechList />
+      </TechProvider>
 
       <Thanks />
       <Footer />

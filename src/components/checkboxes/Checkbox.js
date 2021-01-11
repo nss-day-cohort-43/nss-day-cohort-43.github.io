@@ -105,7 +105,7 @@ export const CheckboxView = () => {
 	)
 }
 
-{/* <div className="container front">
+/* <div className="container front">
 					
 					<InputGroup.Checkbox className="checkmark" name="FEWD" checked={checkFE} 
 					onChange={(event) => handleCheckChange(event)}/>
@@ -116,4 +116,4 @@ export const CheckboxView = () => {
 					onChange={(event) => handleCheckChange(event)}/>
 					<label className="FSText">Full-Stack C# Developer</label>
 			
-			</div> */}
+			</div> */
