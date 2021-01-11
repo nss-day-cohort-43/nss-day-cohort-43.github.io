@@ -7,7 +7,7 @@ export const Header = () => {
             <div className="masthead-container">
                 <h1 className="masthead-heading">Hire your next developer</h1>
             </div>
-            <img className="cohort-43-logo" src="../../images/NSS Logo with 43.png" alt="Cohort 43 Logo" />
+            <img className="cohort-43-logo" src="./../images/NSS-Logo-43.png" alt="Cohort 43 Logo" />
         </header>
 
     )
