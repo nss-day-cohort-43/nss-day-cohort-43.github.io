@@ -1,18 +1,19 @@
 #boxes {
-  display:flex;
-  flex-direction:column;
-  justify-content: flex-start;
-  margin-bottom: 1rem;
-  padding-left: 2em;
+  display:none;
+  
 }
 
 #boxes h3 {
   color: $teal !important;
-  font-size: 2.5rem
+  font-size: 1.5rem
 }
 #boxes h2 {
   font-size: 1.5rem
 }
+// #boxes h3 {
+//   color: $teal !important;
+//   font-size: 2.5rem
+// }
 
 .FSText {
   color:white;
@@ -49,6 +50,20 @@
    
     font-size: 3em;
     font-weight: normal;
+  }
+}
+
+@media (min-width: 768px){
+  #boxes {
+    display:flex;
+    flex-direction:column;
+    justify-content: flex-start;
+    margin-bottom: 1rem;
+    padding-left: 2em;
+  }
+  #boxes h3 {
+    color: $teal !important;
+    font-size: 2.5rem
   }
 }
 

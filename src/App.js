@@ -22,7 +22,7 @@ function App() {
     <div className="App">
       <NavBar />
       <Header />
-     
+      <CheckboxView />
 
       {/* Scroll to Top Button (Only visible on small and extra-small screen sizes) */}
       <div className="scroll-to-top d-lg-none position-fixed">
