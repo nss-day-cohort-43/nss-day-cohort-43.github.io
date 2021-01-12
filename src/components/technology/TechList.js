@@ -37,7 +37,7 @@ export const TechList = () => {
         <div id="tech">
             <h3 id="tech-headline" className="tech-header">Technologies & Skills</h3>
             <div className="row1" id="e-row">
-                <h4 className="tech-text-subheadline">What we all learned</h4>
+                <h4 className="tech-text-subheadline">Everyone learned</h4>
                 {/* <p className="tech-text-subheadline">During the first half of the bootcamp, we all learned and used the following technologies:</p> */}
                 <div className="e-icons-box">
                     <div className="tech-stack full-width" id="everyone-tech">
@@ -61,22 +61,26 @@ export const TechList = () => {
                     
                 <div className="fe-left-aligned">
                     <h4 className="tech-header">UI/UX</h4>
-                    <p className="tech-text">Students worked with Figma, Sass, and Firebase to practice <span className="yellow">prototyping</span>, creating <span className="yellow">personas</span>, <span className="yellow">user and usability testing</span>, and <span className="yellow">journey mapping</span>.</p>
+                    <p className="tech-text">With a focus on the <em>User</em>, students worked with Figma, Sass, and Firebase to practice prototyping, creating personas, user and usability testing, and journey mapping.</p>
                 </div>
             </div>
+
             <div className="row1" id="fs-row">
-                <div className="fs-right-aligned">
+            <div className="tech-stack" id="full-stack-tech">
+            {
+                techs.map(tech => {
+                    return FilterFullStackTech(tech)
+                })
+            }
+        </div>
+                <div className="fe-left-aligned">
                     <h4 className="tech-header">Full-Stack</h4>
                     <p className="tech-text">Students developed in C# with Microsoft.NET, .NET Core, and Visual Studio combined with SQL Server. </p>
                 </div>
-                <div className="tech-stack" id="full-stack-tech">
-                    {
-                        techs.map(tech => {
-                            return FilterFullStackTech(tech)
-                        })
-                    }
-                </div>
+               
             </div>
+
+
         </div>
     )
 }

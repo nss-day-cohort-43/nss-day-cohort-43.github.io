@@ -14,23 +14,6 @@ import "../technology/Tech.scss"
 import "../skills/Skill.scss"
 import "./TabArea.scss"
 
-// export const TechForEveryone = (obj) => {
-//   if (obj.learnedBy === "everyone") {
-//     return <TechCard key={obj.id} tech={obj} />
-//   }
-// }
-// export const TechForUiUx = (obj) => {
-//   if (obj.learnedBy === "ui-ux" || obj.learnedBy === "everyone") {
-//     return <TechCard key={obj.id} tech={obj} />
-//   }
-// }
-// export const TechForFullStack = (obj) => {
-//   if (obj.learnedBy === "full-stack" || obj.learnedBy === "everyone") {
-//     return <TechCard key={obj.id} tech={obj} />
-//   }
-// }
-
-
 
 export const TabArea = () => {
 

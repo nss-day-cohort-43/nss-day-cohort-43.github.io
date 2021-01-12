@@ -4,7 +4,12 @@ import { Card, Button, ButtonGroup, Image, OverlayTrigger, Tooltip } from 'react
 export const CardHTML = ({mate}) => {
 
     // Array to use to render the contact links for each card
-    const contactList = [mate.linkedIn, mate.github, mate.personalSite, mate.dribbble]
+    // const contactList = [
+    //     {"linkedIn": mate.linkedIn}, 
+    //     {"github": mate.github}, 
+    //     {"personalSite": mate.personalSite},
+    //     {"dibbble": mate.dribbble}
+    // ];
 
     const makeBanner = (studentFocus) => {
         if(studentFocus === "Front-End UI/UX Developer"){
@@ -21,53 +26,6 @@ export const CardHTML = ({mate}) => {
                     </div>  
             )
         }
-    }
-
-    const makeContactList = () => {
-        const contactListHTML = contactList.map(contactLink => {
-            let contactIconPath = ""
-            let contactIconName = ""
-            let output = null
-            // if a contact property of student is not "", make contact icon HTML
-            if(contactLink.indexOf("linkedin", 0) > 0){
-                contactIconPath = "icons/linkedIn.png"
-                contactIconName = "LinkedIn"
-            }
-            else if(contactLink.indexOf("github", 0) > 0){
-                contactIconPath = "icons/github.svg.png"
-                contactIconName = "GitHub"
-            }
-            else if(contactLink.indexOf("dribbble", 0) > 0){
-                contactIconPath = "icons/dribbble_ball.png"
-                contactIconName = "Dribbble"
-            }
-            else {
-                contactIconPath = "icons/personalSite.png"
-                contactIconName = "Website"
-            }
-            
-            if(contactLink !== ""){
-                output = 
-                    <>
-                        <div className="btn-box">
-                        <OverlayTrigger
-                            placement="top"
-                            delay={{ show: 100, hide: 100 }}
-                            overlay={renderTooltip(contactIconName)}
-                            >
-                            <Button className={`btn-social-link ${contactIconName}-link`} href={contactLink} target="_blank" >
-                                <Image src={contactIconPath} roundedCircle fluid/>
-                            </Button>
-                        </OverlayTrigger>
-                        </div>
-                    </>
-            }
-
-            return output // this return is for the .map()
-
-            
-        })
-        return contactListHTML
     }
 
 
@@ -92,12 +50,71 @@ export const CardHTML = ({mate}) => {
                 <Card.Body className="card-content">
                     <Card.Title as="h4" className="card-name">{`${mate.firstName} ${mate.lastName}`}</Card.Title>
                     <Card.Text>
-                    What will go in the card text?
+                    {mate.quote}
                     </Card.Text>
                 </Card.Body>
                 <Card.Footer>
                     <ButtonGroup className="icons" aria-label="contact-links">
-                        {makeContactList()}
+                        {
+                            (mate.linkedIn !== "") &&
+                               <div className="btn-box">
+                                <OverlayTrigger
+                                    placement="top"
+                                    delay={{ show: 100, hide: 100 }}
+                                    overlay={renderTooltip("LinkedIn")}
+                                    >
+                                    <Button className={`btn-social-link LinkedIn-link`} href={mate.linkedIn} target="_blank" >
+                                        <Image src="icons/linkedIn.png" roundedCircle fluid/>
+                                    </Button>
+                                </OverlayTrigger>
+                            </div>
+                        }
+                        {
+                            (mate.github !== "") &&
+                                <div className="btn-box">
+                                <OverlayTrigger
+                                    placement="top"
+                                    delay={{ show: 100, hide: 100 }}
+                                    overlay={renderTooltip("Github")}
+                                    >
+                                    <Button className={`btn-social-link Github-link`} href={mate.github} target="_blank" >
+                                        <Image src="icons/Github.png" roundedCircle fluid/>
+                                    </Button>
+                                </OverlayTrigger>
+                            </div>
+                        }
+
+                        {
+                            (mate.dribbble !== "") &&
+                                <div className="btn-box">
+                                <OverlayTrigger
+                                    placement="top"
+                                    delay={{ show: 100, hide: 100 }}
+                                    overlay={renderTooltip("Dribbble")}
+                                    >
+                                    <Button className={`btn-social-link Dribbble-link`} href={mate.dribbble} target="_blank" >
+                                        <Image src="icons/Dribbble.png" roundedCircle fluid/>
+                                    </Button>
+                                </OverlayTrigger>
+                            </div>
+                        }
+
+                        {
+                            (mate.personalSite !== "") &&
+                                <div className="btn-box">
+                                <OverlayTrigger
+                                    placement="top"
+                                    delay={{ show: 100, hide: 100 }}
+                                    overlay={renderTooltip("Website")}
+                                    >
+                                    <Button className={`btn-social-link Website-link`} href={mate.personalSite} target="_blank" >
+                                        <Image src="icons/personalSitee.png" roundedCircle fluid/>
+                                    </Button>
+                                </OverlayTrigger>
+                            </div>
+                        }
+
+                        
                     </ButtonGroup>
                 </Card.Footer>
             </Card>

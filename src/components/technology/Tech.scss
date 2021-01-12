@@ -8,7 +8,7 @@
     display: flex;
     flex-flow: row wrap;
     align-items: center;
-    background-color: white;
+    // background-color: white;
 }
 
 #tech {
@@ -102,10 +102,7 @@
     margin-left: auto;
     margin-right: auto;
     max-width: 1000px;
-    // padding: 0.5em 0.5em;
-
-    // background-color: rgba(255, 255, 255, 0.577);
-    background-color: rgba(255, 255, 255, 0.954);
+    // background-color: rgba(255, 255, 255, 0.954);
     // margin-right: 0;
     // clip-path: polygon(0 0, 100% 0, 100% 100%, 10% 100%);
     // clip-path: polygon(10% 0, 100% 0, 100% 100%, 0 100%);
@@ -160,10 +157,10 @@
     flex-wrap: nowrap;
     justify-content: flex-end;
 //  margin-bottom: 2.5em;
-    padding: 1em 3em 1em 3em;
+    // padding: 1em 3em 1em 3em;
     flex-grow: 1;
     //clip-path: polygon(0 0, 80% 0, 100% 100%, 0% 100%);
-    background-color: rgba(255, 255, 255, 0.954);
+    // background-color: rgba(255, 255, 255, 0.954);
 }
 
 
@@ -177,7 +174,7 @@
     margin-top: 3em;
     margin-bottom: 1em;
     margin-right: 1em;
-    background-color: rgba(255, 255, 255, 0.249);
+    // background-color: rgba(255, 255, 255, 0.249);
     //clip-path: polygon(0 0, 90% 0, 100% 100%, 0% 100%);
 
     
@@ -201,11 +198,11 @@
 //  margin-bottom: 2.5em;
     max-width: 1282px;
     flex-wrap: nowrap;
-    padding: 1em 3em 1em 3em;
+    // padding: 1em 3em 1em 3em;
     flex-grow: 1;
     //clip-path: polygon(0 0, 100% 0, 100% 100%, 17% 100%);
     // clip-path: polygon(10% 0, 100% 0, 100% 100%, 0 100%);
-    background-color: rgba(255, 255, 255, 0.954);
+    // background-color: rgba(255, 255, 255, 0.954);
     // border: solid 20px gold;
     // border-style: outset;
     // box-shadow: 0px 0px 20px  rgba(0, 0, 0, 0.509);
@@ -221,7 +218,7 @@
     margin-top: 3em;
     margin-bottom: 8em;
     margin-left: 1em;
-    background-color: rgba(255, 255, 255, 0.249);
+    // background-color: rgba(255, 255, 255, 0.249);
     // clip-path: polygon(10% 0, 100% 0, 100% 100%, 0 100%);
     //clip-path: polygon(0 0, 100% 0, 100% 100%, 10% 100%);
     
@@ -353,7 +350,7 @@
         //background-color: rgba(255, 255, 255, 0.194);
         background-color: transparent;
         border-top: solid 2px rgba(255, 255, 255, 0.194);
-        padding: 1em 0;
+        // padding: 1em 0;
 
     }
     

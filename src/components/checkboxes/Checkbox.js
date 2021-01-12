@@ -81,7 +81,7 @@ export const CheckboxView = () => {
 						<label className="checkbox">
 						<input type="checkbox" name="FEWD" checked={checkFE} 
 						onChange={(event) => handleCheckChange(event)}/>
-						<span class="info"></span>
+						<span className="info"></span>
 						</label>
 				</div>
 
@@ -90,13 +90,15 @@ export const CheckboxView = () => {
 					<label className="checkbox">
 					<input type="checkbox" className="checkbox" name="BEWD" checked={checkBE} 
 					onChange={(event) => handleCheckChange(event)}/>
-					<span class="warning"></span>
+					<span className="warning"></span>
 					</label>
 				
 				</div>
+				
 			</section>
 
 			<Container id="classmates">
+			<div className="devHeader"><h3>Cohort 43 Developers</h3></div>
 				<Row id="classmates-container">
 					<CardList filteredMates={showMates} />
 				</Row>
