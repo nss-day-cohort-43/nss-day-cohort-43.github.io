@@ -97,25 +97,12 @@ export const CheckboxView = () => {
 				
 			</section>
 
-			<Container id="classmates">
+			{/*<Container id="classmates">
 			<div className="devHeader"><h3>Cohort 43 Developers</h3></div>
 				<Row id="classmates-container">
 					<CardList filteredMates={showMates} />
 				</Row>
-			</Container>
+	</Container>*/}
 	  </>
 	)
 }
-
-/* <div className="container front">
-					
-					<InputGroup.Checkbox className="checkmark" name="FEWD" checked={checkFE} 
-					onChange={(event) => handleCheckChange(event)}/>
-					<label className="FEText">Front-End UI/UX Developer</label>
-			</div>
-			<div className="container full">
-					<InputGroup.Checkbox className="checkmark1" name="BEWD" checked={checkBE} 
-					onChange={(event) => handleCheckChange(event)}/>
-					<label className="FSText">Full-Stack C# Developer</label>
-			
-			</div> */

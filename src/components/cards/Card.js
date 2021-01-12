@@ -64,7 +64,7 @@ export const CardHTML = ({mate}) => {
                                     overlay={renderTooltip("LinkedIn")}
                                     >
                                     <Button className={`btn-social-link LinkedIn-link`} href={mate.linkedIn} target="_blank" >
-                                        <Image src="icons/linkedIn.png" roundedCircle fluid/>
+                                        <Image src="icons/linkedin.png" roundedCircle fluid/>
                                     </Button>
                                 </OverlayTrigger>
                             </div>
@@ -78,7 +78,7 @@ export const CardHTML = ({mate}) => {
                                     overlay={renderTooltip("Github")}
                                     >
                                     <Button className={`btn-social-link Github-link`} href={mate.github} target="_blank" >
-                                        <Image src="icons/Github.png" roundedCircle fluid/>
+                                        <Image src="icons/github.png" roundedCircle fluid/>
                                     </Button>
                                 </OverlayTrigger>
                             </div>

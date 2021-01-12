@@ -7,20 +7,22 @@ import { Footer } from './components/footer/Footer'
 import { CheckboxView } from "./components/checkboxes/Checkbox";
 import { TechProvider } from "./components/technology/TechProvider.js";
 import { TechList } from "./components/technology/TechList.js";
-
+import { Test } from "./components/technology/Test.js";
+// 
+//        
+//       <TechProvider>
+//         <TechList />
+//       </TechProvider>
+//       <Test />
+//       <Thanks />
+//       <Footer />
 
 function App() {
   return (
     <div className="App">
       <NavBar />
       <Header />
-      <CheckboxView />
-      <TechProvider>
-        <TechList />
-      </TechProvider>
-
-      <Thanks />
-      <Footer />
+     
 
       {/* Scroll to Top Button (Only visible on small and extra-small screen sizes) */}
       <div className="scroll-to-top d-lg-none position-fixed">

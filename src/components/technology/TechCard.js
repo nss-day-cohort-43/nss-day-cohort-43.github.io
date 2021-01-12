@@ -4,7 +4,7 @@ import React from "react"
 import "./Tech.scss"
 
 export const TechCard = ({ tech }) => (
-    <div className="iconbox text-center">
+    <div className="iconbox text-center col">
        
             <a href={tech.site} target="_blank" rel="noreferrer">
                 <img src={tech.icon} className="img-icon mx-auto d-block" alt={tech.title} />

@@ -59,7 +59,7 @@ export const TechList = () => {
 
             <div className="container" id="fe-row">
                 <div className="tech-stack row" id="front-end-tech">
-                    <div className="col-4">
+                    <div className="col-5">
                         <div className="row flex-nowrap justify-content-end">
                             {
                                 techs.map(tech => {
@@ -68,7 +68,7 @@ export const TechList = () => {
                             }
                         </div>
                     </div>
-                    <div className="fe-left-aligned col-5">
+                    <div className="fe-left-aligned col-7">
                         <h4 className="tech-header">UI/UX</h4>
                         <p className="tech-text">With a focus on the <em>User</em>, students worked with Figma, Sass, and Firebase to practice prototyping, creating personas, user and usability testing, and journey mapping.</p>
                     </div>
@@ -80,7 +80,7 @@ export const TechList = () => {
 
             <div className="container" id="fs-row">
                 <div className="tech-stack row" id="front-end-tech">
-                    <div className="col-4">
+                    <div className="col-5">
                         <div className="row flex-nowrap">
                             {
                                 techs.map(tech => {
@@ -89,7 +89,7 @@ export const TechList = () => {
                             }
                         </div>
                     </div>
-                    <div className="fe-left-aligned col-5">
+                    <div className="fe-left-aligned col-7">
                         <h4 className="tech-header">Full-Stack</h4>
                         <p className="tech-text">Students developed in C# with Microsoft.NET, .NET Core, and Visual Studio combined with SQL Server. </p>
                     </div>
