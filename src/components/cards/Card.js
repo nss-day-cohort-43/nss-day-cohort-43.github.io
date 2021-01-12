@@ -93,7 +93,7 @@ export const CardHTML = ({mate}) => {
                                     overlay={renderTooltip("Dribbble")}
                                     >
                                     <Button className={`btn-social-link Dribbble-link`} href={mate.dribbble} target="_blank" >
-                                        <Image src="icons/Dribbble.png" roundedCircle fluid/>
+                                        <Image src="icons/dribbble_ball.png" roundedCircle fluid/>
                                     </Button>
                                 </OverlayTrigger>
                             </div>
@@ -114,7 +114,7 @@ export const CardHTML = ({mate}) => {
                             </div>
                         }
 
-                        
+
                     </ButtonGroup>
                 </Card.Footer>
             </Card>
