@@ -1,6 +1,5 @@
 #boxes {
   display:none;
-  
 }
 
 #boxes h3 {
@@ -44,11 +43,11 @@
 .devHeader {
   justify-content: center;
   display: flex;
-  margin-top: 2em;
+  margin-top: 1.5em;
   h3 {
     margin-bottom: 0.8em;
    
-    font-size: 3em;
+    font-size: 1.5em;
     font-weight: normal;
   }
 }
@@ -64,6 +63,18 @@
   #boxes h3 {
     color: $teal !important;
     font-size: 2.5rem
+  }
+
+  .devHeader {
+    justify-content: center;
+    display: flex;
+    margin-top: 2em;
+    h3 {
+      margin-bottom: 0.8em;
+     
+      font-size: 3em;
+      font-weight: normal;
+    }
   }
 }
 

@@ -3,7 +3,7 @@ import React from 'react'
 export const Header = () => {
     return (
 
-        <header className="masthead bg-white" id="page-top">
+        <header className="masthead bg-white container" id="page-top">
             <div className="masthead-container">
                 <h1 className="masthead-heading">Hire your next developer</h1>
             </div>

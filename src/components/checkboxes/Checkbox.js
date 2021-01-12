@@ -74,7 +74,7 @@ export const CheckboxView = () => {
 	
 	return (
 		<>
-			<section id="boxes">
+			<section id="boxes" className="container">
 				<h3>What are you looking for?</h3>
 				<div className="Rectangle FE">
 					<h2 className="FEText">Front-End UI/UX Developer</h2>
@@ -97,12 +97,12 @@ export const CheckboxView = () => {
 				
 			</section>
 
-			{/*<Container id="classmates">
-			<div className="devHeader"><h3>Cohort 43 Developers</h3></div>
+			<Container id="classmates">
+				<div className="devHeader"><h3>Cohort 43 Developers</h3></div>
 				<Row id="classmates-container">
 					<CardList filteredMates={showMates} />
 				</Row>
-	</Container>*/}
+			</Container>
 	  </>
 	)
 }
