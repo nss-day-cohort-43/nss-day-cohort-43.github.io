@@ -4,12 +4,12 @@ import React from "react"
 import "./Tech.scss"
 
 export const TechCard = ({ tech }) => (
-    <div className="col1">
-        <div className="imgBox">
+    <div className="iconbox text-center">
+       
             <a href={tech.site} target="_blank" rel="noreferrer">
-                <img src={tech.icon} className="img-icon" alt="" />
+                <img src={tech.icon} className="img-icon mx-auto d-block" alt={tech.title} />
             </a>
-        </div>
-        <h4 id="tech-card-text">{tech.title}</h4>
+       
+        <h4 className="text-center" id="tech-card-text">{tech.title}</h4>
     </div>
 )

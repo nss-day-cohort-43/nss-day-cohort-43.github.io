@@ -51,7 +51,7 @@
     }
 }
 
-.col1 > #tech-card-text {
+.col > #tech-card-text {
     min-width: 6em;
     font-weight: normal;
     color: black;
@@ -111,18 +111,9 @@
 #e-row{
     display: flex;
     flex-flow: column;
-    margin: 0;
+    margin: 0 0 3em;
     padding: 0;
-    //background-color: rgba(255, 255, 255, 0.249);
-    // margin-right: 10em;
-    // margin-left: 10em;
-    // clip-path: polygon(0 0, 100% 0, 100% 100%, 10% 100%);
-    // clip-path: polygon(10% 0, 100% 0, 100% 100%, 0 100%);
-    // clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
     clip-path: polygon(0% 0, 100% 0%, 100% 100%, 0% 100%);
-
-    // clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
-
 }
 
 .e-icons-box{
@@ -132,25 +123,6 @@
 
 
 // ------------------ Front-end Row --------------------
-
-// .extra-white{
-//     width: 100%;
-//     flex-basis: 100%;
-//     background-color: gray;
-//     height: 100%;
-//     transform: translateX(-100%);
-// }
-
-// .fe-tech-stack-container{
-//     // background-color: white;
-//     width: 100%;
-//     //flex-grow: 2;
-//     //flex-basis: 50%;
-//     display: inline-flex;
-//     overflow-x: visible;
-//     flex-wrap: nowrap;
-
-// }
 
 #front-end-tech{
     display: flex;
@@ -165,20 +137,7 @@
 
 
 #fe-row{
-    width: 100%;
-    display: flex;
-    flex-flow: row;
-    align-self: flex-end;
-    padding-top: 1em;
-    padding-bottom: 1em;
-    margin-top: 3em;
-    margin-bottom: 1em;
-    margin-right: 1em;
-    // background-color: rgba(255, 255, 255, 0.249);
-    //clip-path: polygon(0 0, 90% 0, 100% 100%, 0% 100%);
-
-    
-    // margin-bottom: 2.5em;
+   padding-bottom: 3em;
 }
 
 .fe-left-aligned{
@@ -191,37 +150,21 @@
     
 }
 
+.iconbox {
+    padding:1em;
+}
+
 // ------------------- Full Stack Row -------------------
 
 #full-stack-tech{
     display: flex;
-//  margin-bottom: 2.5em;
     max-width: 1282px;
     flex-wrap: nowrap;
-    // padding: 1em 3em 1em 3em;
     flex-grow: 1;
-    //clip-path: polygon(0 0, 100% 0, 100% 100%, 17% 100%);
-    // clip-path: polygon(10% 0, 100% 0, 100% 100%, 0 100%);
-    // background-color: rgba(255, 255, 255, 0.954);
-    // border: solid 20px gold;
-    // border-style: outset;
-    // box-shadow: 0px 0px 20px  rgba(0, 0, 0, 0.509);
 }
 
 #fs-row{
-    align-self: flex-start;
-    display: flex;
-    flex-flow: row;
-    width: 100%;
-    padding-top: 1em;
-    padding-bottom: 1em;
-    margin-top: 3em;
     margin-bottom: 8em;
-    margin-left: 1em;
-    // background-color: rgba(255, 255, 255, 0.249);
-    // clip-path: polygon(10% 0, 100% 0, 100% 100%, 0 100%);
-    //clip-path: polygon(0 0, 100% 0, 100% 100%, 10% 100%);
-    
 }
 
 .fs-right-aligned{
@@ -238,8 +181,6 @@
 .full-width{
     width: 100%;
     display: flex;
-    padding-left: 4%;
-    padding-right: 4%;
     padding-top: 0.5em;
 }
 
