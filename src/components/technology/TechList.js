@@ -62,14 +62,14 @@ export const TechList = () => {
                     </Col>
                 </Row>
 
-
-
+                <Row>
+                    <Col><hr /></Col>
+                </Row>
 
                 <Row >
-
                     <Col xs={12} lg={6} className="techGroup">
                         <Row className="justify-content-center">
-                            <h4 className="tech-text-subheadline">UI/UX Developer</h4>
+                            <h4 className="tech-text-subheadline">UI/UX Developers</h4>
                         </Row>
 
                         <Row className="justify-content-center" >
@@ -86,12 +86,13 @@ export const TechList = () => {
                         </Row>
                     </Col>
 
-
-
+                    <Col className='d-xs-12 d-lg-none'>
+                        <hr />
+                    </Col>
 
                     <Col xs={12} lg={6} className="techGroup">
                         <Row className="justify-content-center">
-                            <h4 className="tech-text-subheadline">Full-Stack Developer</h4>
+                            <h4 className="tech-text-subheadline">Full-Stack Developers</h4>
                         </Row>
 
                         <Row className="justify-content-center" >
