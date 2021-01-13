@@ -12,7 +12,7 @@ export const TechList = () => {
 
     useEffect(() => {
         getTech()
-       
+
     }, [])
 
     const FilterEveryoneTech = (obj) => {
@@ -39,80 +39,80 @@ export const TechList = () => {
 
 
                 <Row className="justify-content-center">
-                <Col className="justify-content-center"> 
-                    <h3 id="tech-headline" className="tech-header">Technologies & Skills</h3>
-                </Col>
+                    <Col className="justify-content-center">
+                        <h3 id="tech-headline" className="tech-header">Technologies & Skills</h3>
+                    </Col>
                 </Row>
 
-                
+
                 <Row>
-                    <Col className="justify-content-center">  
+                    <Col className="justify-content-center">
                         <h4 className="tech-text-subheadline">Everyone learned</h4>
                     </Col>
                 </Row>
-                    <Row>
-                        <Col>
-                            <Row className="justify-content-center">
+                <Row>
+                    <Col>
+                        <Row className="justify-content-center">
                             {
                                 techs.map(tech => {
                                     return FilterEveryoneTech(tech)
                                 })
                             }
-                            </Row>
-                        </Col>
-                    </Row>
-                
-               
+                        </Row>
+                    </Col>
+                </Row>
+
+
 
 
                 <Row >
 
-                    <Col lg={6} md={6} sm={1} className="techGroup">
-                    <Row className="justify-content-center">
-                        <h4 className="tech-text-subheadline">UI/UX Developer</h4>
-                    </Row>
-                
-                    <Row className="justify-content-center" >
-                        {
-                            techs.map(tech => {
-                                return FilterUiUxTech(tech)
-                            })
-                        }
-                    </Row>
-                    <Row>
-                        <Col >
-                        <p className="tech-text">With a focus on the <em>User</em>, students worked with Figma, Sass, and Firebase to practice prototyping, creating personas, user and usability testing, and journey mapping.</p>
-                        </Col>
-                    </Row>
+                    <Col xs={12} lg={6} className="techGroup">
+                        <Row className="justify-content-center">
+                            <h4 className="tech-text-subheadline">UI/UX Developer</h4>
+                        </Row>
+
+                        <Row className="justify-content-center" >
+                            {
+                                techs.map(tech => {
+                                    return FilterUiUxTech(tech)
+                                })
+                            }
+                        </Row>
+                        <Row>
+                            <Col >
+                                <p className="tech-text">With a focus on the <em>User</em>, students worked with Figma, Sass, and Firebase to practice prototyping, creating personas, user and usability testing, and journey mapping.</p>
+                            </Col>
+                        </Row>
                     </Col>
 
 
 
 
-                    <Col lg={6} md={6} sm={1} className="techGroup">
-                    <Row className="justify-content-center">
-                        <h4 className="tech-text-subheadline">Full-Stack Developer</h4>
-                    </Row>
+                    <Col xs={12} lg={6} className="techGroup">
+                        <Row className="justify-content-center">
+                            <h4 className="tech-text-subheadline">Full-Stack Developer</h4>
+                        </Row>
 
-                    <Row className="justify-content-center" >
-                        {
-                            techs.map(tech => {
-                                return FilterFullStackTech(tech)
-                            })
-                        }
-                    </Row>
-                    <Row>
-                        <Col >
-                        <p className="tech-text">Students developed in C# with Microsoft.NET, .NET Core, and Visual Studio combined with SQL Server.</p>
-                        </Col>
-                    </Row>
+                        <Row className="justify-content-center" >
+                            {
+                                techs.map(tech => {
+                                    return FilterFullStackTech(tech)
+                                })
+                            }
+                        </Row>
+                        <Row>
+                            <Col >
+                                <p className="tech-text">Students developed in C# with Microsoft.NET, .NET Core, and Visual Studio combined with SQL Server.</p>
+                            </Col>
+                        </Row>
                     </Col>
                 </Row>
                 <div className="text-end"></div>
             </Container>
-            
+
         </div>
-       
+
     )
 }
 
@@ -198,7 +198,7 @@ export const TechList = () => {
         //                 })
         //             }
         //         </div>
-                    
+
         //         <div className="fe-left-aligned">
         //             <h4 className="tech-header">UI/UX</h4>
         //             <p className="tech-text">With a focus on the <em>User</em>, students worked with Figma, Sass, and Firebase to practice prototyping, creating personas, user and usability testing, and journey mapping.</p>
@@ -223,4 +223,3 @@ export const TechList = () => {
 
         //     </div>
         // </div>
-    

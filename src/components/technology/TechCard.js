@@ -4,7 +4,7 @@ import { Col, Container, Row } from "react-bootstrap"
 import "./Tech.scss"
 
 export const TechCard = ({ tech }) => (
-    <Col lg={1} xs={4} className='techCard'>
+    <Col lg={1} xs={3} className='techCard'>
 
         <a href={tech.site} target="_blank" rel="noreferrer">
             <img src={tech.icon} className="img-icon" alt={tech.title} />
