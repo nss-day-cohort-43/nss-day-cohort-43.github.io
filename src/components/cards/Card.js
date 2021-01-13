@@ -14,9 +14,9 @@ export const CardHTML = ({mate}) => {
     const makeBanner = (studentFocus) => {
         if(studentFocus === "Front-End UI/UX Developer"){
             return (
-                    <div className="card-focus-banner card-focus-banner--uiux">
+                    <Card.Header className="card-focus-banner card-focus-banner--uiux">
                         <p>{studentFocus}</p>
-                    </div>
+                    </Card.Header>
             )
         }
         else if (studentFocus === "Full-Stack C# Developer"){
@@ -40,11 +40,11 @@ export const CardHTML = ({mate}) => {
 
 
     return (
-        <>
-            <Card className="studentCard">
-                <Card.Header>
+    
+            <Card className="studentCard col-md-6 col-lg-4 mb-5">
+                
                     {makeBanner(mate.focus)}
-                </Card.Header>
+                
 
                 <Card.Img src={mate.photo} />
                 <Card.Body className="card-content">
@@ -118,7 +118,7 @@ export const CardHTML = ({mate}) => {
                     </ButtonGroup>
                 </Card.Footer>
             </Card>
-        </>
+        
     )
 }
 

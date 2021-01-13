@@ -1,13 +1,13 @@
 
 .masthead {
     display: flex;
-    justify-content: space-around;
+    // justify-content: space-around;
     padding-top: calc(.5rem + 74px);
     .masthead-heading {
         color: #222222;
-        font-size: 2rem !important;
+        font-size: 2.5rem !important;
         font-weight: 500 !important;
-        line-height: 2.5rem !important;
+        line-height: 3rem !important;
     }
     .masthead-subheading {
         font-size: 1.25rem;
@@ -105,9 +105,9 @@
         padding-top: calc(3.5rem + 74px);
         .masthead-heading {
             color: #222222;
-            font-size: 7rem !important;
+            font-size: 6rem !important;
             font-weight: 500 !important;
-            line-height: 8.5rem !important;
+            line-height: 7.5rem !important;
         }
         .masthead-subheading {
             font-size: 1.25rem;
@@ -137,9 +137,9 @@
         padding-top: calc(3.5rem + 74px);
         .masthead-heading {
             color: #222222;
-            font-size: 8rem !important;
+            font-size: 6rem !important;
             font-weight: 500 !important;
-            line-height: 9.5rem !important;
+            line-height: 7.5rem !important;
         }
         .masthead-subheading {
             font-size: 1.25rem;

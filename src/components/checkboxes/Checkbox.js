@@ -39,8 +39,8 @@ export const CheckboxView = () => {
 	// function to alphabetize by first name to create filtered list of all classmates
 	const filterNames = (allMates) => {
 		const alphaMates = allMates.sort(function(a, b) {
-		const nameA = a.firstName.toUpperCase(); // ignore upper and lowercase
-		const nameB = b.firstName.toUpperCase(); // ignore upper and lowercase
+		const nameA = a.lastName.toUpperCase(); // ignore upper and lowercase
+		const nameB = b.lastName.toUpperCase(); // ignore upper and lowercase
 			if (nameA < nameB) {
 			return -1;
 			}
