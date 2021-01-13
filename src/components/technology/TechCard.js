@@ -4,12 +4,12 @@ import { Col, Container, Row } from "react-bootstrap"
 import "./Tech.scss"
 
 export const TechCard = ({ tech }) => (
-    <Col lg={12} md={12} sm={3} xs={3}>
-       
-            <a href={tech.site} target="_blank" rel="noreferrer">
-                <img src={tech.icon} className="img-icon" alt={tech.title} />
-            </a>
-       
+    <Col lg={1} xs={4} className='techCard'>
+
+        <a href={tech.site} target="_blank" rel="noreferrer">
+            <img src={tech.icon} className="img-icon" alt={tech.title} />
+        </a>
+
         <h4 className="tech-card-text">{tech.title}</h4>
     </Col>
 )

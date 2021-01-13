@@ -16,6 +16,7 @@
     // flex-direction: column;
     background-color: rgb(19, 141, 157);
     clip-path: polygon(0 0, 100% 8%, 100% 100%, 0 92%);
+    text-align: center;
 
 
     h3, h4{
@@ -79,6 +80,10 @@
         }
     }
     
+}
+
+.techCard {
+    margin-top: 2rem;
 }
 
 
