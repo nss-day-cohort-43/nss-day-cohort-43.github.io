@@ -14,6 +14,12 @@
 @import "./footer.scss";
 @import "./checkbox.scss";
 @import "./NavBar.scss";
+@import "./Tech.scss";
+@import "./Thanks.scss";
+@import "./Skill.scss";
+@import "./About.scss";
+
+
 
 a.navbar-brand {
 	color: white;
@@ -106,6 +112,12 @@ p {
     background-color:#f0f0f0;
     // padding-left: 0.2rem;
     // padding-right: 0.2rem;
+}
+
+.image-container {
+    object-fit: cover;
+    width:auto;
+    height:20rem;
 }
 
 .card-text{
