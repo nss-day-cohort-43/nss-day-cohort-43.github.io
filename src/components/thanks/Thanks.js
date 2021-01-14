@@ -1,5 +1,4 @@
 import React from 'react'
-import './Thanks.scss'
 import { RSVPButton } from '../nav/RSVP'
 
 export const Thanks = () => {
