@@ -12,6 +12,13 @@ $gold: #FFC116;
     color: $teal !important;
 }
 
+#thanks h4 {
+    color: #222;
+    margin-bottom: 1rem;
+    font-weight: bold;
+    line-height: 2rem;
+}
+
 #thanks .divider-custom-line {
     // background-color: $teal;
 }
@@ -23,6 +30,7 @@ $gold: #FFC116;
 #thanks p {
     color: #222;
     text-transform: none;
+    font-size: 1rem;
 }
 
 .thanksLead {

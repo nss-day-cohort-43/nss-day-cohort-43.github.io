@@ -14,9 +14,11 @@ export const Thanks = () => {
 
                 <div className="row">
                     <div className="col-lg-6 ml-auto">
-                        <p className="lead thanksLead">
-                            <strong>Brenda Long, Adam Sheaffer, & Sage Klein</strong>
-                        </p>
+                        <h4 className="lead thanksLead">
+                            <strong>
+                                Brenda Long, Adam Sheaffer, Sage Klein, Tyler Hilliard, & Erik Lindstrom
+                            </strong>
+                        </h4>
 
                         <p className="lead thanksLead">
                             Cupcake ipsum dolor. Sit amet soufflé sesame snaps marshmallow gummies. Cookie oat cake cotton candy candy pudding ice cream chocolate bar toffee croissant.
@@ -24,9 +26,9 @@ export const Thanks = () => {
                     </div>
 
                     <div className="col-lg-6 mr-auto">
-                        <p className="lead thanksLead">
+                        <h4 className="lead thanksLead">
                             <strong>John Wark</strong>
-                        </p>
+                        </h4>
 
                         <p className="lead thanksLead">
                             Cupcake ipsum dolor. Sit amet soufflé sesame snaps marshmallow gummies. Cookie oat cake cotton candy candy pudding ice cream chocolate bar toffee croissant.
