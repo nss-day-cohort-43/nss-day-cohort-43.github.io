@@ -39,8 +39,8 @@ export const CheckboxView = () => {
 	// function to alphabetize by first name to create filtered list of all classmates
 	const filterNames = (allMates) => {
 		const alphaMates = allMates.sort(function(a, b) {
-		const nameA = a.firstName.toUpperCase(); // ignore upper and lowercase
-		const nameB = b.firstName.toUpperCase(); // ignore upper and lowercase
+		const nameA = a.lastName.toUpperCase(); // ignore upper and lowercase
+		const nameB = b.lastName.toUpperCase(); // ignore upper and lowercase
 			if (nameA < nameB) {
 			return -1;
 			}
@@ -74,14 +74,14 @@ export const CheckboxView = () => {
 	
 	return (
 		<>
-			<section id="boxes">
+			<section id="boxes" className="container">
 				<h3>What are you looking for?</h3>
 				<div className="Rectangle FE">
 					<h2 className="FEText">Front-End UI/UX Developer</h2>
 						<label className="checkbox">
 						<input type="checkbox" name="FEWD" checked={checkFE} 
 						onChange={(event) => handleCheckChange(event)}/>
-						<span class="info"></span>
+						<span className="info"></span>
 						</label>
 				</div>
 
@@ -90,13 +90,15 @@ export const CheckboxView = () => {
 					<label className="checkbox">
 					<input type="checkbox" className="checkbox" name="BEWD" checked={checkBE} 
 					onChange={(event) => handleCheckChange(event)}/>
-					<span class="warning"></span>
+					<span className="warning"></span>
 					</label>
 				
 				</div>
+				
 			</section>
 
 			<Container id="classmates">
+				<div className="devHeader"><h3>Cohort 43 Developers</h3></div>
 				<Row id="classmates-container">
 					<CardList filteredMates={showMates} />
 				</Row>
@@ -104,16 +106,3 @@ export const CheckboxView = () => {
 	  </>
 	)
 }
-
-{/* <div className="container front">
-					
-					<InputGroup.Checkbox className="checkmark" name="FEWD" checked={checkFE} 
-					onChange={(event) => handleCheckChange(event)}/>
-					<label className="FEText">Front-End UI/UX Developer</label>
-			</div>
-			<div className="container full">
-					<InputGroup.Checkbox className="checkmark1" name="BEWD" checked={checkBE} 
-					onChange={(event) => handleCheckChange(event)}/>
-					<label className="FSText">Full-Stack C# Developer</label>
-			
-			</div> */}

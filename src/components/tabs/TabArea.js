@@ -14,23 +14,6 @@ import "../technology/Tech.scss"
 import "../skills/Skill.scss"
 import "./TabArea.scss"
 
-export const TechForEveryone = (obj) => {
-  if (obj.learnedBy === "everyone") {
-    return <TechCard key={obj.id} tech={obj} />
-  }
-}
-export const TechForUiUx = (obj) => {
-  if (obj.learnedBy === "ui-ux" || obj.learnedBy === "everyone") {
-    return <TechCard key={obj.id} tech={obj} />
-  }
-}
-export const TechForFullStack = (obj) => {
-  if (obj.learnedBy === "full-stack" || obj.learnedBy === "everyone") {
-    return <TechCard key={obj.id} tech={obj} />
-  }
-}
-
-
 
 export const TabArea = () => {
 
@@ -39,10 +22,10 @@ export const TabArea = () => {
   
   const [allMates, setAllMates] = useState([])
 
-  useEffect(() => {
-    getTech()
-    getSkill()
-  }, [])
+//   useEffect(() => {
+//     getTech()
+//     getSkill()
+//   }, [])
 
 
   // function to make call to database to get all the classmates

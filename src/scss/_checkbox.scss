@@ -1,19 +1,18 @@
 #boxes {
-  display:flex;
-  flex-direction:column;
-  justify-content: flex-start;
-  margin-bottom: 7rem;
+  display:none;
 }
 
 #boxes h3 {
   color: $teal !important;
-  padding-left: 5rem;
-
-  font-size: 2.5rem
+  font-size: 1.5rem
 }
 #boxes h2 {
   font-size: 1.5rem
 }
+// #boxes h3 {
+//   color: $teal !important;
+//   font-size: 2.5rem
+// }
 
 .FSText {
   color:white;
@@ -24,7 +23,6 @@
 }
 
 .Rectangle {
-  margin-left: 5rem;
   padding-top: .6rem;
   margin-bottom: 1rem;
   padding-left: 2rem;
@@ -40,6 +38,44 @@
 }
 .Full {
   background-color: $teal;
+}
+
+.devHeader {
+  justify-content: center;
+  display: flex;
+  margin-top: 1.5em;
+  h3 {
+    margin-bottom: 0.8em;
+   
+    font-size: 1.5em;
+    font-weight: normal;
+  }
+}
+
+@media (min-width: 768px){
+  #boxes {
+    display:flex;
+    flex-direction:column;
+    justify-content: flex-start;
+    margin-bottom: 1rem;
+    padding-left: 2em;
+  }
+  #boxes h3 {
+    color: $teal !important;
+    font-size: 2.5rem
+  }
+
+  .devHeader {
+    justify-content: center;
+    display: flex;
+    margin-top: 2em;
+    h3 {
+      margin-bottom: 0.8em;
+     
+      font-size: 3em;
+      font-weight: normal;
+    }
+  }
 }
 
 
