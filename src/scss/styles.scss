@@ -44,19 +44,20 @@ a.navbar-brand {
 
 // -------------- Student profile cards ------------------
 .studentCard {
-    width: 18rem;
+    // width: 18rem;
 }
 
 .card {
-    margin-left: auto;
-    margin-right: auto;
-    height: 572px;
+    // margin-left: auto;
+    // margin-right: auto;
+    // height: 572px;
+    background-color:white;
 }
 
 .card-focus-banner {
     display: flex;
     justify-content: center;
-    height: fit-content;
+    // height: fit-content;
 }
 
 .card-focus-banner--uiux {
@@ -64,6 +65,7 @@ a.navbar-brand {
 }
 
 .card-focus-banner--uiux p {
+
     color: black;
 }
 
@@ -76,15 +78,15 @@ a.navbar-brand {
 }
 
 p {
-    color: #383838;
-    font-size: 1em;
-    margin-bottom: 0;
-    margin-top: 0;
-    text-transform: none;
+    // color: #383838;
+    // font-size: 1em;
+    // margin-bottom: 0;
+    // margin-top: 0;
+    // text-transform: none;
 }
 
 .card-focus-banner > p {
-    align-items: center;
+    // align-items: center;
 }
 
 .card-focus-banner p {
@@ -101,8 +103,9 @@ p {
 }
 
 .card-content {
-    padding-left: 0.2rem;
-    padding-right: 0.2rem;
+    background-color:#f0f0f0;
+    // padding-left: 0.2rem;
+    // padding-right: 0.2rem;
 }
 
 .card-text{
@@ -111,37 +114,22 @@ p {
 
 }
 
-.icons {
-    position: relative;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    text-align: center; 
-}
-
 .card-footer {
-    position: relative;
-    padding-top: 2px;
-    padding-bottom: 0.5em;
-    margin-bottom: 3px;
+    background-color:#f0f0f0;
+    // position: relative;
+    padding-top:1em;
+    padding-bottom: 1em;
+    // margin-bottom: 3px;
     width: 100%;
-    background-color: transparent;
+    text-align: center;
+    // background-color: transparent;
 }
 
 // -------- .btn-box holds the link icon and the text of the icon --------
 
 .btn-box {
-    position: relative;
-    display: block;
-    height: 55px;
-    width: 55px;
-    margin-left: 8px;
-    margin-right: 8px;
-    padding: 0;
-    box-shadow: none;
-    border: 1px solid transparent;
-    border-radius: 50%;
-    background: transparent;
+    margin-left: .5em;
+    margin-right: .5em;
 }
 
 .btn-social-link:focus {

@@ -16,7 +16,7 @@
         },
         {
             "id": 3,
-            "title": "JavaScript",
+            "title": "JS",
             "icon": "icons/javascript.png",
             "site": "https://www.javascript.com/",
             "learnedBy": "everyone"
@@ -30,7 +30,7 @@
         },
         {
             "id": 5,
-            "title": "React JS",
+            "title": "ReactJS",
             "icon": "icons/react.png",
             "site": "https://reactjs.org/",
             "learnedBy": "everyone"
@@ -51,7 +51,7 @@
         },
         {
             "id": 8,
-            "title": "VS Code",
+            "title": "VSCode",
             "icon": "icons/VSCode.png",
             "site": "https://code.visualstudio.com/",
             "learnedBy": "everyone"
@@ -93,21 +93,21 @@
         },
         {
             "id": 14,
-            "title": ".NET Core",
+            "title": ".NET",
             "icon": "icons/NetCore.png",
             "site": "https://dotnet.microsoft.com/",
             "learnedBy": "full-stack"
         },
         {
             "id": 15,
-            "title": "SQL Server",
+            "title": "SQL",
             "icon": "icons/SQL.png",
             "site": "https://www.microsoft.com/en-us/sql-server/sql-server-2017",
             "learnedBy": "full-stack"
         },
         {
             "id": 16,
-            "title": "Visual Studio",
+            "title": "VStudio",
             "icon": "icons/VStudio.png",
             "site": "https://visualstudio.microsoft.com/vs/",
             "learnedBy": "full-stack"
@@ -157,6 +157,7 @@
             "github": "https://github.com/cArel116",
             "personalSite": "",
             "dribbble": "",
+            "quote":"",
             "id": 1
         },
         {
@@ -166,8 +167,9 @@
             "focus": "Full-Stack C# Developer",
             "linkedIn": "https://www.linkedin.com/in/blaker814/",
             "github": "https://github.com/blaker814",
-            "personalSite": "",
+            "personalSite": "https://blaker814.github.io",
             "dribbble": "",
+            "quote":"“Whether you think you can or you can't, you're right.” - Henry Ford",
             "id": 2
         },
         {
@@ -179,6 +181,7 @@
             "github": "https://github.com/Devco2011",
             "personalSite": "",
             "dribbble": "https://dribbble.com/DevCo",
+            "quote":"“Design is not just what it looks like and feels like. Design is how it works.” -Steve Jobs",
             "id": 3
         },
         {
@@ -190,6 +193,7 @@
             "github": "https://github.com/bcdavis",
             "personalSite": "",
             "dribbble": "",
+            "quote":"",
             "id": 4
         },
         {
@@ -199,8 +203,9 @@
             "focus": "Full-Stack C# Developer",
             "linkedIn": "https://www.linkedin.com/in/st-edwards/",
             "github": "https://github.com/ste163",
-            "personalSite": "",
+            "personalSite": "https://ste163.github.io/",
             "dribbble": "",
+            "quote":"“Kill your darlings, even when it breaks your egocentric little scribbler's heart, kill your darlings.” - Stephen King",
             "id": 5
         },
         {
@@ -210,8 +215,9 @@
             "focus": "Front-End UI/UX Developer",
             "linkedIn": "https://www.linkedin.com/in/asgertler/",
             "github": "https://github.com/asgertler",
-            "personalSite": "",
-            "dribbble": "",
+            "personalSite": "https://asgertler.github.io/",
+            "dribbble": "https://dribbble.com/aarongertler",
+            "quote":"",
             "id": 6
         },
         {
@@ -223,6 +229,7 @@
             "github": "https://github.com/Goody3099",
             "personalSite": "",
             "dribbble": "",
+            "quote":"“Integrity has no need of rules.” -Albert Camus",
             "id": 7
         },
         {
@@ -234,6 +241,7 @@
             "github": "https://github.com/HanakoH",
             "personalSite": "",
             "dribbble": "",
+            "quote":"",
             "id": 8
         },
         {
@@ -245,6 +253,7 @@
             "github": "https://github.com/richieholsenback",
             "personalSite": "",
             "dribbble": "",
+            "quote":"“I guess you guys aren’t ready for that yet. But your kids are gonna love it.” -Marty McFly",
             "id": 9
         },
         {
@@ -254,8 +263,9 @@
             "focus": "Full-Stack C# Developer",
             "linkedIn": "https://www.linkedin.com/in/corneliajohnson/",
             "github": "https://github.com/corneliajohnson",
-            "personalSite": "",
+            "personalSite": "https://corneliajohnson.github.io/",
             "dribbble": "",
+            "quote":"“Reality is wrong. Dreams are for real.” – Tupac Shakur",
             "id": 10
         },
         {
@@ -267,6 +277,7 @@
             "github": "https://github.com/Abdurehman05",
             "personalSite": "",
             "dribbble": "",
+            "quote":"“Man is essentially ignorant, and becomes learned through acquiring knowledge.” -Ibn Khaldun",
             "id": 11
         },
         {
@@ -274,10 +285,11 @@
             "lastName": "Kelley",
             "photo": "images/placeholder-images/KelleyParker.jpeg",
             "focus": "Full-Stack C# Developer",
-            "linkedIn": "https://www.linkedin.com/in/corneliajohnson/",
-            "github": "https://github.com/corneliajohnson",
-            "personalSite": "",
+            "linkedIn": "https://www.linkedin.com/in/parkerlewiskelley/",
+            "github": "https://github.com/Patchrik",
+            "personalSite": "https://patchrik.github.io/",
             "dribbble": "",
+            "quote":"“Failure is only the opportunity to begin again. Only this time, more wisely” - Uncle Iroh - ATLA",
             "id": 12
         },
         {
@@ -287,8 +299,9 @@
             "focus": "Full-Stack C# Developer",
             "linkedIn": "https://www.linkedin.com/in/brady-logan-295559150/",
             "github": "https://github.com/bloges56",
-            "personalSite": "",
+            "personalSite": "https://bloges56.github.io/",
             "dribbble": "",
+            "quote":"“How can mirrors be real if our eyes aren't real.” - Jaden Smith",
             "id": 13
         },
         {
@@ -300,6 +313,7 @@
             "github": "https://github.com/bdanielle092",
             "personalSite": "",
             "dribbble": "",
+            "quote":"",
             "id": 14
         },
         {
@@ -309,8 +323,9 @@
             "focus": "Full-Stack C# Developer",
             "linkedIn": "https://www.linkedin.com/in/morrigan-mccoy/",
             "github": "https://github.com/mnmccoy95",
-            "personalSite": "",
+            "personalSite": "https://mnmccoy95.github.io/",
             "dribbble": "",
+            "quote":"Cool hobbies: reptile husbandry, plushie collecting, Lolita fashion, true crime/horror, and Pokémon!",
             "id": 15
         },
         {
@@ -320,8 +335,9 @@
             "focus": "Full-Stack C# Developer",
             "linkedIn": "https://www.linkedin.com/in/josephoverton/",
             "github": "https://github.com/j0verton",
-            "personalSite": "",
+            "personalSite": "https://j0verton.github.io/",
             "dribbble": "",
+            "quote":"",
             "id": 16
         },
         {
@@ -331,8 +347,9 @@
             "focus": "Full-Stack C# Developer",
             "linkedIn": "https://www.linkedin.com/in/emberparr/",
             "github": "https://github.com/ember-parr",
-            "personalSite": "",
+            "personalSite": "http://emberparr.com/",
             "dribbble": "",
+            "quote":"“Why is there no flat mars society?” - elon musk",
             "id": 17
         },
         {
@@ -342,8 +359,9 @@
             "focus": "Full-Stack C# Developer",
             "linkedIn": "https://www.linkedin.com/in/travispinson/",
             "github": "https://github.com/TAPinson",
-            "personalSite": "",
+            "personalSite": "https://tapinson.github.io/",
             "dribbble": "",
+            "quote":"",
             "id": 18
         },
         {
@@ -352,9 +370,10 @@
             "photo": "images/placeholder-images/photo-not-available.png",
             "focus": "Full-Stack C# Developer",
             "linkedIn": "https://www.linkedin.com/in/austinring/",
-            "github": "",
-            "personalSite": "",
+            "github": "https://github.com/aring97",
+            "personalSite": "https://aring97.github.io/",
             "dribbble": "",
+            "quote":"",
             "id": 19
         },
         {
@@ -366,6 +385,7 @@
             "github": "https://github.com/hrissolo",
             "personalSite": "",
             "dribbble": "",
+            "quote":"",
             "id": 20
         },
         {
@@ -377,6 +397,7 @@
             "github": "https://github.com/BlackTousen",
             "personalSite": "",
             "dribbble": "",
+            "quote":"“I came to realize that I had more to offer this world than just making things that blow up.” -Tony Stark",
             "id": 21
         },
         {
@@ -388,6 +409,7 @@
             "github": "https://github.com/terraroush",
             "personalSite": "",
             "dribbble": "",
+            "quote":"",
             "id": 22
         },
         {
@@ -397,8 +419,9 @@
             "focus": "Full-Stack C# Developer",
             "linkedIn": "https://www.linkedin.com/in/braxtonshoop/",
             "github": "https://github.com/BShoop33",
-            "personalSite": "",
+            "personalSite": "https://bshoop33.github.io/",
             "dribbble": "",
+            "quote":"“Electricity is really just organized lightning.” -George Carlin",
             "id": 23
         },
         {
@@ -408,8 +431,9 @@
             "focus": "Full-Stack C# Developer",
             "linkedIn": "https://www.linkedin.com/in/starkeyjennifer/",
             "github": "https://github.com/jenniferstarkey",
-            "personalSite": "",
+            "personalSite": "https://jenniferstarkey.github.io/",
             "dribbble": "",
+            "quote":"“Failure breeds invention.” -Debbie Sterling",
             "id": 24
         },
         {
@@ -421,6 +445,7 @@
             "github": "https://github.com/AudreyThomasson",
             "personalSite": "",
             "dribbble": "",
+            "quote":"A graphic designer that is eager to learn & passionate about crafting more enjoyable user experiences",
             "id": 25
         },
         {
@@ -432,6 +457,7 @@
             "github": "https://github.com/joetid09",
             "personalSite": "",
             "dribbble": "",
+            "quote":"“Never Fear: Thank Home, and Poetry, and the Force behind both.” - Wilfred Owen",
             "id": 26
         },
         {
@@ -441,8 +467,9 @@
             "focus": "Full-Stack C# Developer",
             "linkedIn": "https://www.linkedin.com/in/laceywalker/",
             "github": "https://github.com/laceywalkerr",
-            "personalSite": "",
+            "personalSite": "https://laceywalkerr.github.io/",
             "dribbble": "",
+            "quote":"",
             "id": 27
         },
         {
@@ -452,8 +479,9 @@
             "focus": "Full-Stack C# Developer",
             "linkedIn": "https://www.linkedin.com/in/tristan-w-wyatt/",
             "github": "https://github.com/tristan0508",
-            "personalSite": "",
+            "personalSite": "https://tristan0508.github.io/",
             "dribbble": "",
+            "quote":"",
             "id": 28
         }
     ]

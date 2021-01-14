@@ -9,7 +9,7 @@ export const Footer = () => {
 
                         {/* Footer Cohort Locations */}
                         <div className="col-lg-6 mb-5 mb-md-0">
-                            <h4 className="text-uppercase mb-4">Cohort Member Locations</h4>
+                            <h4 className="mb-4">Cohort Member Locations</h4>
 
                             <p className="lead mb-0">
                                 C43 was a remote cohort from start to finish. Here's where all of us lived and worked during our time together:
@@ -32,7 +32,7 @@ export const Footer = () => {
 
                         {/* Footer NSS Info */}
                         <div className="col-lg-6">
-                            <h4 className="text-uppercase mb-4">About NSS</h4>
+                            <h4 className="mb-4">About NSS</h4>
                             <p className="lead mb-0">
                                 Nashville Software School is a Tennessee non-profit corporation.
                                 Our mission is to expand the technology workforce in middle Tennessee by providing motivated individuals
