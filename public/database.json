@@ -223,7 +223,7 @@
         {
             "firstName": "Matthew",
             "lastName": "Goodman",
-            "photo": "images/placeholder-images/photo-not-available.png",
+            "photo": "images/placeholder-images/GoodmanMatthew.jpeg",
             "focus": "Full-Stack C# Developer",
             "linkedIn": "https://www.linkedin.com/in/matthewgoodman3099/",
             "github": "https://github.com/Goody3099",
@@ -307,7 +307,7 @@
         {
             "firstName": "Faith",
             "lastName": "Magras",
-            "photo": "images/placeholder-images/MagrasFaith.jpeg",
+            "photo": "images/placeholder-images/MagrasFaith.png",
             "focus": "Full-Stack C# Developer",
             "linkedIn": "https://www.linkedin.com/in/faith-magras/",
             "github": "https://github.com/bdanielle092",
@@ -427,7 +427,7 @@
         {
             "firstName": "Jennifer",
             "lastName": "Starkey",
-            "photo": "images/placeholder-images/StarkeyJennifer.jpeg",
+            "photo": "images/placeholder-images/StarkeyJennifer.png",
             "focus": "Full-Stack C# Developer",
             "linkedIn": "https://www.linkedin.com/in/starkeyjennifer/",
             "github": "https://github.com/jenniferstarkey",
