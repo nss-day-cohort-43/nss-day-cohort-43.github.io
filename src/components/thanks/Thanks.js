@@ -33,9 +33,11 @@ export const Thanks = () => {
                         <p className="lead thanksLead">
                             Cupcake ipsum dolor. Sit amet soufflé sesame snaps marshmallow gummies. Cookie oat cake cotton candy candy pudding ice cream chocolate bar toffee croissant.
                         </p>
+                        <br></br>
                         <h4 className="lead thanksLead">
                             <strong>Thank you to our guest speakers</strong>
                         </h4>
+
 
                         <p className="lead thanksLead">
                             Caroline Brownlee, Pavel Bukengoltz, Gradi Ellis, Tom Johnson, Daniel Reid, Chandler Turner, and Matt Walkley.
