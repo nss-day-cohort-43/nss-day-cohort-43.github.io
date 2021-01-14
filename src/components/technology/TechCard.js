@@ -1,7 +1,7 @@
 import React from "react"
 import { Col, Container, Row } from "react-bootstrap"
 // import { Link } from "react-router-dom"
-import "./Tech.scss"
+
 
 export const TechCard = ({ tech }) => (
     <Col lg={1} xs={3} className='techCard'>

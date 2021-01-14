@@ -46,7 +46,7 @@ export const CardHTML = ({mate}) => {
                     {makeBanner(mate.focus)}
                 
 
-                <Card.Img src={mate.photo} />
+                <Card.Img src={mate.photo} className="image-container"/>
                 <Card.Body className="card-content">
                     <Card.Title as="h4" className="card-name">{`${mate.firstName} ${mate.lastName}`}</Card.Title>
                     <Card.Text>
