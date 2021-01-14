@@ -157,7 +157,7 @@
             "github": "https://github.com/cArel116",
             "personalSite": "",
             "dribbble": "",
-            "quote":"",
+            "quote":"“Imagination is everything. It is the preview of life's coming attractions.” - Albert Einstein",
             "id": 1
         },
         {
@@ -179,7 +179,7 @@
             "focus": "Front-End UI/UX Developer",
             "linkedIn": "https://www.linkedin.com/in/devonhcox/",
             "github": "https://github.com/Devco2011",
-            "personalSite": "",
+            "personalSite": "devco2011.github.io",
             "dribbble": "https://dribbble.com/DevCo",
             "quote":"“Design is not just what it looks like and feels like. Design is how it works.” -Steve Jobs",
             "id": 3
@@ -217,7 +217,7 @@
             "github": "https://github.com/asgertler",
             "personalSite": "https://asgertler.github.io/",
             "dribbble": "https://dribbble.com/aarongertler",
-            "quote":"",
+            "quote":"“Remember Danny – Two wrongs don’t make a right, but three rights make a left.” Ty Webb, Caddyshack",
             "id": 6
         },
         {
@@ -227,7 +227,7 @@
             "focus": "Full-Stack C# Developer",
             "linkedIn": "https://www.linkedin.com/in/matthewgoodman3099/",
             "github": "https://github.com/Goody3099",
-            "personalSite": "",
+            "personalSite": "https://goody3099.github.io/",
             "dribbble": "",
             "quote":"“Integrity has no need of rules.” -Albert Camus",
             "id": 7
@@ -241,7 +241,7 @@
             "github": "https://github.com/HanakoH",
             "personalSite": "",
             "dribbble": "",
-            "quote":"",
+            "quote":"“Adventure is not in a particular activity. It is a way to approach life.” -Sadhguru",
             "id": 8
         },
         {
@@ -251,7 +251,7 @@
             "focus": "Front-End UI/UX Developer",
             "linkedIn": "https://www.linkedin.com/in/richie-holsenback/",
             "github": "https://github.com/richieholsenback",
-            "personalSite": "",
+            "personalSite": "https://richieholsenback.github.io/",
             "dribbble": "",
             "quote":"“I guess you guys aren’t ready for that yet. But your kids are gonna love it.” -Marty McFly",
             "id": 9
@@ -311,7 +311,7 @@
             "focus": "Full-Stack C# Developer",
             "linkedIn": "https://www.linkedin.com/in/faith-magras/",
             "github": "https://github.com/bdanielle092",
-            "personalSite": "",
+            "personalSite": "https://bdanielle092.github.io/#/about",
             "dribbble": "",
             "quote":"",
             "id": 14
@@ -337,7 +337,7 @@
             "github": "https://github.com/j0verton",
             "personalSite": "https://j0verton.github.io/",
             "dribbble": "",
-            "quote":"",
+            "quote":"Favorites: pedal steel, stouts, Ursula LeGuin, being a dad, Firefly, bar clamps, homegrown tomatoes",
             "id": 16
         },
         {
@@ -361,7 +361,7 @@
             "github": "https://github.com/TAPinson",
             "personalSite": "https://tapinson.github.io/",
             "dribbble": "",
-            "quote":"",
+            "quote":"“Programming is not about typing, it's about thinking.” – Rich Hickey",
             "id": 18
         },
         {
@@ -373,7 +373,7 @@
             "github": "https://github.com/aring97",
             "personalSite": "https://aring97.github.io/",
             "dribbble": "",
-            "quote":"",
+            "quote":"“Prolific developers don’t always write a lot of code, instead they solve a lot of problems. The two things are not the same.” — J. Chambers",
             "id": 19
         },
         {
@@ -383,7 +383,7 @@
             "focus": "Front-End UI/UX Developer",
             "linkedIn": "https://www.linkedin.com/in/haileyrissolo/",
             "github": "https://github.com/hrissolo",
-            "personalSite": "",
+            "personalSite": "https://hrissolo.github.io/",
             "dribbble": "",
             "quote":"",
             "id": 20
@@ -395,7 +395,7 @@
             "focus": "Full-Stack C# Developer",
             "linkedIn": "https://www.linkedin.com/in/jrrobertson1/",
             "github": "https://github.com/BlackTousen",
-            "personalSite": "",
+            "personalSite": "https://blacktousen.github.io",
             "dribbble": "",
             "quote":"“I came to realize that I had more to offer this world than just making things that blow up.” -Tony Stark",
             "id": 21
@@ -407,9 +407,9 @@
             "focus": "Full-Stack C# Developer",
             "linkedIn": "https://www.linkedin.com/in/terraroush/",
             "github": "https://github.com/terraroush",
-            "personalSite": "",
+            "personalSite": "https://terraroush.github.io",
             "dribbble": "",
-            "quote":"",
+            "quote":"“Without change something sleeps inside us...The sleeper must awaken.” - Frank Herbert, Dune",
             "id": 22
         },
         {
@@ -455,7 +455,7 @@
             "focus": "Full-Stack C# Developer",
             "linkedIn": "https://www.linkedin.com/in/joetidwell/",
             "github": "https://github.com/joetid09",
-            "personalSite": "",
+            "personalSite": "https://joetid09.github.io/",
             "dribbble": "",
             "quote":"“Never Fear: Thank Home, and Poetry, and the Force behind both.” - Wilfred Owen",
             "id": 26
@@ -469,7 +469,7 @@
             "github": "https://github.com/laceywalkerr",
             "personalSite": "https://laceywalkerr.github.io/",
             "dribbble": "",
-            "quote":"",
+            "quote":"“The problem is not the problem. The problem is your attitude about the problem.” - Jack Sparrow",
             "id": 27
         },
         {
@@ -481,7 +481,7 @@
             "github": "https://github.com/tristan0508",
             "personalSite": "https://tristan0508.github.io/",
             "dribbble": "",
-            "quote":"",
+            "quote":"“Successful people don’t fear failure but understand that it’s necessary to learn and grow from.”",
             "id": 28
         }
     ]
