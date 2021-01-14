@@ -15,12 +15,12 @@ export const Thanks = () => {
                     <div className="col-lg-6 ml-auto">
                         <h4 className="lead thanksLead">
                             <strong>
-                                Brenda Long, Adam Sheaffer, Sage Klein, Tyler Hilliard, & Erik Lindstrom
+                                Brenda Long, Adam Sheaffer, Sage Klein, Tyler Hilliard, Erik Lindstrom, &Rose Wisotzky
                             </strong>
                         </h4>
 
                         <p className="lead thanksLead">
-                            Cupcake ipsum dolor. Sit amet soufflé sesame snaps marshmallow gummies. Cookie oat cake cotton candy candy pudding ice cream chocolate bar toffee croissant.
+                            ...for introducing us to the world of development and leading us into our journey of lifelong learning. For helping us build a solid foundation on front-end development. For guiding us through our second programming language and demystifying server-side code. For showing us how important the user  truly is when experiences. For the constant encouragement and positive attitude. Every day, you supported us, answered our questions, and kept our spirits high. And, as Jeff would say: God help us, we're in the hands of engineers.
                         </p>
                     </div>
 
