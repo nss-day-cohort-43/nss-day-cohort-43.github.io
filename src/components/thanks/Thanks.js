@@ -40,7 +40,7 @@ export const Thanks = () => {
 
 
                         <p className="lead thanksLead">
-                            Caroline Brownlee, Pavel Bukengoltz, Gradi Ellis, Tom Johnson, Daniel Reid, Chandler Turner, and Matt Walkley
+                            Kimmy Bird, Caroline Brownlee, Pavel Bukengoltz, Gradi Ellis, Tom Johnson, Daniel Reid, Chandler Turner, and Matt Walkley
                         </p>
                     </div>
                 </div>
