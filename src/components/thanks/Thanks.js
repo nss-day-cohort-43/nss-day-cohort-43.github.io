@@ -27,20 +27,20 @@ export const Thanks = () => {
 
                     <div className="col-lg-6 mr-auto">
                         <h4 className="lead thanksLead">
-                            <strong>John Wark</strong>
+                            <strong>The entire NSS team</strong>
                         </h4>
 
                         <p className="lead thanksLead">
-                            Cupcake ipsum dolor. Sit amet soufflé sesame snaps marshmallow gummies. Cookie oat cake cotton candy candy pudding ice cream chocolate bar toffee croissant.
+                            Steve Brownloee, Jisie David, Marla Lamont, Ashley Canino, Julie Heckler, Kristin McKinney, Jeremiah Vasquez, Jessica Grande, and John Wark
                         </p>
                         <br></br>
                         <h4 className="lead thanksLead">
-                            <strong>Thank you to our guest speakers</strong>
+                            <strong>All of our guest speakers</strong>
                         </h4>
 
 
                         <p className="lead thanksLead">
-                            Caroline Brownlee, Pavel Bukengoltz, Gradi Ellis, Tom Johnson, Daniel Reid, Chandler Turner, and Matt Walkley.
+                            Caroline Brownlee, Pavel Bukengoltz, Gradi Ellis, Tom Johnson, Daniel Reid, Chandler Turner, and Matt Walkley
                         </p>
                     </div>
                 </div>
