@@ -16,7 +16,7 @@
         },
         {
             "id": 3,
-            "title": "JavaScript",
+            "title": "JS",
             "icon": "icons/javascript.png",
             "site": "https://www.javascript.com/",
             "learnedBy": "everyone"
@@ -30,7 +30,7 @@
         },
         {
             "id": 5,
-            "title": "React JS",
+            "title": "ReactJS",
             "icon": "icons/react.png",
             "site": "https://reactjs.org/",
             "learnedBy": "everyone"
@@ -51,7 +51,7 @@
         },
         {
             "id": 8,
-            "title": "VS Code",
+            "title": "VSCode",
             "icon": "icons/VSCode.png",
             "site": "https://code.visualstudio.com/",
             "learnedBy": "everyone"
@@ -93,21 +93,21 @@
         },
         {
             "id": 14,
-            "title": ".NET Core",
+            "title": ".NET",
             "icon": "icons/NetCore.png",
             "site": "https://dotnet.microsoft.com/",
             "learnedBy": "full-stack"
         },
         {
             "id": 15,
-            "title": "SQL Server",
+            "title": "SQL",
             "icon": "icons/SQL.png",
             "site": "https://www.microsoft.com/en-us/sql-server/sql-server-2017",
             "learnedBy": "full-stack"
         },
         {
             "id": 16,
-            "title": "Visual Studio",
+            "title": "VStudio",
             "icon": "icons/VStudio.png",
             "site": "https://visualstudio.microsoft.com/vs/",
             "learnedBy": "full-stack"
