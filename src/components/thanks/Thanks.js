@@ -31,7 +31,7 @@ export const Thanks = () => {
                         </h4>
 
                         <p className="lead thanksLead">
-                            Steve Brownloee, Jisie David, Marla Lamont, Ashley Canino, Julie Heckler, Kristin McKinney, Jeremiah Vasquez, Jessica Grande, and John Wark
+                            Steve Brownlee, Ashley Canino, Jisie David, Jessica Grande, Julie Heckler, Marla Lamont, Kristen McKinney, Jeremiah Vasquez, and John Wark
                         </p>
                         <br></br>
                         <h4 className="lead thanksLead">
@@ -40,7 +40,7 @@ export const Thanks = () => {
 
 
                         <p className="lead thanksLead">
-                            Kimmy Bird, Caroline Brownlee, Pavel Bukengoltz, Gradi Ellis, Tom Johnson, Daniel Reid, Chandler Turner, and Matt Walkley
+                            Kimmy Bird, Caroline Brownlee, Pavel Bukengoltz, Gradi Ellis, Tom Johnson, John Long, Lindsay Mulhollen, Daniel Reid, Chandler Turner, and Matt Walkley
                         </p>
                     </div>
                 </div>
