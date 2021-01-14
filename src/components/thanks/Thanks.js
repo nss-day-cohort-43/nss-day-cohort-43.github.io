@@ -15,7 +15,9 @@ export const Thanks = () => {
                 <div className="row">
                     <div className="col-lg-6 ml-auto">
                         <h4 className="lead thanksLead">
-                            <strong>Brenda Long, Adam Sheaffer, & Sage Klein</strong>
+                            <strong>
+                                Brenda Long, Adam Sheaffer, Sage Klein, Tyler Hilliard, & Erik Lindstrom
+                            </strong>
                         </h4>
 
                         <p className="lead thanksLead">
