@@ -15,7 +15,7 @@ export const Thanks = () => {
                     <div className="col-lg-6 ml-auto">
                         <h4 className="lead thanksLead">
                             <strong>
-                                Brenda Long, Adam Sheaffer, Sage Klein, Tyler Hilliard, Erik Lindstrom, &Rose Wisotzky
+                                Brenda Long, Adam Sheaffer, Sage Klein, Tyler Hilliard, Erik Lindstrom, & Rose Wisotzky
                             </strong>
                         </h4>
 
@@ -39,7 +39,7 @@ export const Thanks = () => {
 
 
                         <p className="lead thanksLead">
-                            Kimmy Bird, Caroline Brownlee, Pavel Bukengoltz, Gradi Ellis, Tom Johnson, John Long, Lindsay Mulhollen, Daniel Reid, Chandler Turner, and Matt Walkley
+                            Kimmy Bird, Caroline Brownlee, Pavel Bukengoltz, Taylor Desseyn, Gradi Ellis, Tom Johnson, John Long, Lindsay Mulhollen, Daniel Reid, Chandler Turner, and Matt Walkley
                         </p>
                     </div>
                 </div>
