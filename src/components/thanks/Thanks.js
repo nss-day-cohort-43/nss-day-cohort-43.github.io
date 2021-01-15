@@ -15,7 +15,7 @@ export const Thanks = () => {
                     <div className="col-lg-6 ml-auto">
                         <h4 className="lead thanksLead">
                             <strong>
-                                Brenda Long, Adam Sheaffer, Sage Klein, Tyler Hilliard, Erik Lindstrom, &Rose Wisotzky
+                                Brenda Long, Adam Sheaffer, Sage Klein, Tyler Hilliard, Erik Lindstrom, & Rose Wisotzky
                             </strong>
                         </h4>
 
