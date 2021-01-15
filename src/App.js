@@ -7,18 +7,10 @@ import { Footer } from './components/footer/Footer'
 import { CheckboxView } from "./components/checkboxes/Checkbox";
 import { TechProvider } from "./components/technology/TechProvider.js";
 import { TechList } from "./components/technology/TechList.js";
-// 
-//        
-//       <TechProvider>
-//         <TechList />
-//       </TechProvider>
-//       <Test />
-//       <Thanks />
-//       <Footer />
 
 function App() {
   return (
-    <div className="App"> 
+    <div className="App">
       <NavBar />
       <Header />
       <CheckboxView />
