@@ -179,7 +179,7 @@
             "focus": "Front-End UI/UX Developer",
             "linkedIn": "https://www.linkedin.com/in/devonhcox/",
             "github": "https://github.com/Devco2011",
-            "personalSite": "devco2011.github.io",
+            "personalSite": "https://devco2011.github.io/",
             "dribbble": "https://dribbble.com/DevCo",
             "quote":"“Design is not just what it looks like and feels like. Design is how it works.” -Steve Jobs",
             "id": 3
@@ -193,7 +193,7 @@
             "github": "https://github.com/bcdavis",
             "personalSite": "",
             "dribbble": "",
-            "quote":"",
+            "quote":"“Life is like riding a bicycle. To keep your balance you must keep moving.” - Albert Einstein",
             "id": 4
         },
         {
@@ -239,7 +239,7 @@
             "focus": "Front-End UI/UX Developer",
             "linkedIn": "https://www.linkedin.com/in/hanako-hashiguchi/",
             "github": "https://github.com/HanakoH",
-            "personalSite": "",
+            "personalSite": "https://hanakoh.github.io/hanako-hashiguchi/",
             "dribbble": "",
             "quote":"“Adventure is not in a particular activity. It is a way to approach life.” -Sadhguru",
             "id": 8
@@ -313,7 +313,7 @@
             "github": "https://github.com/bdanielle092",
             "personalSite": "https://bdanielle092.github.io/#/about",
             "dribbble": "",
-            "quote":"",
+            "quote":"“If debugging is the art of removing bugs, then programming must be the art of inserting them.” - Unknown",
             "id": 14
         },
         {
@@ -367,7 +367,7 @@
         {
             "firstName": "Austin",
             "lastName": "Ring",
-            "photo": "images/placeholder-images/photo-not-available.png",
+            "photo": "images/placeholder-images/RingAustin.jpg",
             "focus": "Full-Stack C# Developer",
             "linkedIn": "https://www.linkedin.com/in/austinring/",
             "github": "https://github.com/aring97",
@@ -443,7 +443,7 @@
             "focus": "Front-End UI/UX Developer",
             "linkedIn": "https://www.linkedin.com/in/audrey-thomasson/",
             "github": "https://github.com/AudreyThomasson",
-            "personalSite": "audreythomasson.github.io",
+            "personalSite": "https://audreythomasson.github.io",
             "dribbble": "",
             "quote":"A graphic designer that is eager to learn & passionate about crafting more enjoyable user experiences",
             "id": 25

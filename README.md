@@ -53,10 +53,10 @@ You will also see any lint errors in the console.
 
 Built and designed by Cohort 43 UX/UI students:   
 ☕️ Colin Arel [Portfolio]() - [Github](https://github.com/cArel116)   
-🐻 Devon Cox  [Portfolio](devco2011.github.io) - [Github](https://github.com/Devco2011)  
+🐻 Devon Cox  [Portfolio](https://devco2011.github.io) - [Github](https://github.com/Devco2011)  
 🔎 Ben Davis  [Portfolio]() - [Github](https://github.com/bcdavis)  
 🐠 Aaron Gertler   [Portfolio](https://asgertler.github.io/)  -[Github](https://github.com/asgertler)  
-🐱 Hanako Hashiguchi  [Portfolio]() - [Github](https://github.com/HanakoH)  
+🐱 Hanako Hashiguchi  [Portfolio](https://hanakoh.github.io/hanako-hashiguchi/) - [Github](https://github.com/HanakoH)  
 🎙 Richie Holsenback  [Portfolio](https://richieholsenback.github.io/) - [Github](https://github.com/richieholsenback)  
 🐲 Hailey Rissolo  [Portfolio](https://hrissolo.github.io/) - [Github](https://github.com/hrissolo)  
-📸 Audrey Thomasson  [Portfolio](audreythomasson.github.io) - [Github](https://github.com/AudreyThomasson)  
+📸 Audrey Thomasson  [Portfolio](https://audreythomasson.github.io) - [Github](https://github.com/AudreyThomasson)  
