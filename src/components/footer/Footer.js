@@ -25,6 +25,8 @@ export const Footer = () => {
                                 <li>Nashville, TN</li>
                                 <li>Spring Hill, TN</li>
                                 <li>Springfield, TN</li>
+                                <li>Washington, D.C.</li>
+                                <li>Bowling Green, KY</li>
                                 <li>Richmond, KY</li>
                                 <li>Tallahassee, FL</li>
                             </ul>
