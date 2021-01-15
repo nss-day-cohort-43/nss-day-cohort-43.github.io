@@ -24,13 +24,13 @@ The other team had a clear, card based layout that displayed the students in a c
 
 We came together and created a new mockup.
 
-
+<img src = "RMImages/combinedMockUp.png" width =500>
 
 ## User Testing
 
 We began user testing with 3 development professionals. We took their feedback and improved our site. We did 2 more rounds of user testing and decided on our final design.
 
-
+<img src = "RMImages/c43Final.png" width =500>
 
 ## Lessons Learned
 
