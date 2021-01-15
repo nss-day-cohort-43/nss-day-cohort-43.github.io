@@ -20,7 +20,7 @@ export const Thanks = () => {
                         </h4>
 
                         <p className="lead thanksLead">
-                            ...for introducing us to the world of development and leading us into our journey of lifelong learning. For helping us build a solid foundation on front-end development. For guiding us through our second programming language and demystifying server-side code. For showing us how important the user  truly is when experiences. For the constant encouragement and positive attitude. Every day, you supported us, answered our questions, and kept our spirits high. And, as Jeff would say: God help us, we're in the hands of engineers.
+                            ...for introducing us to the world of development and leading us into our journey of lifelong learning. For helping us build a solid foundation on front-end development. For guiding us through our second programming language and demystifying server-side code. For showing us how important the user truly is when designing experiences. For the constant encouragement and positive attitude. Every day, you supported us, answered our questions, and kept our spirits high. And, as Jeff would say: God help us, we're in the hands of engineers.
                         </p>
                     </div>
 
