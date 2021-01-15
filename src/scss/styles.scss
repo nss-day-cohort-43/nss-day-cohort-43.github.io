@@ -19,8 +19,6 @@
 @import "./Skill.scss";
 @import "./About.scss";
 
-
-
 a.navbar-brand {
 	color: white;
 }
@@ -49,14 +47,8 @@ a.navbar-brand {
 
 
 // -------------- Student profile cards ------------------
-.studentCard {
-    // width: 18rem;
-}
 
 .card {
-    // margin-left: auto;
-    // margin-right: auto;
-    // height: 572px;
     background-color:white;
 }
 
@@ -67,7 +59,6 @@ a.navbar-brand {
 .card-focus-banner {
     display: flex;
     justify-content: center;
-    // height: fit-content;
 }
 
 .card-focus-banner--uiux {
@@ -87,18 +78,6 @@ a.navbar-brand {
     color: white;
 }
 
-p {
-    // color: #383838;
-    // font-size: 1em;
-    // margin-bottom: 0;
-    // margin-top: 0;
-    // text-transform: none;
-}
-
-.card-focus-banner > p {
-    // align-items: center;
-}
-
 .card-focus-banner p {
     margin: 8px 0;
     font-size: 1em;
@@ -114,8 +93,6 @@ p {
 
 .card-content {
     background-color:#f0f0f0;
-    // padding-left: 0.2rem;
-    // padding-right: 0.2rem;
 }
 
 .image-container {
@@ -132,13 +109,10 @@ p {
 
 .card-footer {
     background-color:#f0f0f0;
-    // position: relative;
     padding-top:1em;
     padding-bottom: 1em;
-    // margin-bottom: 3px;
     width: 100%;
     text-align: center;
-    // background-color: transparent;
 }
 
 // -------- .btn-box holds the link icon and the text of the icon --------

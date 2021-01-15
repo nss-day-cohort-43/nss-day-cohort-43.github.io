@@ -1,6 +1,5 @@
 import React from "react"
 import { Col, Container, Row } from "react-bootstrap"
-// import { Link } from "react-router-dom"
 
 
 export const TechCard = ({ tech }) => (
@@ -13,5 +12,3 @@ export const TechCard = ({ tech }) => (
         <h4 className="tech-card-text">{tech.title}</h4>
     </Col>
 )
-
-//className="iconbox text-center col col-lg-1 col-md-2 col-sm-4"
