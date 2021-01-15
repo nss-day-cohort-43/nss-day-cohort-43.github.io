@@ -4,8 +4,6 @@ View the live site [here](https://nss-day-cohort-43.github.io/)
 
 ## Project Overview
 
-In the project directory, you can run:
-
 ## Challenge Statement
 
 How might we promote Demo Day and showcase Cohort 43’s dual skill sets to potential employers with the ultimate goal of employment?
@@ -14,7 +12,9 @@ How might we promote Demo Day and showcase Cohort 43’s dual skill sets to pote
 
 This project started off with the class splitting into 2 teams to wireframe and mock up a class site, with the end goal of showcasing our designs, defending them and compromising on which project we should move ahead with.
 
-**Pictures of mockups
+<img src = "RMImages/Screen Shot 2021-01-14 at 11.45.44 AM.png" width =500>
+
+<img src = "RMImages/co431.png" width =500> 
 
 After discussion, we realized both teams brought good ideas to the table. We decided to merge the 2 into a hybrid design. 
 
@@ -24,13 +24,13 @@ The other team had a clear, card based layout that displayed the students in a c
 
 We came together and created a new mockup.
 
-**First class mockup
+
 
 ## User Testing
 
 We began user testing with 3 development professionals. We took their feedback and improved our site. We did 2 more rounds of user testing and decided on our final design.
 
-**Final Design
+
 
 ## Lessons Learned
 
